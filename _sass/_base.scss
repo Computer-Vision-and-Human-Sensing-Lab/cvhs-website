@@ -728,3 +728,19 @@ progress {
      display: block;
      height: inherit;
  }
+.embed-responsive .card-img-top {
+       object-fit: cover;
+}
+
+.card-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-body-25 {
+  flex: 1 1.25 auto;
+} 
+
+.dataset-card {
+  width: 100%;
+}
