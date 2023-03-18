@@ -7,8 +7,26 @@ nav: true
 nav_order: 3
 ---
 
-# 4 PhD positions in Machine Learning and Computer Vision in Queen Mary University of London
+<ul>
 
+<li class="card mb-3">
+<div class="card-body">
+<h2>DeepMind PhD Scholarships</h2>
+<details>
+<summary class="text-primary">[click to expand]</summary>
+<div markdown="1">
+todo; write me
+</div>
+</details>
+</div>
+</li>
+
+<li class="card">
+<div class="card-body">
+<h2>4 PhD positions in Machine Learning and Computer Vision</h2>
+<details>
+<summary class="text-primary">[click to expand]</summary>
+<div markdown="1">
 Four (4) PhD positions in the area of Computer Vision and Machine Learning for the analysis of actions, activity and behaviour with applications in the field of Augmented Reality, Affective Computing and/or Mental Health are available in the group of Multimedia and Vision in the School of Electronic Engineering and Computer Science in Queen Mary University of London.
 
 At a methodological level, the work will focus on the development of novel Machine Learning methods for learning from multimodal data, on learning with efficient architectures and on learning from few or no annotations. For more details please see the end of this page for representative projects.
@@ -69,3 +87,10 @@ The team has a Deep Learning computing infrastructure with over 256 CPU cores, 6
 * [2] J Yang, B Martinez, A Bulat, G Tzimiropoulos, “Knowledge Distillation via Softmax Regression Representation Learnings”, Int’l Conference on Representation Learning, 2021
 * [3] M Bishay, P Palasek, S Priebe, I Patras, “Schinet: Automatic estimation of symptoms of schizophrenia from facial behaviour analysis” IEEE Transactions on Affective Computing, 2019
 * [4] Giorgos Kordopatis-Zilos, Christos Tzelepis, Symeon Papadopoulos, Ioannis Kompatsiaris, Ioannis Patras, “DnS: Distill-and-Select for Efficient and Accurate Video Indexing and Retrieval”, ArXiv, 2021
+</div>
+</details>
+</div>
+</li>
+</ul>
+
+
