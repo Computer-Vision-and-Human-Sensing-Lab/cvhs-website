@@ -1,0 +1,67 @@
+- title: DeepMind PhD Scholarships
+  deadline: 2023/01/01
+  content: TODO
+
+- title: 4 PhD positions in Machine Learning and Computer Vision
+  deadline: 2023/01/01
+  content: |
+    Four (4) PhD positions in the area of Computer Vision and Machine Learning for the analysis of actions, activity and behaviour with applications in the field of Augmented Reality, Affective Computing and/or Mental Health are available in the group of Multimedia and Vision in the School of Electronic Engineering and Computer Science in Queen Mary University of London.
+
+    At a methodological level, the work will focus on the development of novel Machine Learning methods for learning from multimodal data, on learning with efficient architectures and on learning from few or no annotations. For more details please see the end of this page for representative projects.
+
+    For further info, please contact Prof. Patras, **i.patras@qmul.ac.uk** and/or Dr Tzimiropoulos **g.tzimiropoulos@qmul.ac.uk** with an email with subject that includes the string: [PhD-2022]
+
+    ## About the School of Electronic Engineering and Computer Science at Queen Mary
+
+    The PhD Studentship will be based in the School of Electronic Engineering and Computer Science (EECS) at Queen Mary University of London. Queen Mary University of London is a research intensive university and a member of the Russel group. The school of EECS is 11th in the UK for quality of computer science research (REF 2014) and 6th in the UK for quality of electronic engineering research (REF 2014). The School is a dynamic community of approximately 350 PhD students and 80 research assistants.
+
+    ###  Team
+
+    The student will be based in the Multimedia and Vision group in the school of EECS. The school has one of the largest teams in Computer Vision in the UK and a very strong team in Computational Linguistics.  For more information please see:
+
+    * Ioannis Patras: Home page, Google Scholar
+    * Georgios Tzimiropoulos: Homepage, Google Scholar 
+    * Multimedia and Vision Research group: Homepage,
+    * Cognitive Sciences Research group: CogSci homepage
+
+    For further information about research in the school of Electronic Engineering and Computer Science, please visit: http://eecs.qmul.ac.uk/research/. 
+
+    ### Eligibility
+
+    The candidate should hold, or is expected to obtain an MSc in the Electronic Engineering, Computer Science, or a closely related discipline.
+
+    Two positions are available to China Scholarship Council applicants and two positions are open to all applicants.
+
+    ### Computing Infrastructure
+
+    The team has a Deep Learning computing infrastructure with over 256 CPU cores, 6 large GPU servers with 175,248 CUDA (GPU) cores and 36TB of storage.
+
+    ### Projects
+
+    * **Machine Learning for Analysis of Affect and Mental Health**
+
+        The project is in the area of Computer Vision and Machine Learning for the analysis of actions, activity and behaviour with an application in the field of Affective Computing and Mental Health. More specifically, the focus on Machine learning methods for the analysis of facial expressions, body gestures, speech and audio for understanding the affective and mental-health state in context. The studentship is to build on existing works on the analysis of the facial non-verbal behaviour (e.g., Schinet: Automatic estimation of symptoms of schizophrenia from facial behaviour analysis, Bishay et al. IEEE Transactions on Affective Computing, 2019) and on works of Purver on affect and mental health using audion and Natural Language Processing  (e.g., Multi-modal fusion with gating using audio, lexical and disfluency features for Alzheimer's dementia recognition from spontaneous speech, 2021). At a methodological level, the work will focus on the development of novel Machine Learning methods for fusion of information from vision and language.
+
+
+    * **Efficient Deep Learning for Perception and Generation**
+
+        A major challenge in deep learning is how to develop models which are compact, lightweight and power efficient so that they can be effectively deployed on devices that billions of users use like XR glasses, smart-phones, and tablets. Prominent methods for achieving all these goals are developing efficient architectures via Neural Architecture Search, Network Pruning and Quantization (including
+
+        Binary Networks). Despite recent successes in all these areas, efficiency always comes at the cost of reduced accuracy. This PhD project will undertake fundamental research in the area efficient Deep Learning for developing computationally efficient yet powerful models for perception and/or generation building upon prior work by Tzimiropoulos & Patras (the supervisors)
+
+    * **Machine Learning and Computer Vision for Activity Recognition**
+
+        The project is in the area of Computer Vision and Machine Learning for the analysis of actions, activity and behaviour, with a focus on first person videos captured from wearable sensors, such as Google glasses. The studentship will investigate fundamental methodologies to support analysis of video from a first person view perspective, so as to understand human actions and activities in context. This will include recognition of objects, scenes, sounds and spoken words using Deep Learning methods and learning the relations between them so as to recognise what the person does, and predict what they will/want to do in the future. The work will focus on learning with no, or very few annotations in terms of labels, and on the analysis and summarisation of the long videos that are characteristic in this domain. The work will build on previous works on Patras on few shot learning (e.g., Tarn: Temporal attentive relation network for few-shot and zero-shot action recognition, Bishay et.al 2019), Tzimiropoulos on representation learning (Knowledge distillation via softmax regression representation learning, ICLR 2021) and Purver on Natural Language Processing (e.g., Evaluation of contextual embeddings on less-resourced languages, 2021).
+
+    * **Multi-modal Understanding of Emotions**
+
+        This project is in the area of Computer Vision and Machine Learning for recognizing human non-verbal behaviour and emotions. Despite advances in Deep Learning, emotion recognition technology is not good enough to be part of a real-world human-machine interaction system. This project will go beyond the the bulk of existing research efforts focusing on single-modal emotion perception (e.g. using face only, or audio only) by undertaking fundamental research in multi-modal video perception and deep learning in order to advance the state-of-the-art in emotion recognition, building upon prior work by Tzimiropoulos & Patras (the supervisors).
+
+
+
+    ### References
+
+    * [1] M Bishay, G Zoumpourlis, I Patras, “TARN: Temporal Attentive Relation Network for Few-Shotand Zero-Shot Action Recognition”, British Machine Vision Conference, Sept. 2019.
+    * [2] J Yang, B Martinez, A Bulat, G Tzimiropoulos, “Knowledge Distillation via Softmax Regression Representation Learnings”, Int’l Conference on Representation Learning, 2021
+    * [3] M Bishay, P Palasek, S Priebe, I Patras, “Schinet: Automatic estimation of symptoms of schizophrenia from facial behaviour analysis” IEEE Transactions on Affective Computing, 2019
+    * [4] Giorgos Kordopatis-Zilos, Christos Tzelepis, Symeon Papadopoulos, Ioannis Kompatsiaris, Ioannis Patras, “DnS: Distill-and-Select for Efficient and Accurate Video Indexing and Retrieval”, ArXiv, 2021
