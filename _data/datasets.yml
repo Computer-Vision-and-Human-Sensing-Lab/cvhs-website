@@ -1,0 +1,8 @@
+- title: DEAP
+  image: https://www.eecs.qmul.ac.uk/mmv/datasets/deap/img/subject.jpg
+  desc: A multimodal dataset for the analysis of human affective states. The electroencephalogram (EEG) and peripheral physiological signals of 32 participants were recorded as each watched 40 one-minute long excerpts of music videos. 
+  link: https://www.eecs.qmul.ac.uk/mmv/datasets/deap/
+- title: Amigos
+  image: http://www.eecs.qmul.ac.uk/mmv/datasets/amigos/img/Group_Frontal_small.png
+  desc: A dataset for research on affect, personality traits and mood by means of neuro-physiological signals. We elicited affect using both short and long videos in two configurations, one with individual viewers and one with groups of viewers. Electroencephalogram (EEG), Electrocardiogram (ECG), and Galvanic Skin Response (GSR), were recorded using wearable sensors. 
+  link: http://www.eecs.qmul.ac.uk/mmv/datasets/amigos/
