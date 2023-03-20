@@ -11,7 +11,7 @@ nav_order: 3
 
 {% if site.data.vacancies %}
 {% for item in site.data.vacancies %}
-<div id="accordion">
+<div class="mb-4" id="accordion">
   <div class="card">
     <div class="card-header" id="{{ forloop.index }}">
     <button class="display-1 btn btn-link text-left" style="text-transform: none" data-toggle="collapse" data-target="#collapse{{ forloop.index }}" aria-expanded="true" aria-controls="collapse{{ forloop.index }}">

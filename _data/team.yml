@@ -2,7 +2,7 @@ postdocs:
   members:
   - name: Christos Tzelepis
     years: [2018-present]
-    research: replace me with whatever in team.yml
+    research: replace me with whatever in team.yml; TODO
     prev_affiliation: 
     homepage: http://eecs.qmul.ac.uk/
     head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
@@ -10,25 +10,25 @@ phd_students:
   members:
   - name: Niki Foteinopoulou
     years: [2019-present]
-    research: replace me with whatever in team.yml
+    research: replace me with whatever in team.yml; TODO
     prev_affiliation: 
     homepage: http://eecs.qmul.ac.uk/
     head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
   - name: Chen Feng
     years: [2019-present]
-    research: replace me with whatever in team.yml
+    research: replace me with whatever in team.yml; TODO
     prev_affiliation: 
     homepage: http://eecs.qmul.ac.uk/
     head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
   - name: Giannis Maniadis
     years: [2020-present]
-    research: replace me with whatever in team.yml
+    research: replace me with whatever in team.yml; TODO
     prev_affiliation: 
     homepage: http://eecs.qmul.ac.uk/
     head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
   - name: Zheng Gao
     years: [2020-present]
-    research: replace me with whatever in team.yml
+    research: replace me with whatever in team.yml; TODO
     prev_affiliation: 
     homepage: http://eecs.qmul.ac.uk/
     head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
@@ -40,13 +40,7 @@ phd_students:
     head_pic: https://images.gr-assets.com/users/1667074007p8/42737013.jpg
   - name: Zengqun Zhao
     years: [2022-present]
-    research: replace me with whatever in team.yml
-    prev_affiliation: 
-    homepage: http://eecs.qmul.ac.uk/
-    head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
-  - name: bob
-    years: [2022-present]
-    research: replace me with whatever in team.yml
+    research: replace me with whatever in team.yml; TODO
     prev_affiliation: 
     homepage: http://eecs.qmul.ac.uk/
     head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
