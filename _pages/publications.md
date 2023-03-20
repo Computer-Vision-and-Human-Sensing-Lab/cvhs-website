@@ -14,9 +14,47 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+<div id="pubFilter">
+<p>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#allFilter" aria-expanded="false" aria-controls="allFilter">All</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#generationFilter" aria-expanded="false" aria-controls="generationFilter">generation-and-learning</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#affectiveFilter" aria-expanded="false" aria-controls="affectiveFilter">affective-computing</button>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#selfsupervisedFilter" aria-expanded="false" aria-controls="selfsupervisedFilter">self-supervised-learning</button>
+</p>
+<div data-parent="#pubFilter" class="collapse show" id="allFilter">
+  <div class="card card-body">
+    {%- for y in page.years %}
+      <h2 class="year">{{y}}</h2>
+        {% bibliography -f papers -q @*[year={{y}}]* %}
+    {% endfor %}
+  </div>
+</div>
+<div data-parent="#pubFilter" class="collapse" id="affectiveFilter">
+  <h2>Affective Computing</h2>
+  <div class="card card-body">
+    {%- for y in page.years %}
+      <h2 class="year">{{y}}</h2>
+      {% bibliography -f papers -q @*[year={{y}},tags=affective-computing]* %}
+    {% endfor %}
+  </div>
+</div>
+<div data-parent="#pubFilter" class="collapse" id="generationFilter">
+  <h2>Generation and Learning</h2>
+  <div class="card card-body">
+    {%- for y in page.years %}
+      <h2 class="year">{{y}}</h2>
+      {% bibliography -f papers -q @*[year={{y}},tags=generation-and-learning]* %}
+    {% endfor %}
+  </div>
+</div>
+<div data-parent="#pubFilter" class="collapse" id="selfsupervisedFilter">
+  <h2>Self-supervised Learning</h2>
+  <div class="card card-body">
+    {%- for y in page.years %}
+      <h2 class="year">{{y}}</h2>
+      {% bibliography -f papers -q @*[year={{y}},tags=self-supervised-learning]* %}
+    {% endfor %}
+  </div>
+</div>
 
 </div>
