@@ -44,6 +44,13 @@ phd_students:
     prev_affiliation: 
     homepage: http://eecs.qmul.ac.uk/
     head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
+  - name: bob
+    years: [2022-present]
+    research: replace me with whatever in team.yml
+    prev_affiliation: 
+    homepage: http://eecs.qmul.ac.uk/
+    head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
+
 alumni:
   members:
   - name: Jingjing Liu
