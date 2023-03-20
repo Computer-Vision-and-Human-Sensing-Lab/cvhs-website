@@ -765,3 +765,21 @@ progress {
 .dataset-card {
   width: 100%;
 }
+
+.research {
+  .abstract,.bibtex,.links,.tags,.badges,.preview,figure { display: none; }
+
+  ol {
+  list-style: circle;
+  }
+
+  .title {
+    font-weight: bold;
+  }
+  .bibliography {
+    .col-sm-8 {
+      max-width: 100%;
+      flex: auto;
+    }
+  }
+}

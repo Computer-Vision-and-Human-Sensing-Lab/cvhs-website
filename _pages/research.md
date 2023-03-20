@@ -17,30 +17,27 @@ horizontal: false
 </p>
 {% endif %}
 
-
-<div class="row mb-5">
-{% if site.data.research.items %}
-<div>
-  {% for item in site.data.research.items %}
-  <div style="margin-bottom: 50px">
-    <div class="card card-flex">
-      <div class="embed-responsive embed-responsive-16by9">
-      <img class="card-img-top embed-responsive-item" src="{{ item.image }}" alt="Card image cap">
-      </div>
-      <div class="card-body card-body-25">
-        <h3 class="card-title">{{ item.title }}</h3>
-        <p class="card-text">{{ item.desc }}</p>
-        <strong>Key references:</strong>
-        <ul>
-          {% for ref in item.references %}
-          <li>{{ ref }}</li>
-          {% endfor %}
-        </ul>
+<div class="research">
+  <div class="row mb-5">
+  {% if site.data.research.items %}
+  <div>
+    {% for item in site.data.research.items %}
+    <div style="margin-bottom: 50px">
+      <div class="card card-flex">
+        <div class="embed-responsive embed-responsive-16by9">
+        <img class="card-img-top embed-responsive-item" src="{{ item.image }}" alt="Card image cap">
+        </div>
+        <div class="card-body card-body-25">
+          <h3 class="card-title">{{ item.title }}</h3>
+          <p class="card-text">{{ item.desc }}</p>
+          <strong>Key references:</strong>
+            {% bibliography -f papers -q @*[select_key=true,tags={{ item.tag }}]* %}
+        </div>
       </div>
     </div>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
-{% endif %}
+  {% endif %}
 
+  </div>
 </div>
