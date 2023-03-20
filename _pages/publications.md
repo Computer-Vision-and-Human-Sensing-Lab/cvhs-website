@@ -17,9 +17,9 @@ nav_order: 1
 <div id="pubFilter">
 <p>
   <button style="font-weight: bold; text-transform: lowercase; color: black;" class="btn" type="button" data-toggle="collapse" data-target="#allFilter" aria-expanded="false" aria-controls="allFilter">All</button>
-  <button style="font-weight: bold; text-transform: lowercase; background-color: blue; color: white;" class="btn" type="button" data-toggle="collapse" data-target="#generationFilter" aria-expanded="false" aria-controls="generationFilter">generation-and-learning</button>
-  <button style="font-weight: bold; text-transform: lowercase; background-color: red; color: white;" class="btn" type="button" data-toggle="collapse" data-target="#affectiveFilter" aria-expanded="false" aria-controls="affectiveFilter">affective-computing</button>
-  <button style="font-weight: bold; text-transform: lowercase; background-color: green; color: white;" class="btn" type="button" data-toggle="collapse" data-target="#selfsupervisedFilter" aria-expanded="false" aria-controls="selfsupervisedFilter">self-supervised-learning</button>
+  <button style="font-weight: bold; text-transform: lowercase; background-color: royalblue; color: white;" class="btn" type="button" data-toggle="collapse" data-target="#generationFilter" aria-expanded="false" aria-controls="generationFilter">generation-and-learning</button>
+  <button style="font-weight: bold; text-transform: lowercase; background-color: crimson; color: white;" class="btn" type="button" data-toggle="collapse" data-target="#affectiveFilter" aria-expanded="false" aria-controls="affectiveFilter">affective-computing</button>
+  <button style="font-weight: bold; text-transform: lowercase; background-color: mediumseagreen; color: white;" class="btn" type="button" data-toggle="collapse" data-target="#selfsupervisedFilter" aria-expanded="false" aria-controls="selfsupervisedFilter">self-supervised-learning</button>
 </p>
 <div data-parent="#pubFilter" class="collapse show" id="allFilter">
   <div class="card card-body">
