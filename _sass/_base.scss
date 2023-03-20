@@ -483,8 +483,8 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-theme-color);
+    border-top: 1px solid var(--global-theme-color);
     padding-top: 1rem;
     margin-top: 2rem;
     margin-bottom: -2rem;
@@ -610,6 +610,27 @@ footer.sticky-bottom {
       }
     }
   }
+  .tags {
+    padding-left: 0.5rem;
+  }
+}
+
+.publications-tag {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+.publications-tag-affective-computing {
+  background: red;
+}
+
+.publications-tag-generation-and-learning {
+  background: blue;
+}
+
+.publications-tag-self-supervised-learning {
+  background: green;
 }
 
 // Rouge Color Customization

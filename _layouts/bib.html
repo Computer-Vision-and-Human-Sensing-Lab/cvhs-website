@@ -185,6 +185,14 @@
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
           </div>
+          {%- if entry.tags %}
+            <span class="tags">
+            {% assign _tags = entry.tags | split: "," %}
+            {% for tag in _tags %}
+            <span class="publications-tag publications-tag-{{ tag }} badge text-bg-secondary">{{ tag }}</span>
+            {% endfor %}
+            </span>
+          {%- endif %}
           {% if site.badges %}
           <div class="badges">
           {%- if site.badges.altmetric_badge or entry.altmetric %}
