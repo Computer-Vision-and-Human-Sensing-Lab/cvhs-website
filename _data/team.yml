@@ -28,9 +28,9 @@ phd_students:
     head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
   - name: Zheng Gao
     years: [2020-present]
-    research: replace me with whatever in team.yml; TODO
+    research: Self-supervised learning
     prev_affiliation: 
-    homepage: http://eecs.qmul.ac.uk/
+    homepage: https://zaczgao.github.io/
     head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
   - name: James Oldfield
     years: [2021-present]
