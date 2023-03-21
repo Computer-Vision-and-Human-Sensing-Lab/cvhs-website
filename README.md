@@ -35,4 +35,4 @@ Add an item to `./_data/repositories.yml`
 
 ## developing
 
-See `./DEVELOP.md`
+See `./DEVELOP.md`. In particular, jekyll & ruby are required to run and build the website locally.
