@@ -774,6 +774,18 @@ progress {
 }
 
 .research {
+  /* centre larger div in smaller parent */
+  position: absolute;
+  width: 1500px;
+  max-width: 100%;
+  padding: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  .card-title {
+    color: var(--global-theme-color);
+  }
+
   .abstract,.bibtex,.links,.tags,.badges,.preview,figure { display: none; }
 
   ol {
