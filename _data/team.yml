@@ -39,11 +39,11 @@ phd_students:
     homepage: http://eecs.qmul.ac.uk/~jo001/
     head_pic: https://images.gr-assets.com/users/1667074007p8/42737013.jpg
   - name: Zengqun Zhao
-    years: [2022-present]
-    research: replace me with whatever in team.yml; TODO
-    prev_affiliation: 
-    homepage: http://eecs.qmul.ac.uk/
-    head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
+    years: [2022-Present]
+    research: Visual-Language Model for Human Behaviour Analysis
+    prev_affiliation: Nanjing University of Information Science & Technology
+    homepage: https://zengqunzhao.github.io/
+    head_pic: https://zengqunzhao.github.io/img/profile.jpg
 
 alumni:
   members:
