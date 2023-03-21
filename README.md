@@ -35,4 +35,10 @@ Add an item to `./_data/repositories.yml`
 
 ## developing
 
-See `./DEVELOP.md`. In particular, jekyll & ruby are required to run and build the website locally.
+See `./DEVELOP.md`. In particular, jekyll & ruby are required to run and build the website locally. In short you need to install the dependencies and then you can run locally with:
+
+```bash
+bundle install
+bundle exec jekyll serve --port 4001 --livereload
+```
+
