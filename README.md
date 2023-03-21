@@ -1,4 +1,14 @@
-# al-folio
+# patras site
+
+# making change
+
+
+Please do this in the `dev` branch, and then open a pull request via the github website to merge into the stable master branch, which will contain the live repo on frank.
+
+Note to edit the text, you can also manually edit the text files via the GUI, and thus for basic changes it's not strictly necessary to use git manually at all.
+
+E.g. just edit in the browser: [https://github.com/james-oldfield/patras-dev-42058/edit/dev/_data/team.yml](https://github.com/james-oldfield/patras-dev-42058/edit/dev/_data/team.yml)
+
 
 ## updating team members
 
