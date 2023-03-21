@@ -4,20 +4,15 @@ items:
   tag: affective-computing
   image: https://images.unsplash.com/photo-1634944902853-3e977c2de8b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
   desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. 
-  references:
-  - Sánchez Prado, Ignacio M., editor. "Example paper". Bloomsbury, 2018.
-  - Sánchez Prado, Ignacio M., editor. "Example paper". Bloomsbury, 2018.
 - title: Generation and Learning
   tag: generation-and-learning
   image: https://github.com/chi0tzp/WarpedGANSpace/raw/master/figs/interpretable_path.png
   desc: The main field of interest of this work includes computational intelligence and image processing techniques in order to analyze facial information in images and video. This includes tracking facial features, gaze tracking, recognition of activation of facial muscles (Facial Action Units) and recognition of facial expressions such as the ones associated with the six basic emotions (anger, disgust, fear, happiness, sadness and surprise). Research is conducted not only in controlled environments, but also under challenging conditions, such as occlusion, different lighting/pose and spontaneous facial expressions.
-  references:
-  - Sánchez Prado, Ignacio M., editor. "Example paper". Bloomsbury, 2018.
-  - Sánchez Prado, Ignacio M., editor. "Example paper". Bloomsbury, 2018.
-- title: Self-supervised learning
-  tag: self-supervised-learning
+- title: Learning from few samples
+  tag: learning-from-few-samples
   image: https://github.com/MrChenFeng/SSR-An-Efficient-and-Robust-Framework-for-Learning-with-Unknown-Label-Noise_BMVC2022/raw/main/sources/method.png
   desc: The main field of interest of this work includes computational intelligence and image processing techniques in order to analyze facial information in images and video. This includes tracking facial features, gaze tracking, recognition of activation of facial muscles (Facial Action Units) and recognition of facial expressions such as the ones associated with the six basic emotions (anger, disgust, fear, happiness, sadness and surprise). Research is conducted not only in controlled environments, but also under challenging conditions, such as occlusion, different lighting/pose and spontaneous facial expressions.
-  references:
-  - Sánchez Prado, Ignacio M., editor. "Example paper". Bloomsbury, 2018.
-  - Sánchez Prado, Ignacio M., editor. "Example paper". Bloomsbury, 2018.
+- title: Video Understanding
+  tag: video-understanding
+  image: https://github.com/mever-team/distill-and-select/raw/main/dns_overview.png?raw=true
+  desc: The main field of interest of this work includes computational intelligence and image processing techniques in order to analyze facial information in images and video. This includes tracking facial features, gaze tracking, recognition of activation of facial muscles (Facial Action Units) and recognition of facial expressions such as the ones associated with the six basic emotions (anger, disgust, fear, happiness, sadness and surprise). Research is conducted not only in controlled environments, but also under challenging conditions, such as occlusion, different lighting/pose and spontaneous facial expressions.
