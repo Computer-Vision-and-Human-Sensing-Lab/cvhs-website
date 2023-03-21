@@ -16,10 +16,11 @@ nav_order: 1
 
 <div id="pubFilter">
 <p>
-  <button style="font-weight: bold; text-transform: lowercase; color: black;" class="btn" type="button" data-toggle="collapse" data-target="#allFilter" aria-expanded="false" aria-controls="allFilter">All</button>
-  <button style="font-weight: bold; text-transform: lowercase; background-color: royalblue; color: white;" class="btn collapsed" type="button" data-toggle="collapse" data-target="#generationFilter" aria-expanded="false" aria-controls="generationFilter">generation-and-learning</button>
-  <button style="font-weight: bold; text-transform: lowercase; background-color: crimson; color: white;" class="btn collapsed" type="button" data-toggle="collapse" data-target="#affectiveFilter" aria-expanded="false" aria-controls="affectiveFilter">affective-computing</button>
-  <button style="font-weight: bold; text-transform: lowercase; background-color: mediumseagreen; color: white;" class="btn collapsed" type="button" data-toggle="collapse" data-target="#selfsupervisedFilter" aria-expanded="false" aria-controls="selfsupervisedFilter">self-supervised-learning</button>
+  <button style="font-weight: bold; text-transform: lowercase; color: black;" class="px-3 btn" type="button" data-toggle="collapse" data-target="#allFilter" aria-expanded="false" aria-controls="allFilter">All</button>
+  <button style="font-weight: bold; text-transform: lowercase; background-color: royalblue; color: white;" class="px-3 btn collapsed" type="button" data-toggle="collapse" data-target="#generationFilter" aria-expanded="false" aria-controls="generationFilter">generation-and-learning</button>
+  <button style="font-weight: bold; text-transform: lowercase; background-color: crimson; color: white;" class="px-3 btn collapsed" type="button" data-toggle="collapse" data-target="#affectiveFilter" aria-expanded="false" aria-controls="affectiveFilter">affective-computing</button>
+  <button style="font-weight: bold; text-transform: lowercase; background-color: mediumseagreen; color: white;" class="px-3 btn collapsed" type="button" data-toggle="collapse" data-target="#fewsamplesFilter" aria-expanded="false" aria-controls="fewsamplesFilter">Learning from few samples</button>
+  <button style="font-weight: bold; text-transform: lowercase; background-color: orange; color: white;" class="px-3 btn collapsed" type="button" data-toggle="collapse" data-target="#videoFilter" aria-expanded="false" aria-controls="videoFilter">Video understanding</button>
 </p>
 <div data-parent="#pubFilter" class="collapse show" id="allFilter">
   <div class="card card-body">
@@ -47,12 +48,21 @@ nav_order: 1
     {% endfor %}
   </div>
 </div>
-<div data-parent="#pubFilter" class="collapse" id="selfsupervisedFilter">
-  <h2>Self-supervised Learning</h2>
+<div data-parent="#pubFilter" class="collapse" id="fewsamplesFilter">
+  <h2>Learning from few samples</h2>
   <div class="card card-body">
     {%- for y in page.years %}
       <h2 class="year">{{y}}</h2>
-      {% bibliography -f papers -q @*[year={{y}},tags=self-supervised-learning]* %}
+      {% bibliography -f papers -q @*[year={{y}},tags=learning-from-few-samples]* %}
+    {% endfor %}
+  </div>
+</div>
+<div data-parent="#pubFilter" class="collapse" id="videoFilter">
+  <h2>Video understanding</h2>
+  <div class="card card-body">
+    {%- for y in page.years %}
+      <h2 class="year">{{y}}</h2>
+      {% bibliography -f papers -q @*[year={{y}},tags=video-understanding]* %}
     {% endfor %}
   </div>
 </div>
