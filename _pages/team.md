@@ -25,9 +25,6 @@ nav_order: 0
       <p>{{ member.years }}</p>
       <p><strong>Research interests:</strong> <br> {{ member.research }} </p>
       <p><strong>Homepage:</strong> <br> <a href="{{ member.homepage }}">{{ member.homepage }}</a></p>
-      {% if member.prev_affiliation %}
-        Previously at: {{ member.prev_affiliation }}
-      {% endif %}
       </div>
     </div>
   </div>
