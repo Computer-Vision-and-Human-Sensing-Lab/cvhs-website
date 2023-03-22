@@ -782,6 +782,14 @@ progress {
   left: 50%;
   transform: translateX(-50%);
 
+  .card-image {
+    flex: 1 1 0;
+  }
+
+  .card-body {
+    flex: 4 1 0;
+  }
+
   .card-title {
     color: var(--global-theme-color);
   }
