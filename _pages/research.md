@@ -24,7 +24,7 @@ horizontal: false
     {% for item in site.data.research.items %}
     <div style="margin-bottom: 50px">
       <div class="card card-flex">
-        <div class="embed-responsive embed-responsive-16by9">
+        <div class="card-image embed-responsive embed-responsive-16by9">
         <img class="card-img-top embed-responsive-item" src="{{ item.image }}" alt="Card image cap">
         </div>
         <div class="card-body card-body-25">
