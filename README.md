@@ -1,5 +1,9 @@
 # patras site
 
+link: https://vagabond-map.surge.sh/
+
+**note**: this has moved to the random URL above, because google was starting to index the site and appear in search results.
+
 ## making changes
 
 Please make changes in the `dev` branch, and then open a pull request via the github website to merge into the stable master branch, which will contain the live repo on frank.
