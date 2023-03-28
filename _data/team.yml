@@ -16,10 +16,10 @@ phd_students:
     head_pic: https://media.licdn.com/dms/image/C5603AQHGgZZfIAFQ2w/profile-displayphoto-shrink_200_200/0/1540752450355?e=1685577600&v=beta&t=YFteTukN4gID_77sCdqzemgVOQZO04GXaQfRMdg-q6Q
   - name: Chen Feng
     years: [2019-present]
-    research: replace me with whatever in team.yml; TODO
+    research: Weakly supervised learning with noisy / coarse / no labels
     prev_affiliation: 
-    homepage: http://eecs.qmul.ac.uk/
-    head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
+    homepage: http://eecs.qmul.ac.uk/~fc312
+    head_pic: https://cis.eecs.qmul.ac.uk/images/students/ChenFeng.jpg
   - name: Giannis Maniadis
     years: [2020-present]
     research: replace me with whatever in team.yml; TODO
