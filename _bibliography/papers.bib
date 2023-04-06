@@ -1,5 +1,19 @@
 ---
 ---
+@InProceedings{maskcon2023cvpr,
+    select_key={true},
+    code={https://github.com/MrChenFeng/MaskCon_CVPR2023},
+    tags={learning-from-few-samples},
+    preview={maskcon.png},
+    pdf={https://arxiv.org/abs/2303.12756},
+    abstract={Deep learning has achieved great success in recent years with the aid of advanced neural network structures and large-scale human-annotated datasets. However, it is often costly and difficult to accurately and efficiently annotate large-scale datasets, especially for some specialized domains where fine-grained labels are required. In this setting, coarse labels are much easier to acquire as they do not require expert knowledge. In this work, we propose a contrastive learning method, called Masked Contrastive learning~(MaskCon) to address the under-explored problem setting, where we learn with a coarse-labelled dataset in order to address a finer labelling problem. More specifically, within the contrastive learning framework, for each sample our method generates soft-labels against other samples and another augmented view of the sample in question. By contrast to self-supervised contrastive learning where only the sample's augmentations are considered hard positives, and in supervised contrastive learning where only samples with the same coarse labels are considered hard positives, we propose soft labels based on sample distances, that are masked by the coarse labels. This allows us to utilize both inter-sample relations and coarse labels. We demonstrate that our method can obtain as special cases many existing state-of-the-art works and that it provides tighter bounds on the generalization error. Experimentally, our method achieves significant improvement over the current state-of-the-art in various datasets, including CIFAR10, CIFAR100, ImageNet-1K, Standford Online Products and Stanford Cars196 datasets.},
+    author    = {Chen Feng and Ioannis Patras},
+    title     = {MaskCon: Masked Contrastive Learning for Coarse-Labelled Dataset},
+    booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+}
+
 @InProceedings{falco2023cvpr,
     select_key={true},
     code={https://github.com/chi0tzp/FALCO},
@@ -9,6 +23,20 @@
     abstract={This work addresses the problem of anonymizing the identity of faces in a dataset of images, such that the privacy of those depicted is not violated, while at the same time the dataset is useful for downstream task such as for training machine learning models. To the best of our knowledge, we are the first to explicitly address this issue and deal with two major drawbacks of the existing state-of-the-art approaches, namely that they (i) require the costly training of additional, purpose-trained neural networks, and/or (ii) fail to retain the facial attributes of the original images in the anonymized counterparts, the preservation of which is of paramount importance for their use in downstream tasks. We accordingly present a task-agnostic anonymization procedure that directly optimizes the images' latent representation in the latent space of a pre-trained GAN. By optimizing the latent codes directly, we ensure both that the identity is of a desired distance away from the original (with an identity obfuscation loss), whilst preserving the facial attributes (using a novel feature-matching loss in FaRL's deep feature space). We demonstrate through a series of both qualitative and quantitative experiments that our method is capable of anonymizing the identity of the images whilst -- crucially -- better-preserving the facial attributes.},
     author    = {Barattin, Simone and Tzelepis, Christos and Patras, Ioannis and Sebe, Nicu},
     title     = {Attribute-preserving Face Dataset Anonymization via Latent Code Optimization},
+    booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+}
+
+@InProceedings{divclust2023cvpr,
+    select_key={true},
+    code={https://github.com/ManiadisG/DivClust},
+    tags={learning-from-few-samples},
+    preview={divclust.png},
+    pdf={https://arxiv.org/abs/2304.01042},
+    abstract={Clustering has been a major research topic in the field of machine learning, one to which Deep Learning has recently been applied with significant success. However, an aspect of clustering that is not addressed by existing deep clustering methods, is that of efficiently producing multiple, diverse partitionings for a given dataset. This is particularly important, as a diverse set of base clusterings are necessary for consensus clustering, which has been found to produce better and more robust results than relying on a single clustering. To address this gap, we propose DivClust, a diversity controlling loss that can be incorporated into existing deep clustering frameworks to produce multiple clusterings with the desired degree of diversity. We conduct experiments with multiple datasets and deep clustering frameworks and show that: a) our method effectively controls diversity across frameworks and datasets with very small additional computational cost, b) the sets of clusterings learned by DivClust include solutions that significantly outperform single-clustering baselines, and c) using an off-the-shelf consensus clustering algorithm, DivClust produces consensus clustering solutions that consistently outperform single-clustering baselines, effectively improving the performance of the base deep clustering framework.},
+    author    = {Metaxas, Ioannis Maniadis and Tzimiropoulos, Georgios and Patras, Ioannis},
+    title     = {DivClust: Controlling Diversity in Deep Clustering},
     booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
     year      = {2023},
