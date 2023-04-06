@@ -44,12 +44,6 @@ phd_students:
     prev_affiliation: Nanjing University of Information Science & Technology
     homepage: https://zengqunzhao.github.io/
     head_pic: https://zengqunzhao.github.io/img/profile.jpg
-  - name: Zengqun Zhao
-    years: [2022-Present]
-    research: Visual-Language Model for Human Behaviour Analysis
-    prev_affiliation: Nanjing University of Information Science & Technology
-    homepage: https://zengqunzhao.github.io/
-    head_pic: https://zengqunzhao.github.io/img/profile.jpg
 
 alumni:
   members:
