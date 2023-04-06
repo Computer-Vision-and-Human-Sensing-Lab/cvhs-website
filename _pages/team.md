@@ -12,7 +12,7 @@ nav_order: 0
 {% if site.data.team.phd_students %}
 <div class="row mb-5">
   {% for member in site.data.team.phd_students.members %}
-  <div class="col-sm-4" style="margin: 5px 0; padding: 0 20px;">
+  <div class="col-sm-3" style="margin: 5px 0; padding: 0 5px;">
   <div class="card">
     <a href="{{ member.homepage }}">
       <img style="padding: 10px;" class="card-img-top" src="{{ member.head_pic }}" alt="Card image cap">
