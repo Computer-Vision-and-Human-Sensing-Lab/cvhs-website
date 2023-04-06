@@ -11,9 +11,9 @@ nav_order: 0
 
 {% if site.data.team.phd_students %}
 <h1 style="margin-top: 50px;">PhD Students</h1>
-<div class="row row-cols-1 row-cols-md-3">
+<div class="row row-cols-1 row-cols-md-4">
   {% for member in site.data.team.phd_students.members %}
-  <div class="col mb-4">
+  <div class="col mb-4 card-col">
   <div class="card">
     <a href="{{ member.homepage }}">
       <div class="embed-responsive embed-responsive-1by1">
@@ -21,9 +21,9 @@ nav_order: 0
       </div>
     </a>
     <div class="card-body">
-      <h5 class="card-title">
+      <h6 class="card-title">
       <a href="{{ member.homepage }}">{{ member.name }}</a>
-      </h5>
+      </h6>
       <div class="card-text">
       <p>{{ member.years }}</p>
       <p><strong>Research interests:</strong> <br> {{ member.research }} </p>
@@ -51,9 +51,9 @@ nav_order: 0
       </div>
     </a>
     <div class="card-body">
-      <h5 class="card-title">
+      <h6 class="card-title">
       <a href="{{ member.homepage }}">{{ member.name }}</a>
-      </h5>
+      </h6>
       <div class="card-text">
       <p>{{ member.years }}</p>
       <p><strong>Research interests:</strong> <br> {{ member.research }} </p>

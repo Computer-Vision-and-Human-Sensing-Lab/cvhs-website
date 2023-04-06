@@ -813,6 +813,16 @@ progress {
 
 .team{
   .card-body {
-    min-height: 12rem;
+    min-height: 13.25rem;
+  }
+  .card-footer {
+    font-size: 14px;
+
+    p {
+      margin: 0;
+    }
+  }
+  .card-col {
+    padding: 0 5px;
   }
 }

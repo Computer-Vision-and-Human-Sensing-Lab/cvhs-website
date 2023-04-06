@@ -36,8 +36,8 @@ phd_students:
     years: [2021-present]
     research: Controllable and interpretable generative models
     prev_affiliation: 
-    homepage: http://eecs.qmul.ac.uk/~jo001/
-    head_pic: https://images.gr-assets.com/users/1667074007p8/42737013.jpg
+    homepage: http://eecs.qmul.ac.uk/~jo001
+    head_pic: http://eecs.qmul.ac.uk/~jo001/pic.jpg
   - name: Zengqun Zhao
     years: [2022-Present]
     research: Visual-Language Model for Human Behaviour Analysis
@@ -47,6 +47,10 @@ phd_students:
 
 alumni:
   members:
+  - name: Georgios Zoumpourlis
+    years: [2018-2022]
+    research: "replace me thesis title"
+    homepage: http://eecs.qmul.ac.uk/
   - name: Jingjing Liu
     years: [2022-2022]
     research: "replace me thesis title"
