@@ -39,8 +39,8 @@ phd_students:
     homepage: http://eecs.qmul.ac.uk/~jo001
     head_pic: http://eecs.qmul.ac.uk/~jo001/pic.jpg
   - name: Zengqun Zhao
-    years: [2022-Present]
-    research: Visual-Language Models for Human Behaviour Analysis
+    years: [2022-present]
+    research: Visual-language models for human behaviour analysis
     prev_affiliation: Nanjing University of Information Science & Technology
     homepage: https://zengqunzhao.github.io/
     head_pic: https://zengqunzhao.github.io/img/profile.jpg
@@ -48,12 +48,8 @@ phd_students:
 alumni:
   members:
   - name: Georgios Zoumpourlis
-    years: [2018-2022]
     research: Deep Learning for Brain Signal Analysis
-    homepage: http://eecs.qmul.ac.uk/  
-  - name: Georgios Zoumpourlis
-    research: Deep Learning for Brain Signal Analysis
-    years: 2018-2024
+    years: 2018-2022
   - name: Lampis Apostolidis
     research: Video Summarisation
     years: 2017-2022
