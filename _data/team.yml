@@ -40,7 +40,7 @@ phd_students:
     head_pic: http://eecs.qmul.ac.uk/~jo001/pic.jpg
   - name: Zengqun Zhao
     years: [2022-Present]
-    research: Visual-Language Model for Human Behaviour Analysis
+    research: Visual-Language Models for Human Behaviour Analysis
     prev_affiliation: Nanjing University of Information Science & Technology
     homepage: https://zengqunzhao.github.io/
     head_pic: https://zengqunzhao.github.io/img/profile.jpg
@@ -49,9 +49,65 @@ alumni:
   members:
   - name: Georgios Zoumpourlis
     years: [2018-2022]
-    research: "replace me thesis title"
-    homepage: http://eecs.qmul.ac.uk/
-  - name: Jingjing Liu
-    years: [2022-2022]
-    research: "replace me thesis title"
-    homepage: http://eecs.qmul.ac.uk/
+    research: Deep Learning for Brain Signal Analysis
+    homepage: http://eecs.qmul.ac.uk/  
+  - name: Georgios Zoumpourlis
+    research: Deep Learning for Brain Signal Analysis
+    years: 2018-2024
+  - name: Lampis Apostolidis
+    research: Video Summarisation
+    years: 2017-2022
+  - name: Tingting Xie
+    research: Action Localisation
+    years: 2017-2021
+  - name: Georgios Kordopatis-Zilos
+    research: Video Retrieval with Deep Learning
+    years: 2016-2020
+  - name: Mina Bishay
+    research: Non verbal behaviour analysis in mental health illnesses
+    years: 2015-2019
+  - name: Wenxuan Mou
+    research: Affect Analysis in Group Settings
+    years: 2014-2019
+  - name: Aria Ahmadi
+    research: Unsupervised Training of Deep Neural Networks for Motion Estimation
+    years: 2014-2019
+  - name: Fotini Markatopoulou
+    research: Deep Multitask learning for Concept detection in video
+    years: 2014-2018
+  - name: Christos Tzelepis
+    research: Video event detection
+    years: 2013-2018
+  - name: Juan Abdon Miranda Correa
+    research: EEG-based Affect Recognition
+    years: 2013-2018
+  - name: Petar Palasek
+    research: Deep Learning architectures for Action recognition’
+    years: 2013-2018
+  - name: Daria Stefic
+    research: Human Gaze analysis for Human Action Recognition”
+    years: 2012-2016
+  - name: Heng Yang
+    research: Facial expression analysis
+    years: 2012-2015
+  - name: Sertan Kaymak
+    research: Real-time gaze tracking
+    years: 2011-2014
+  - name: Vijay Kumar
+    research: Human Action Localisation in Image Sequences
+    years: 2009-2013
+  - name: Stefanos Vrochidis
+    research: Implicit feedback for Multimedia Image retreival
+    years: 2009-2012
+  - name: Spiros Nikolopoulos
+    research: Semantic image analysis using knowledge and content
+    years: 2009-2012
+  - name: Sander Koelstra
+    research: Affective and implicit tagging using facial expressions and electroencephalography
+    years: 2008-2012
+  - name: Giuseppe Passino
+    research: Patch-based Semantic Labelling of Images
+    years: 2007-2010
+  - name: Antonis Oikonomopoulos
+    research:  Vision-based Recognition of Body Gestures
+    years: 2006-2010
