@@ -71,14 +71,26 @@ nav_order: 0
 
 {% if site.data.team.alumni %}
 <h1 style="margin-top: 50px;">Alumni</h1>
-<ul>
+<table class="table table-responsive table-sm">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Years</th>
+      <th scope="col">Thesis title</th>
+    </tr>
+  </thead>
+  <tbody>
   {% for member in site.data.team.alumni.members %}
-  <li>
-    <strong>{{ member.name }}</strong>:
-    {{ member.years }} [{{ member.research }}]
-  </li>
+    <tr>
+      <th scope="row">{{ member.name }}</th>
+      <td>{{ member.years }}</td>
+      <td>{{ member.research }}</td>
+    </tr>
   {% endfor %}
-</ul>
+  </tbody>
+</table>
 {% endif %}
+
+
 
 </div>
