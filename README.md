@@ -1,6 +1,6 @@
-# patras site
+# cvhs site
 
-link: https://vagabond-map.surge.sh/
+link: http://eecs.qmul.ac.uk/~jo001/cvhs-website/
 
 **note**: this has moved to the random URL above, because google was starting to index the site and appear in search results.
 
@@ -10,7 +10,7 @@ Please make changes in the `dev` branch, and then open a pull request via the gi
 
 Note that, to edit just the website's text, you can also edit the text files via the GUI, and thus for basic changes it's not strictly necessary to use git manually at all.
 
-E.g. use this link to update the information in "team" directly in the browser: [https://github.com/james-oldfield/patras-dev-42058/edit/dev/_data/team.yml](https://github.com/james-oldfield/patras-dev-42058/edit/dev/_data/team.yml)
+E.g. use this link to update the information in "team" directly in the browser: [https://github.com/Computer-Vision-and-Human-Sensing-Lab/cvhs-website/edit/dev/_data/team.yml](https://github.com/Computer-Vision-and-Human-Sensing-Lab/cvhs-website/edit/dev/_data/team.yml)
 
 
 ## updating team members
