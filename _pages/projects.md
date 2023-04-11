@@ -30,6 +30,7 @@ horizontal: false
       <div class="card-body card-body-25">
         <h3 class="card-title">{{ item.title }}</h3>
         <p class="card-text">{{ item.desc }}</p>
+        <p class="card-text"><small class="text-muted">Homepage: <a href="{{ item.link }}">{{ item.link }}</a></small></p>
       </div>
     </div>
   </div>
