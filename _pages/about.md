@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Professor in Computer Vision and Human Sensing, Director of Graduate Studies Research.
+subtitle: Professor in Computer Vision and Human Sensing <br> Director of Graduate Studies Research <br> <a href="http://www.eecs.qmul.ac.uk/">School of Electronic Engineering and Computer Science</a> <br> <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a>
 
 profile:
   align: right
