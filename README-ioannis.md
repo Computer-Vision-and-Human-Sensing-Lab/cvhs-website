@@ -35,6 +35,12 @@ then go to `localhost:4001` in a browser.
 
 ## deploying
 
+To push to the live website at public_html on frank run:
+
+```bash
+bash ./deploy-ioannis.sh
+```
+
 
 ## updating team members
 
