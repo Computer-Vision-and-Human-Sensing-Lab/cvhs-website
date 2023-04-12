@@ -7,7 +7,15 @@ E.g. use this link to update the information in "team" directly in the browser: 
 
 # making changes and developing locally
 
-## committing and pushing changes
+## setting up ruby
+
+```bash
+bash
+source /etc/profile.d/rvm.sh # source rvm
+export BUNDLE_PATH=~/.gems
+```
+
+## making changes
 
 Firstly, please checkout the `dev` branch, and pull the latest changes:
 
@@ -16,6 +24,16 @@ $ git checkout dev
 $ git pull origin dev
 ```
 
+## developing locally
+
+Run the following:
+```bash
+bundle install
+bundle exec jekyll serve --lsi
+```
+then go to `localhost:4001` in a browser.
+
+## committing changes
 Make modifications to your files, and then:
 
 ```bash
@@ -24,15 +42,6 @@ $ git commit -m "details of new commit"
 $ git push origin dev
 ```
 
-## developing locally
-
-Run the following:
-```bash
-bundle install
-bundle exec jekyll serve --port 4001 --livereload
-```
-then go to `localhost:4001` in a browser.
-
 ## deploying
 
 To push to the live website at public_html on frank run:
@@ -40,7 +49,6 @@ To push to the live website at public_html on frank run:
 ```bash
 bash ./deploy-ioannis.sh
 ```
-
 
 ## updating team members
 
