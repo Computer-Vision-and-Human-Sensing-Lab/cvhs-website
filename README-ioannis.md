@@ -29,9 +29,9 @@ $ git pull origin dev
 Run the following:
 ```bash
 bundle install
-bundle exec jekyll serve --lsi
+bundle exec jekyll serve --lsi &
 ```
-then go to `localhost:4001` in a browser.
+then go to `localhost:4000` in a browser.
 
 ## committing changes
 Make modifications to your files, and then:
