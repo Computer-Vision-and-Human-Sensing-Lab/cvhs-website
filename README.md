@@ -40,6 +40,7 @@ See `./DEVELOP.md`. In particular, jekyll & ruby are required to run and build t
 
 ```bash
 bundle install
-bundle exec jekyll serve --port 4001 --livereload
+bundle exec jekyll serve --lsi
 ```
 
+You can then open a browser and visit `localhost:4000` to view the page.
