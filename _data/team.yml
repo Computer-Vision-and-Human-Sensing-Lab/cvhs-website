@@ -45,7 +45,7 @@ phd_students:
     research: Controllable and interpretable generative models
     prev_affiliation: 
     homepage: http://eecs.qmul.ac.uk/~jo001
-    head_pic: http://eecs.qmul.ac.uk/~jo001/pic.jpg
+    head_pic: https://images.gr-assets.com/users/1667074007p6/42737013.jpg
   - name: Zengqun Zhao
     years: [2022-present]
     research: Visual-language models for human behaviour analysis

@@ -465,14 +465,6 @@ footer.sticky-bottom {
 }
 
 
-// home
-@media (min-width: 768px) {
-  .bio {
-      margin-bottom: 60px;
-  }
-}
-
-
 // Publications
 
 .publications {
@@ -814,7 +806,7 @@ progress {
 
 .team{
   .card-body {
-    min-height: 13.25rem;
+    min-height: 12rem;
   }
   .card-footer {
     font-size: 14px;

@@ -41,7 +41,7 @@ nav_order: 0
 
 {% if site.data.team.postdocs %}
 <h1 style="margin-top: 50px;">Postdocs</h1>
-<div class="row row-cols-1 row-cols-md-4">
+<div class="row row-cols-1 row-cols-md-5">
   {% for member in site.data.team.postdocs.members %}
   <div class="col mb-4 card-col">
   <div class="card">
@@ -70,7 +70,7 @@ nav_order: 0
 
 {% if site.data.team.collaborators %}
 <h1 style="margin-top: 50px;">Collaborators</h1>
-<div class="row row-cols-1 row-cols-md-4">
+<div class="row row-cols-1 row-cols-md-5">
   {% for member in site.data.team.collaborators.members %}
   <div class="col mb-4 card-col">
   <div class="card">
