@@ -2,15 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: Professor in Computer Vision and Human Sensing <br> Director of Graduate Studies Research <br> <a href="http://www.eecs.qmul.ac.uk/">School of Electronic Engineering and Computer Science</a> <br> <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a>
+subtitle: Professor in Computer Vision and Human Sensing <br> Director of Graduate Studies Research <br> <a href="http://www.eecs.qmul.ac.uk/">School of Electronic Engineering and Computer Science</a> <br> <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a> <br> <a href="mailto:i.patras@qmul.ac.uk">i.patras@qmul.ac.uk</a> <br> +44 20 7882 7523
 
 profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p><a href="mailto:i.patras@qmul.ac.uk">i.patras@qmul.ac.uk</a></p>
-    <p>+44 20 7882 7523</p>
+  address:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
