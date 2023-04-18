@@ -2,9 +2,9 @@ postdocs:
   members:
   - name: Christos Tzelepis
     years: [2018-present]
-    research: replace me with whatever in team.yml; TODO
+    research: Generative models; Vision and Language; Learning with uncertainty
     prev_affiliation: 
-    homepage: http://eecs.qmul.ac.uk/
+    homepage: https://chi0tzp.github.io/
     head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
 phd_students:
   members:

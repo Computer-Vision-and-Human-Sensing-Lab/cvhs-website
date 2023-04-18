@@ -20,8 +20,8 @@ export BUNDLE_PATH=~/.gems
 Firstly, please checkout the `dev` branch, and pull the latest changes:
 
 ```bash
-$ git checkout dev
-$ git pull origin dev
+git checkout dev
+git pull origin dev
 ```
 
 ## developing locally
@@ -37,9 +37,9 @@ then go to `localhost:4000` in a browser.
 Make modifications to your files, and then:
 
 ```bash
-$ git add .
-$ git commit -m "details of new commit"
-$ git push origin dev
+git add .
+git commit -m "details of new commit"
+git push origin dev
 ```
 
 ## deploying
