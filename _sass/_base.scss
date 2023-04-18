@@ -465,6 +465,14 @@ footer.sticky-bottom {
 }
 
 
+// home
+@media (min-width: 768px) {
+  .bio {
+      margin-bottom: 60px;
+  }
+}
+
+
 // Publications
 
 .publications {
