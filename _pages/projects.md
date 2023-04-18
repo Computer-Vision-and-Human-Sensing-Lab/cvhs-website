@@ -9,7 +9,7 @@ display_categories: [work, fun]
 horizontal: false
 ---
 
-<h1>Projects</h1>
+<h1>Live projects</h1>
 
 {% if site.data.projects.overview %}
 <p>

@@ -775,6 +775,16 @@ progress {
 
 .research {
 
+  .links {
+    a {
+    border: 1px solid var(--global-text-color);
+    &:hover {
+      color: royalblue;
+      border: 1px solid royalblue;
+    }
+  }
+  }
+
   .card-image {
     flex: 1 1 0;
   }
@@ -787,7 +797,8 @@ progress {
     color: var(--global-theme-color);
   }
 
-  .abstract,.bibtex,.links,.tags,.badges,.preview,figure { display: none; }
+  /* .abstract,.bibtex,.links,.tags,.badges,.preview,figure { display: none; } */
+  .abstract,.bibtex,.tags,.badges,.preview,figure { display: none; }
 
   ol {
   list-style: circle;
