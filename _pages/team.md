@@ -86,6 +86,7 @@ nav_order: 0
       <div class="card-text">
       <p>{{ member.years }}</p>
       <p><strong>Research interests:</strong> <br> {{ member.research }} </p>
+      <p><strong>Affiliation:</strong> {{ member.affiliation }} </p>
       </div>
     </div>
   <div class="card-footer">
