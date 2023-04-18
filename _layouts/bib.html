@@ -2,8 +2,10 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
+        {% assign year_num = entry.year | to_i %}
+        {%- if year_num > '2020' -%}
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
-        {%- if entry.preview -%}
+          {%- if entry.preview and year_num > '2020' -%}
           {% if entry.preview contains '://' -%}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
           {%- else -%}
@@ -25,6 +27,7 @@
           {%- endif -%}
         {%- endif -%}
         </div>
+        {%- endif -%}
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
