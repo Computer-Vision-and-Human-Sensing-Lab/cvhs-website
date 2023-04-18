@@ -1,49 +1,67 @@
+collaborators:
+  members:
+  - name: Georgios (Yorgos) Tzimiropoulos
+    research: 
+    affiliation: QMUL & Samsung SAIC
+    homepage: https://ytzimiro.github.io/
+    head_pic: https://ytzimiro.github.io/images/ytimiro.jpg
+  - name: Vasileios Mezaris
+    research: 
+    affiliation: ITI / CERTH
+    homepage: https://www.iti.gr/~bmezaris/
+    head_pic: https://avatars.sched.co/6/6f/8722388/avatar.jpg?be4
 postdocs:
   members:
   - name: Christos Tzelepis
     years: [2018-present]
-    research: replace me with whatever in team.yml; TODO
+    research: Generative models; Vision and Language; Learning with uncertainty
     prev_affiliation: 
-    homepage: http://eecs.qmul.ac.uk/
-    head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
+    homepage: https://chi0tzp.github.io/
+    head_pic: https://chi0tzp.github.io/assets/img/prof_pic.png
 phd_students:
   members:
-  - name: Niki Foteinopoulou
-    years: [2019-present]
-    research: Deep Learning for affect estimation and mental illness severity estimation
-    prev_affiliation: 
-    homepage: http://eecs.qmul.ac.uk/
-    head_pic: https://media.licdn.com/dms/image/C5603AQHGgZZfIAFQ2w/profile-displayphoto-shrink_200_200/0/1540752450355?e=1685577600&v=beta&t=YFteTukN4gID_77sCdqzemgVOQZO04GXaQfRMdg-q6Q
-  - name: Chen Feng
-    years: [2019-present]
-    research: Weakly supervised learning with noisy / coarse / no labels
-    prev_affiliation: 
-    homepage: http://eecs.qmul.ac.uk/~fc312
-    head_pic: https://cis.eecs.qmul.ac.uk/images/students/ChenFeng.jpg
-  - name: Ioannis Maniadis Metaxas
-    years: [2020-present]
-    research: Unsupervised representation learning
-    prev_affiliation: 
-    homepage: https://maniadisg.github.io/
-    head_pic: https://maniadisg.github.io/images/prof_pic.png
-  - name: Zheng Gao
-    years: [2020-present]
-    research: Self-supervised learning
-    prev_affiliation: 
-    homepage: https://zaczgao.github.io/
-    head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
-  - name: James Oldfield
-    years: [2021-present]
-    research: Controllable and interpretable generative models
-    prev_affiliation: 
-    homepage: http://eecs.qmul.ac.uk/~jo001
-    head_pic: http://eecs.qmul.ac.uk/~jo001/pic.jpg
   - name: Zengqun Zhao
     years: [2022-present]
     research: Visual-language models for human behaviour analysis
     prev_affiliation: Nanjing University of Information Science & Technology
     homepage: https://zengqunzhao.github.io/
     head_pic: https://zengqunzhao.github.io/img/profile.jpg
+  - name: James Oldfield
+    years: [2021-present]
+    research: Controllable and interpretable generative models
+    prev_affiliation: 
+    homepage: http://eecs.qmul.ac.uk/~jo001
+    head_pic: https://images.gr-assets.com/users/1667074007p6/42737013.jpg
+  - name: Zheng Gao
+    years: [2020-present]
+    research: Self-supervised learning
+    prev_affiliation: 
+    homepage: https://zaczgao.github.io/
+    head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
+  - name: Ioannis Maniadis Metaxas
+    years: [2020-present]
+    research: Unsupervised representation learning
+    prev_affiliation: 
+    homepage: https://maniadisg.github.io/
+    head_pic: https://maniadisg.github.io/images/prof_pic.png
+  - name: Niki Foteinopoulou
+    years: [2019-present]
+    research: Deep Learning for affect estimation and mental illness severity estimation
+    prev_affiliation: 
+    homepage: https://www.linkedin.com/in/niki-foteinopoulou-48aa3b45/
+    head_pic: ../assets/img/niki.jpg
+  - name: Chen Feng
+    years: [2019-present]
+    research: Weakly supervised learning with noisy / coarse / no labels
+    prev_affiliation: 
+    homepage: http://eecs.qmul.ac.uk/~fc312
+    head_pic: https://cis.eecs.qmul.ac.uk/images/students/ChenFeng.jpg
+  - name: Elissavet Batziou
+    years: [2019-present]
+    research: Deep Learning for Style Transfer
+    prev_affiliation: 
+    homepage: https://www.linkedin.com/in/elissavet-batziou-a2629384
+    head_pic: https://media.licdn.com/dms/image/C4E03AQH1qNz1MNGABQ/profile-displayphoto-shrink_800_800/0/1516928474385?e=1687392000&v=beta&t=axRhEQ_gVsuCuWRQ4VQeJhYXue-Kt3Jv6qaWsQj0QyY
 
 alumni:
   members:

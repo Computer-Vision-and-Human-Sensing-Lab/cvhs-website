@@ -1,6 +1,22 @@
-overview: Live projects
+overview:
 items:
 - title: Ai4media
   link: https://www.ai4media.eu/
-  image: https://pbs.twimg.com/media/FodSsWiXwAI15mm?format=jpg&name=large
+  image: ../assets/img/ai4media.jpg
   desc:  Funded under the European Union’s Horizon 2020 research and innovation programme, the project aspires to become a Centre of Excellence engaging a wide network of researchers across Europe and beyond, focusing on delivering the next generation of core AI advances and training to serve the Media sector, while ensuring that the European values of ethical and trustworthy AI are embedded in future AI deployments. QMUL work is focused on representation learning from a) large, pretrained Language and Vision models b) large pretrained Generative Models, and c) from noisy labels, or no labels at all.
+past:
+- title: Deep Learning from crawled spatio-temporal representations of Video
+  dates: 2018-2021
+  funding: Engineering and Physical Sciences Research Council (EPSRC)
+- title: Computer Vision for Intelligent Vehicles
+  dates: 2017-2019
+  funding: Yamaha Motors Co Ltd
+- title: Sensing Feeling
+  dates: 2016-2018
+  funding: Innovate UK
+- title: Human Pose Analysis
+  dates: 2014-2016
+  funding: Yamaha Motors Co Ltd
+- title: Recognition and Localisation of Human Actions in Image Sequences
+  dates: 2009-2012
+  funding: Engineering and Physical Sciences Research Council (EPSRC), First Grant Scheme

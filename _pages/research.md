@@ -11,11 +11,12 @@ horizontal: false
 
 <h1>Research Themes</h1>
 
-{% if site.data.research.overview %}
-<p>
-{{ site.data.research.overview }}
-</p>
-{% endif %}
+My research is in the area of Human Centered Machine Learning, using Machine Learning, Computer Vision and Signal Processing methodologies to learn from multiple sources concepts that enable Intelligent Systems to understand, communicate and collaborate with humans. Currently it evolves around three themes:
+<ul>
+<li>Learning to recognise behaviour, emotions and cognitive states of people by analysing their images, video and neuro-physiological signals</li>
+<li>Learning across modalities, and in particular at the intersections of language and vision, using large, pretrained language and audio-visual models</li>
+<li>Learning from generative models and learning to control generation for privacy, interpretability and control purposes.</li>
+</ul>
 
 <div class="research">
   <div class="row mb-5">

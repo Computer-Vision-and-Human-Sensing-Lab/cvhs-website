@@ -114,7 +114,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 20%;
+    width: 12%;
     .address {
       p { display: block; }
     }
@@ -775,6 +775,16 @@ progress {
 
 .research {
 
+  .links {
+    a {
+    border: 1px solid var(--global-text-color);
+    &:hover {
+      color: royalblue;
+      border: 1px solid royalblue;
+    }
+  }
+  }
+
   .card-image {
     flex: 1 1 0;
   }
@@ -787,7 +797,8 @@ progress {
     color: var(--global-theme-color);
   }
 
-  .abstract,.bibtex,.links,.tags,.badges,.preview,figure { display: none; }
+  /* .abstract,.bibtex,.links,.tags,.badges,.preview,figure { display: none; } */
+  .abstract,.bibtex,.tags,.badges,.preview,figure { display: none; }
 
   ol {
   list-style: circle;
@@ -804,11 +815,12 @@ progress {
   }
 }
 
-.team{
+.phd-students {
   .card-body {
-    min-height: 13.25rem;
+    min-height: 12rem;
   }
   .card-footer {
+    min-height: 5.5rem;
     font-size: 14px;
 
     p {
