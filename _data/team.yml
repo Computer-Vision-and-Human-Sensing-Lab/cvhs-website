@@ -17,7 +17,7 @@ postdocs:
     research: Generative models; Vision and Language; Learning with uncertainty
     prev_affiliation: 
     homepage: https://chi0tzp.github.io/
-    head_pic: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/1200px-Default_pfp.svg.png
+    head_pic: https://chi0tzp.github.io/assets/img/prof_pic.png
 phd_students:
   members:
   - name: Zengqun Zhao
@@ -50,7 +50,6 @@ phd_students:
     prev_affiliation: 
     homepage: https://www.linkedin.com/in/niki-foteinopoulou-48aa3b45/
     head_pic: ../assets/img/niki.jpg
-    # head_pic: https://media.licdn.com/dms/image/C5603AQHGgZZfIAFQ2w/profile-displayphoto-shrink_200_200/0/1540752450355?e=1685577600&v=beta&t=YFteTukN4gID_77sCdqzemgVOQZO04GXaQfRMdg-q6Q
   - name: Chen Feng
     years: [2019-present]
     research: Weakly supervised learning with noisy / coarse / no labels

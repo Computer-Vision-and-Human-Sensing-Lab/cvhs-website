@@ -8,11 +8,11 @@ items:
   tag: generation-and-learning
   image: https://github.com/chi0tzp/WarpedGANSpace/raw/master/figs/interpretable_path.png
   desc: This line of research is concerned with learning from generative models and learning to control generation for privacy, interpretability and control purposes. This includes learning representations in the latent space of generative models so as to control local changes, control image generation with natural language and controlling generation so as to anonymise datatasets in order to use them for training machine learning models in a privacy preserving manner. 
-- title: Learning from few samples
+- title: Learning with few/no/noisy/uncertain/imprecise annotations
   tag: learning-from-few-samples
   image: https://github.com/MrChenFeng/SSR-An-Efficient-and-Robust-Framework-for-Learning-with-Unknown-Label-Noise_BMVC2022/raw/main/sources/method.png
-  desc: The main field of interest of this work includes computational intelligence and image processing techniques in order to analyze facial information in images and video. This includes tracking facial features, gaze tracking, recognition of activation of facial muscles (Facial Action Units) and recognition of facial expressions such as the ones associated with the six basic emotions (anger, disgust, fear, happiness, sadness and surprise). Research is conducted not only in controlled environments, but also under challenging conditions, such as occlusion, different lighting/pose and spontaneous facial expressions.
+  desc: This line of research is concerned with learning in the absence of reliable annotations. This includes self-supervised representation learning, unsupervised learning with clustering objectives or learning with labels of different granularity than that of the downstream task.
 - title: Video Understanding
   tag: video-understanding
   image: https://github.com/mever-team/distill-and-select/raw/main/dns_overview.png?raw=true
-  desc: The main field of interest of this work includes computational intelligence and image processing techniques in order to analyze facial information in images and video. This includes tracking facial features, gaze tracking, recognition of activation of facial muscles (Facial Action Units) and recognition of facial expressions such as the ones associated with the six basic emotions (anger, disgust, fear, happiness, sadness and surprise). Research is conducted not only in controlled environments, but also under challenging conditions, such as occlusion, different lighting/pose and spontaneous facial expressions.
+  desc: This line of research is concerned with analysis of video for retrieval, summarisation and activity/action recognition.
