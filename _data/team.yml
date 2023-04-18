@@ -49,7 +49,8 @@ phd_students:
     research: Deep Learning for affect estimation and mental illness severity estimation
     prev_affiliation: 
     homepage: https://www.linkedin.com/in/niki-foteinopoulou-48aa3b45/
-    head_pic: https://media.licdn.com/dms/image/C5603AQHGgZZfIAFQ2w/profile-displayphoto-shrink_200_200/0/1540752450355?e=1685577600&v=beta&t=YFteTukN4gID_77sCdqzemgVOQZO04GXaQfRMdg-q6Q
+    head_pic: ../assets/img/niki.jpg
+    # head_pic: https://media.licdn.com/dms/image/C5603AQHGgZZfIAFQ2w/profile-displayphoto-shrink_200_200/0/1540752450355?e=1685577600&v=beta&t=YFteTukN4gID_77sCdqzemgVOQZO04GXaQfRMdg-q6Q
   - name: Chen Feng
     years: [2019-present]
     research: Weakly supervised learning with noisy / coarse / no labels
