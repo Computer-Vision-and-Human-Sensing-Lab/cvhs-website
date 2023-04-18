@@ -11,7 +11,7 @@ nav_order: 0
 
 {% if site.data.team.phd_students %}
 <h1 style="margin-top: 50px;">PhD Students</h1>
-<div class="row row-cols-1 row-cols-md-4">
+<div class="row row-cols-1 row-cols-md-4 phd-students">
   {% for member in site.data.team.phd_students.members %}
   <div class="col mb-4 card-col">
   <div class="card">
@@ -85,7 +85,6 @@ nav_order: 0
       </h6>
       <div class="card-text">
       <p>{{ member.years }}</p>
-      <p><strong>Research interests:</strong> <br> {{ member.research }} </p>
       <p><strong>Affiliation:</strong> {{ member.affiliation }} </p>
       </div>
     </div>

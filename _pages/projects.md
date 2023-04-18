@@ -22,7 +22,7 @@ horizontal: false
 {% if site.data.projects.items %}
 <div>
   {% for item in site.data.projects.items %}
-  <div style="margin-bottom: 50px">
+  <div>
     <div class="card card-flex">
       <div class="embed-responsive embed-responsive-16by9">
       <img class="card-img-top embed-responsive-item" src="{{ item.image }}" alt="Card image cap">
@@ -39,3 +39,19 @@ horizontal: false
 {% endif %}
 
 </div>
+
+<h1>Selected past projects</h1>
+
+{% if site.data.projects.past %}
+<div>
+<ul>
+  {% for item in site.data.projects.past %}
+  <li>
+    <strong>{{ item.title }}</strong>
+    <br>
+    <p>[{{ item.dates }}]<br>{{ item.funding }}</p>
+  </li>
+  {% endfor %}
+</ul>
+</div>
+{% endif %}

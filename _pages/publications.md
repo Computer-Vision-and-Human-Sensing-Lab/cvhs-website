@@ -12,6 +12,8 @@ nav_order: 1
 ---
 <h1>Recent publications</h1>
 
+(Also see my [Google Scholar](https://scholar.google.com/citations?user=OBYLxRkAAAAJ) and my [Queen Mary University publications webpage](https://researchpublications.qmul.ac.uk//publications/staff/20259.html))
+
 <!-- _pages/publications.md -->
 <div class="publications">
 
