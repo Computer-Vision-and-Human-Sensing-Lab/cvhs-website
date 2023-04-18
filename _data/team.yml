@@ -1,13 +1,13 @@
 collaborators:
   members:
   - name: Georgios (Yorgos) Tzimiropoulos
-    research: Generative models; Vision and Language; Learning with uncertainty
+    research: 
     affiliation: QMUL & Samsung SAIC
     homepage: https://ytzimiro.github.io/
     head_pic: https://ytzimiro.github.io/images/ytimiro.jpg
   - name: Vasileios Mezaris
-    research: Generative models; Vision and Language; Learning with uncertainty
-    affiliation: CERTH
+    research: 
+    affiliation: ITI / CERTH
     homepage: https://www.iti.gr/~bmezaris/
     head_pic: https://avatars.sched.co/6/6f/8722388/avatar.jpg?be4
 postdocs:
