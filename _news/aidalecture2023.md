@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Invited AIDA lecture on Generative Models&#58 Controllable Generation and Learning
+title: Invited talk at International AI Doctoral Academy (AIDA) on Generative Models&#58 Controllable Generation and Learning
 date: 2023-02-28 16:11:00-0400
 inline: false
 ---
-
 
 ## Abstract
 
