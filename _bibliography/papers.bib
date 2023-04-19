@@ -189,8 +189,10 @@
 }
 
 @inproceedings{DBLP:conf/ism/ApostolidisBMP22,
+  code={https://github.com/e-apostolidis/XAI-SUM},
   preview={empty.png},
   tags={video-understanding},
+  abstract={In this paper we propose a method for explaining video summarization. We start by formulating the problem as the creation of an explanation mask which indicates the parts of the video that influenced the most the estimates of a video summarization network, about the frames’ importance. Then, we explain how the typical analysis pipeline of attention-based networks for video summarization can be used to define explanation signals, and we examine various attention-based signals that have been studied as explanations in the NLP domain. We evaluate the performance of these signals by investigating the video summarization network’s input-output relationship according to different replacement functions, and utilizing measures that quantify the capability of explanations to spot the most and least influential parts of a video. We run experiments using an attention-based network (CA-SUM) and two datasets (SumMe and TVSum) for video summarization. Our evaluations indicate the advanced performance of explanations formed using the inherent attention weights, and demonstrate the ability of our method to explain the video summarization results using clues about the focus of the attention mechanism.},
   author    = {Evlampios E. Apostolidis and
                Georgios Balaouras and
                Vasileios Mezaris and
@@ -209,8 +211,10 @@
 }
 
 @inproceedings{DBLP:conf/mir/ApostolidisBMP22,
+  code={https://github.com/e-apostolidis/CA-SUM},
   preview={empty.png},
   tags={video-understanding},
+  abstract={In this work, we describe a new method for unsupervised video summarization. To overcome limitations of existing unsupervised video summarization approaches, that relate to the unstable training of Generator-Discriminator architectures, the use of RNNs for modeling long-range frames' dependencies and the ability to parallelize the training process of RNN-based network architectures, the developed method relies solely on the use of a self-attention mechanism to estimate the importance of video frames. Instead of simply modeling the frames' dependencies based on global attention, our method integrates a concentrated attention mechanism that is able to focus on non-overlapping blocks in the main diagonal of the attention matrix, and to enrich the existing information by extracting and exploiting knowledge about the uniqueness and diversity of the associated frames of the video. In this way, our method makes better estimates about the significance of different parts of the video, and drastically reduces the number of learnable parameters. Experimental evaluations using two benchmarking datasets (SumMe and TVSum) show the competitiveness of the proposed method against other state-of-the-art unsupervised summarization approaches, and demonstrate its ability to produce video summaries that are very close to the human preferences. An ablation study that focuses on the introduced components, namely the use of concentrated attention in combination with attention-based estimates about the frames' uniqueness and diversity, shows their relative contributions to the overall summarization performance.},
   author    = {Evlampios E. Apostolidis and
                Georgios Balaouras and
                Vasileios Mezaris and
@@ -262,6 +266,8 @@
   preview={empty.png},
   select_key={true},
   tags={video-understanding},
+  pdf={https://arxiv.org/pdf/2101.06072},
+  abstract={Video summarization technologies aim to create a concise and complete synopsis by selecting the most informative parts of the video content. Several approaches have been developed over the last couple of decades, and the current state of the art is represented by methods that rely on modern deep neural network architectures. This work focuses on the recent advances in the area and provides a comprehensive survey of the existing deep-learning-based methods for generic video summarization. After presenting the motivation behind the development of technologies for video summarization, we formulate the video summarization task and discuss the main characteristics of a typical deep-learning-based analysis pipeline. Then, we suggest a taxonomy of the existing algorithms and provide a systematic review of the relevant literature that shows the evolution of the deep-learning-based video summarization technologies and leads to suggestions for future developments. We then report on protocols for the objective evaluation of video summarization algorithms, and we compare the performance of several deep-learning-based approaches. Based on the outcomes of these comparisons, as well as some documented considerations about the amount of annotated data and the suitability of evaluation protocols, we indicate potential future research directions.},
   author    = {Evlampios E. Apostolidis and
                Eleni Adamantidou and
                Alexandros I. Metsai and
@@ -325,9 +331,11 @@
 }
 
 @article{DBLP:journals/tcsv/ApostolidisAMMP21,
+  code={https://github.com/e-apostolidis/AC-SUM-GAN},
   preview={empty.png},
   select_key={true},
   tags={video-understanding},
+  abstract={This paper presents a new method for unsupervised video summarization. The proposed architecture embeds an Actor-Critic model into a Generative Adversarial Network and formulates the selection of important video fragments (that will be used to form the summary) as a sequence generation task. The Actor and the Critic take part in a game that incrementally leads to the selection of the video key-fragments, and their choices at each step of the game result in a set of rewards from the Discriminator. The designed training workflow allows the Actor and Critic to discover a space of actions and automatically learn a policy for key-fragment selection. Moreover, the introduced criterion for choosing the best model after the training ends, enables the automatic selection of proper values for parameters of the training process that are not learned from the data (such as the regularization factor sigma). Experimental evaluation on two benchmark datasets (SumMe and TVSum) demonstrates that the proposed AC-SUM-GAN model performs consistently well and gives SoA results in comparison to unsupervised methods, that are also competitive with respect to supervised methods.},
   author    = {Evlampios E. Apostolidis and
                Eleni Adamantidou and
                Alexandros I. Metsai and
@@ -388,7 +396,9 @@
 }
 
 @inproceedings{DBLP:conf/ism/ApostolidisBMP21,
+  code={https://github.com/e-apostolidis/PGL-SUM},
   preview={empty.png},
+  abstract={This paper presents a new method for supervised video summarization. To overcome drawbacks of existing RNN-based summarization architectures, that relate to the modeling of long-range frames’ dependencies and the ability to parallelize the training process, the developed model re-lies on the use of self-attention mechanisms to estimate the importance of video frames. Contrary to previous attention-based summarization approaches that model the frames’ dependencies by observing the entire frame sequence, our method combines global and local multi-head attention mechanisms to discover different modelings of the frames’ dependencies at different levels of granularity. Moreover, the utilized attention mechanisms integrate a component that encodes the temporal position of video frames - this is of major importance when producing a video summary. Experiments on two datasets (SumMe and TVSum) demonstrate the effectiveness of the proposed model compared to existing attention-based methods, and its competitiveness against other state-of-the-art supervised summarization approaches. An ablation study that focuses on our main proposed components, namely the use of global and local multi-head attention mechanisms in collaboration with an absolute positional encoding component, shows their relative contributions to the overall summarization performance.},
   author    = {Evlampios E. Apostolidis and
                Georgios Balaouras and
                Vasileios Mezaris and
@@ -408,7 +418,9 @@
 }
 
 @inproceedings{DBLP:conf/mir/ApostolidisAMP21,
+  code={https://github.com/e-apostolidis/Video-Thumbnail-Selector},
   preview={empty.png},
+  abstract={This paper presents a new method for unsupervised video thumbnail selection. The developed network architecture selects video thumbnails based on two criteria: the representativeness and the aesthetic quality of their visual content. Training relies on a combination of adversarial and reinforcement learning. The former is used to train a discriminator, whose goal is to distinguish the original from a reconstructed version of the video based on a small set of candidate thumbnails. The discriminator's feedback is a measure of the representativeness of the selected thumbnails. This measure is combined with estimates about the aesthetic quality of the thumbnails (made using a SoA Fully Convolutional Network) to form a reward and train the thumbnail selector via reinforcement learning. Experiments on two datasets (OVP and Youtube) show the competitiveness of the proposed method against other SoA approaches. An ablation study with respect to the adopted thumbnail selection criteria documents the importance of considering the aesthetics, and the contribution of this information when used in combination with measures about the representativeness of the visual content.},
   author    = {Evlampios E. Apostolidis and
                Eleni Adamantidou and
                Vasileios Mezaris and
@@ -574,7 +586,9 @@ pages={6373-6382}
 }
 
 @inproceedings{DBLP:conf/mm/ApostolidisAMMP20,
+  code={https://github.com/e-apostolidis/PoR-Summarization-Measure},
   preview={empty.png},
+  abstract={This paper proposes a new evaluation approach for video summarization algorithms. We start by studying the currently established evaluation protocol; this protocol, defined over the ground-truth annotations of the SumMe and TVSum datasets, quantifies the agreement between the user-defined and the automatically-created summaries with F-Score, and reports the average performance on a few different training/testing splits of the used dataset. We evaluate five publicly-available summarization algorithms under a large-scale experimental setting with 50 randomly-created data splits. We show that the results reported in the papers are not always congruent with their performance on the large-scale experiment, and that the F-Score cannot be used for comparing algorithms evaluated on different splits. We also show that the above shortcomings of the established evaluation protocol are due to the significantly varying levels of difficulty among the utilized splits, that affect the outcomes of the evaluations. Further analysis of these findings indicates a noticeable performance correlation among all algorithms and a random summarizer. To mitigate these shortcomings we propose an evaluation protocol that makes estimates about the difficulty of each used data split and utilizes this information during the evaluation process. Experiments involving different evaluation settings demonstrate the increased representativeness of performance results when using the proposed evaluation approach, and the increased reliability of comparisons when the examined methods have been evaluated on different data splits.},
   author    = {Evlampios E. Apostolidis and
                Eleni Adamantidou and
                Alexandros I. Metsai and
@@ -602,9 +616,11 @@ pages={6373-6382}
 }
 
 @inproceedings{DBLP:conf/mmm/ApostolidisAMMP20,
+  code={https://github.com/e-apostolidis/SUM-GAN-AAE},
   preview={empty.png},
   select_key={true},
   tags={video-understanding},
+  abstract={This paper presents a new video summarization approach that integrates an attention mechanism to identify the significant parts of the video, and is trained unsupervisingly via generative adversarial learning. Starting from the SUM-GAN model, we first develop an improved version of it (called SUM-GAN-sl) that has a significantly reduced number of learned parameters, performs incremental training of the model’s components, and applies a stepwise label-based strategy for updating the adversarial part. Subsequently, we introduce an attention mechanism to SUM-GAN-sl in two ways: (i) by integrating an attention layer within the variational auto-encoder (VAE) of the architecture (SUM-GAN-VAAE), and (ii) by replacing the VAE with a deterministic attention auto-encoder (SUM-GAN-AAE). Experimental evaluation on two datasets (SumMe and TVSum) documents the contribution of the attention auto-encoder to faster and more stable training of the model, resulting in a significant performance improvement with respect to the original model and demonstrating the competitiveness of the proposed SUM-GAN-AAE against the state of the art.},
   author    = {Evlampios E. Apostolidis and
                Eleni Adamantidou and
                Alexandros I. Metsai and
@@ -849,7 +865,9 @@ pages={6373-6382}
 }
 
 @inproceedings{DBLP:conf/mm/ApostolidisMAMP19,
+  code={https://github.com/e-apostolidis/SUM-GAN-sl},
   preview={empty.png},
+  abstract={In this paper we present our work on improving the efficiency of adversarial training for unsupervised video summarization. Our starting point is the SUM-GAN model, which creates a representative summary based on the intuition that such a summary should make it possible to reconstruct a video that is indistinguishable from the original one. We build on a publicly available implementation of a variation of this model, that includes a linear compression layer to reduce the number of learned parameters and applies an incremental approach for training the different components of the architecture. After assessing the impact of these changes to the model's performance, we propose a stepwise, label-based learning process to improve the training efficiency of the adversarial part of the model. Before evaluating our model's efficiency, we perform a thorough study with respect to the used evaluation protocols and we examine the possible performance on two benchmarking datasets, namely SumMe and TVSum. Experimental evaluations and comparisons with the state of the art highlight the competitiveness of the proposed method. An ablation study indicates the benefit of each applied change on the model's performance, and points out the advantageous role of the introduced stepwise, label-based training strategy on the learning efficiency of the adversarial part of the architecture.},
   author    = {Evlampios E. Apostolidis and
                Alexandros I. Metsai and
                Eleni Adamantidou and
@@ -878,6 +896,7 @@ pages={6373-6382}
 
 @inproceedings{DBLP:conf/mmm/NixonAMPM19,
   preview={empty.png},
+  abstract={This paper describes the combination of advanced technologies for social-media-based story detection, story-based video retrieval and concept-based video (fragment) labeling under a novel approach for multimodal video annotation. This approach involves textual metadata, structural information and visual concepts - and a multimodal analytics dashboard that enables journalists to discover videos of news events, posted to social networks, in order to verify the details of the events shown. It outlines the characteristics of each individual method and describes how these techniques are blended to facilitate the content-based retrieval, discovery and summarization of (parts of) news videos. A set of case-driven experiments conducted with the help of journalists, indicate that the proposed multimodal video annotation mechanism - combined with a professional analytics dashboard which presents the collected and generated metadata about the news stories and their visual summaries - can support journalists in their content discovery and verification work.},
   author    = {Lyndon J. B. Nixon and
                Evlampios E. Apostolidis and
                Foteini Markatopoulou and
@@ -907,6 +926,7 @@ pages={6373-6382}
 
 @inproceedings{DBLP:conf/mmm/ZampoglouMMTAPC19,
   preview={empty.png},
+  abstract={User-Generated Content (UGC) has become an integral part of the news reporting cycle. As a result, the need to verify videos collected from social media and Web sources is becoming increasingly important for news organisations. While video verification is attracting a lot of attention, there has been limited effort so far in applying video forensics to real-world data. In this work we present an approach for automatic video manipulation detection inspired by manual verification approaches. In a typical manual verification setting, video filter outputs are visually interpreted by human experts. We use two such forensics filters designed for manual verification, one based on Discrete Cosine Transform (DCT) coefficients and a second based on video requantization errors, and combine them with Deep Convolutional Neural Networks (CNN) designed for image classification. We compare the performance of the proposed approach to other works from the state of the art, and discover that, while competing approaches perform better when trained with videos from the same dataset, one of the proposed filters demonstrates superior performance in cross-dataset settings. We discuss the implications of our work and the limitations of the current experimental setup, and propose directions for future research in this area.},
   author    = {Markos Zampoglou and
                Foteini Markatopoulou and
                Gr{\'{e}}goire Mercier and
@@ -974,6 +994,7 @@ pages={6373-6382}
 
 @incollection{DBLP:books/sp/19/ApostolidisAPM19,
   preview={empty.png},
+  abstract={This chapter is focused on methods and tools for video fragmentation and reverse search on the web. These technologies can assist journalists when they are dealing with fake news—which nowadays are being rapidly spread via social media platforms—that rely on the reuse of a previously posted video from a past event with the intention to mislead the viewers about a contemporary event. The fragmentation of a video into visually and temporally coherent parts and the extraction of a representative keyframe for each defined fragment enables the provision of a complete and concise keyframe-based summary of the video. Contrary to straightforward approaches that sample video frames with a constant step, the generated summary through video fragmentation and keyframe extraction is considerably more effective for discovering the video content and performing a fragment-level search for the video on the web. This chapter starts by explaining the nature and characteristics of this type of reuse-based fake news in its introductory part, and continues with an overview of existing approaches for temporal fragmentation of single-shot videos into sub-shots (the most appropriate level of temporal granularity when dealing with user-generated videos) and tools for performing reverse search of a video on the web. Subsequently, it describes two state-of-the-art methods for video sub-shot fragmentation—one relying on the assessment of the visual coherence over sequences of frames, and another one that is based on the identification of camera activity during the video recording—and presents the InVID web application that enables the fine-grained (at the fragment-level) reverse search for near-duplicates of a given video on the web. In the sequel, the chapter reports the findings of a series of experimental evaluations regarding the efficiency of the above-mentioned technologies, which indicate their competence to generate a concise and complete keyframe-based summary of the video content, and the use of this fragment-level representation for fine-grained reverse video search on the web. Finally, it draws conclusions about the effectiveness of the presented technologies and outlines our future plans for further advancing them.},
   author    = {Evlampios E. Apostolidis and
                Konstantinos Apostolidis and
                Ioannis Patras and
@@ -1018,6 +1039,7 @@ pages={6373-6382}
 
 @incollection{DBLP:books/sp/19/MarkatopoulouZAPMPK19,
   preview={empty.png},
+  abstract={Modern newsroom tools offer advanced functionality for automatic and semi-automatic content collection from the web and social media sources to accompany news stories. However, the content collected in this way often tends to be unstructured and may include irrelevant items. An important step in the verification process is to organize this content, both with respect to what it shows, and with respect to its origin. This chapter presents our efforts in this direction, which resulted in two components. One aims to detect semantic concepts in video shots, to help annotation and organization of content collections. We implement a system based on deep learning, featuring a number of advances and adaptations of existing algorithms to increase performance for the task. The other component aims to detect logos in videos in order to identify their provenance. We present our progress from a keypoint-based detection system to a system based on deep learning.},
   author    = {Foteini Markatopoulou and
                Markos Zampoglou and
                Evlampios E. Apostolidis and
@@ -1043,6 +1065,7 @@ pages={6373-6382}
 
 @incollection{DBLP:books/sp/19/MercierMCZAMPMPK19,
   preview={empty.png},
+  abstract={This chapter presents the techniques researched and developed within InVID for the forensic analysis of videos, and the detection and localization of forgeries within User-Generated Videos (UGVs). Following an overview of state-of-the-art video tampering detection techniques, we observed that the bulk of current research is mainly dedicated to frame-based tampering analysis or encoding-based inconsistency characterization. We built upon this existing research, by designing forensics filters aimed to highlight any traces left behind by video tampering, with a focus on identifying disruptions in the temporal aspects of a video. As for many other data analysis domains, deep neural networks show very promising results in tampering detection as well. Thus, following the development of a number of analysis filters aimed to help human users in highlighting inconsistencies in video content, we proceeded to develop a deep learning approach aimed to analyze the outputs of these forensics filters and automatically detect tampered videos. In this chapter, we present our survey of the state of the art with respect to its relevance to the goals of InVID, the forensics filters we developed and their potential role in localizing video forgeries, as well as our deep learning approach for automatic tampering detection. We present experimental results on benchmark and real-world data, and analyze the results. We observe that the proposed method yields promising results compared to the state of the art, especially with respect to the algorithm’s ability to generalize to unknown data taken from the real world. We conclude with the research directions that our work in InVID has opened for the future.},
   author    = {Gr{\'{e}}goire Mercier and
                Foteini Markatopoulou and
                Roger Cozien and
@@ -1442,6 +1465,7 @@ pages={6373-6382}
 
 @inproceedings{DBLP:conf/mir/CollydaAPMMP17,
   preview={empty.png},
+  abstract={This paper presents the VideoAnalysis4ALL tool that supports the automatic fragmentation and concept-based annotation of videos, and the exploration of the annotated video fragments through an interactive user interface. The developed web application decomposes the video into two different granularities, namely shots and scenes, and annotates each fragment by evaluating the existence of a number (several hundreds) of high-level visual concepts in the keyframes extracted from these fragments. Through the analysis the tool enables the identification and labeling of semantically coherent video fragments, while its user interfaces allow the discovery of these fragments with the help of human-interpretable concepts. The integrated state-of-the-art video analysis technologies perform very well and, by exploiting the processing capabilities of multi-thread / multi-core architectures, reduce the time required for analysis to approximately one third of the video's duration, thus making the analysis three times faster than real-time processing.},
   author    = {Chrysa Collyda and
                Evlampios E. Apostolidis and
                Alexandros Pournaras and
@@ -1844,6 +1868,7 @@ pages={6373-6382}
 
 @inproceedings{DBLP:conf/mmm/MoumtzidouMAMIG16,
   preview={empty.png},
+  abstract={This paper presents VERGE interactive search engine, which is capable of browsing and searching into video content. The system integrates content-based analysis and retrieval modules such as video shot segmentation, concept detection, clustering, as well as visual similarity and object-based search.},
   author    = {Anastasia Moumtzidou and
                Theodoros Mironidis and
                Evlampios E. Apostolidis and
@@ -2231,6 +2256,7 @@ pages={6373-6382}
 
 @inproceedings{DBLP:conf/mmm/MoumtzidouAAMAMVMKP15,
   preview={empty.png},
+  abstract={This paper presents VERGE interactive video retrieval engine, which is capable of searching into video content. The system integrates several content-based analysis and retrieval modules such as video shot boundary detection, concept detection, clustering and visual similarity search.},
   author    = {Anastasia Moumtzidou and
                Konstantinos Avgerinakis and
                Evlampios E. Apostolidis and
