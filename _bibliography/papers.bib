@@ -896,6 +896,7 @@ pages={6373-6382}
 
 @inproceedings{DBLP:conf/mmm/NixonAMPM19,
   preview={empty.png},
+  abstract={This paper describes the combination of advanced technologies for social-media-based story detection, story-based video retrieval and concept-based video (fragment) labeling under a novel approach for multimodal video annotation. This approach involves textual metadata, structural information and visual concepts - and a multimodal analytics dashboard that enables journalists to discover videos of news events, posted to social networks, in order to verify the details of the events shown. It outlines the characteristics of each individual method and describes how these techniques are blended to facilitate the content-based retrieval, discovery and summarization of (parts of) news videos. A set of case-driven experiments conducted with the help of journalists, indicate that the proposed multimodal video annotation mechanism - combined with a professional analytics dashboard which presents the collected and generated metadata about the news stories and their visual summaries - can support journalists in their content discovery and verification work.},
   author    = {Lyndon J. B. Nixon and
                Evlampios E. Apostolidis and
                Foteini Markatopoulou and
@@ -925,6 +926,7 @@ pages={6373-6382}
 
 @inproceedings{DBLP:conf/mmm/ZampoglouMMTAPC19,
   preview={empty.png},
+  abstract={User-Generated Content (UGC) has become an integral part of the news reporting cycle. As a result, the need to verify videos collected from social media and Web sources is becoming increasingly important for news organisations. While video verification is attracting a lot of attention, there has been limited effort so far in applying video forensics to real-world data. In this work we present an approach for automatic video manipulation detection inspired by manual verification approaches. In a typical manual verification setting, video filter outputs are visually interpreted by human experts. We use two such forensics filters designed for manual verification, one based on Discrete Cosine Transform (DCT) coefficients and a second based on video requantization errors, and combine them with Deep Convolutional Neural Networks (CNN) designed for image classification. We compare the performance of the proposed approach to other works from the state of the art, and discover that, while competing approaches perform better when trained with videos from the same dataset, one of the proposed filters demonstrates superior performance in cross-dataset settings. We discuss the implications of our work and the limitations of the current experimental setup, and propose directions for future research in this area.},
   author    = {Markos Zampoglou and
                Foteini Markatopoulou and
                Gr{\'{e}}goire Mercier and
@@ -992,6 +994,7 @@ pages={6373-6382}
 
 @incollection{DBLP:books/sp/19/ApostolidisAPM19,
   preview={empty.png},
+  abstract={This chapter is focused on methods and tools for video fragmentation and reverse search on the web. These technologies can assist journalists when they are dealing with fake news—which nowadays are being rapidly spread via social media platforms—that rely on the reuse of a previously posted video from a past event with the intention to mislead the viewers about a contemporary event. The fragmentation of a video into visually and temporally coherent parts and the extraction of a representative keyframe for each defined fragment enables the provision of a complete and concise keyframe-based summary of the video. Contrary to straightforward approaches that sample video frames with a constant step, the generated summary through video fragmentation and keyframe extraction is considerably more effective for discovering the video content and performing a fragment-level search for the video on the web. This chapter starts by explaining the nature and characteristics of this type of reuse-based fake news in its introductory part, and continues with an overview of existing approaches for temporal fragmentation of single-shot videos into sub-shots (the most appropriate level of temporal granularity when dealing with user-generated videos) and tools for performing reverse search of a video on the web. Subsequently, it describes two state-of-the-art methods for video sub-shot fragmentation—one relying on the assessment of the visual coherence over sequences of frames, and another one that is based on the identification of camera activity during the video recording—and presents the InVID web application that enables the fine-grained (at the fragment-level) reverse search for near-duplicates of a given video on the web. In the sequel, the chapter reports the findings of a series of experimental evaluations regarding the efficiency of the above-mentioned technologies, which indicate their competence to generate a concise and complete keyframe-based summary of the video content, and the use of this fragment-level representation for fine-grained reverse video search on the web. Finally, it draws conclusions about the effectiveness of the presented technologies and outlines our future plans for further advancing them.},
   author    = {Evlampios E. Apostolidis and
                Konstantinos Apostolidis and
                Ioannis Patras and
@@ -1036,6 +1039,7 @@ pages={6373-6382}
 
 @incollection{DBLP:books/sp/19/MarkatopoulouZAPMPK19,
   preview={empty.png},
+  abstract={Modern newsroom tools offer advanced functionality for automatic and semi-automatic content collection from the web and social media sources to accompany news stories. However, the content collected in this way often tends to be unstructured and may include irrelevant items. An important step in the verification process is to organize this content, both with respect to what it shows, and with respect to its origin. This chapter presents our efforts in this direction, which resulted in two components. One aims to detect semantic concepts in video shots, to help annotation and organization of content collections. We implement a system based on deep learning, featuring a number of advances and adaptations of existing algorithms to increase performance for the task. The other component aims to detect logos in videos in order to identify their provenance. We present our progress from a keypoint-based detection system to a system based on deep learning.},
   author    = {Foteini Markatopoulou and
                Markos Zampoglou and
                Evlampios E. Apostolidis and
@@ -1061,6 +1065,7 @@ pages={6373-6382}
 
 @incollection{DBLP:books/sp/19/MercierMCZAMPMPK19,
   preview={empty.png},
+  abstract={This chapter presents the techniques researched and developed within InVID for the forensic analysis of videos, and the detection and localization of forgeries within User-Generated Videos (UGVs). Following an overview of state-of-the-art video tampering detection techniques, we observed that the bulk of current research is mainly dedicated to frame-based tampering analysis or encoding-based inconsistency characterization. We built upon this existing research, by designing forensics filters aimed to highlight any traces left behind by video tampering, with a focus on identifying disruptions in the temporal aspects of a video. As for many other data analysis domains, deep neural networks show very promising results in tampering detection as well. Thus, following the development of a number of analysis filters aimed to help human users in highlighting inconsistencies in video content, we proceeded to develop a deep learning approach aimed to analyze the outputs of these forensics filters and automatically detect tampered videos. In this chapter, we present our survey of the state of the art with respect to its relevance to the goals of InVID, the forensics filters we developed and their potential role in localizing video forgeries, as well as our deep learning approach for automatic tampering detection. We present experimental results on benchmark and real-world data, and analyze the results. We observe that the proposed method yields promising results compared to the state of the art, especially with respect to the algorithm’s ability to generalize to unknown data taken from the real world. We conclude with the research directions that our work in InVID has opened for the future.},
   author    = {Gr{\'{e}}goire Mercier and
                Foteini Markatopoulou and
                Roger Cozien and
@@ -1460,6 +1465,7 @@ pages={6373-6382}
 
 @inproceedings{DBLP:conf/mir/CollydaAPMMP17,
   preview={empty.png},
+  abstract={This paper presents the VideoAnalysis4ALL tool that supports the automatic fragmentation and concept-based annotation of videos, and the exploration of the annotated video fragments through an interactive user interface. The developed web application decomposes the video into two different granularities, namely shots and scenes, and annotates each fragment by evaluating the existence of a number (several hundreds) of high-level visual concepts in the keyframes extracted from these fragments. Through the analysis the tool enables the identification and labeling of semantically coherent video fragments, while its user interfaces allow the discovery of these fragments with the help of human-interpretable concepts. The integrated state-of-the-art video analysis technologies perform very well and, by exploiting the processing capabilities of multi-thread / multi-core architectures, reduce the time required for analysis to approximately one third of the video's duration, thus making the analysis three times faster than real-time processing.},
   author    = {Chrysa Collyda and
                Evlampios E. Apostolidis and
                Alexandros Pournaras and
@@ -1862,6 +1868,7 @@ pages={6373-6382}
 
 @inproceedings{DBLP:conf/mmm/MoumtzidouMAMIG16,
   preview={empty.png},
+  abstract={This paper presents VERGE interactive search engine, which is capable of browsing and searching into video content. The system integrates content-based analysis and retrieval modules such as video shot segmentation, concept detection, clustering, as well as visual similarity and object-based search.},
   author    = {Anastasia Moumtzidou and
                Theodoros Mironidis and
                Evlampios E. Apostolidis and
@@ -2249,6 +2256,7 @@ pages={6373-6382}
 
 @inproceedings{DBLP:conf/mmm/MoumtzidouAAMAMVMKP15,
   preview={empty.png},
+  abstract={This paper presents VERGE interactive video retrieval engine, which is capable of searching into video content. The system integrates several content-based analysis and retrieval modules such as video shot boundary detection, concept detection, clustering and visual similarity search.},
   author    = {Anastasia Moumtzidou and
                Konstantinos Avgerinakis and
                Evlampios E. Apostolidis and
