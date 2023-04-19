@@ -29,7 +29,7 @@ My research is in the area of Human Centered Machine Learning, using Machine Lea
         <img class="card-img-top embed-responsive-item" src="{{ item.image }}" alt="Card image cap">
         </div>
         <div class="card-body card-body-25">
-          <h3 class="card-title">{{ item.title }}</h3>
+          <a href="#{{ item.tag }}"><h3 id="{{ item.tag }}" class="card-title">{{ item.title }}</h3></a>
           <p class="card-text">{{ item.desc }}</p>
           <strong>Key references:</strong>
             {% bibliography -f papers -q @*[select_key=true,tags={{ item.tag }}]* %}
