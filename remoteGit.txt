@@ -1,1 +1,1 @@
-git remote set-url origin git@github.com:ipatras/Computer-Vision-and-Human-Sensing-Lab/patras-website.git
+git remote set-url origin git@github.com:ipatras/Computer-Vision-and-Human-Sensing-Lab/cvhs-website.git
