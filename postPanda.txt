@@ -1,0 +1,15 @@
+Our paper "PandA: Unsupervised Learning of Parts and Appearances in the Feature Maps of GANs" (http://eecs.qmul.ac.uk/~jo001/PandA/), to be presented next week in Int'l Conf. Learning Representations (ICLR) (https://iclr.cc/), 2023.
+
+http://eecs.qmul.ac.uk/~jo001/PandA/
+
+Congratulations to James Oldfield, Christos Tzelepis, Yannis Panagakis, Mihalis A Nicolaou.
+
+More on our work on Generative Machine Learning can be found at our research pages (https://eecs.qmul.ac.uk/~ioannisp/research/#generation-and-learning)
+
+
+
+Neurotech event.
+
+
+
+Invited talk at International AI Doctoral Academy (AIDA) (https://www.i-aida.org/), AI Excellence Lecture Series, on "Generative Models: Controllable Generation and Learning" (https://www.i-aida.org/events/generative-models-controllable-generation-and-learning/). Video: https://youtu.be/K3vbW4_NMbg
