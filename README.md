@@ -1,12 +1,6 @@
 # cvhs site
 
-link: http://eecs.qmul.ac.uk/~jo001/cvhs-website/
-
-**note**: this has moved to the random URL above, because google was starting to index the site and appear in search results.
-
 ## making changes
-
-Please make changes in the `dev` branch, and then open a pull request via the github website to merge into the stable master branch, which will contain the live repo on frank.
 
 Note that, to edit just the website's text, you can also edit the text files via the GUI, and thus for basic changes it's not strictly necessary to use git manually at all.
 

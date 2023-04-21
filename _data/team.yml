@@ -48,7 +48,7 @@ phd_students:
     years: [2019-present]
     research: Deep Learning for affect estimation and mental illness severity estimation
     prev_affiliation: 
-    homepage: https://www.linkedin.com/in/niki-foteinopoulou-48aa3b45/
+    homepage: https://nickyfot.github.io/
     head_pic: ../assets/img/niki.jpg
   - name: Chen Feng
     years: [2019-present]
@@ -68,9 +68,9 @@ alumni:
   - name: Georgios Zoumpourlis
     research: Deep Learning for Brain Signal Analysis
     years: 2018-2022
-  - name: Lampis Apostolidis
-    research: Video Summarisation
-    years: 2017-2022
+  - name: Evlampios Apostolidis
+    research: Video Summarisation using Unsupervised Deep Learning
+    years: 2018-2022
   - name: Tingting Xie
     research: Action Localisation
     years: 2017-2021
