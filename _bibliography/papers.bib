@@ -28,6 +28,22 @@
     year      = {2023},
 }
 
+% === CVPRW'23::V2VS ===
+@inproceedings{Kordopatis2023s2vs,
+    selected     = {false},
+    title        = {Self-Supervised Video Similarity Learning},
+    author       = {Giorgos Kordopatis{-}Zilos and Giorgos Tolias and Christos Tzelepis and Ioannis Kompatsiaris and Ioannis Patras and Symeon Papadopoulos},
+    preview      = {v2vs.png},
+    bibtex_show  = {true},
+    pdf          = {https://arxiv.org/pdf/2304.03378.pdf},
+    code         = {https://github.com/gkordo/s2vs},
+    tags         = {video-understanding},
+    abstract     = {We introduce $S^2VS$, a video similarity learning approach with self-supervision. Self-Supervised Learning (SSL) is typically used to train deep models on a proxy task so as to have strong transferability on target tasks after fine-tuning. Here, in contrast to prior work, SSL is used to perform video similarity learning and address multiple retrieval and detection tasks at once with no use of labeled data. This is achieved by learning via instance-discrimination with task-tailored augmentations and the widely used InfoNCE loss together with an additional loss operating jointly on self-similarity and hard-negative similarity. We benchmark our method on tasks where video relevance is defined with varying granularity, ranging from video copies to videos depicting the same incident or event. We learn a single universal model that achieves state-of-the-art performance on all tasks, surpassing previously proposed methods that use labeled data.},
+    booktitle    = {IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshop (CVPRW)},
+    volume       = {},
+    year         = {2023},
+}
+
 @InProceedings{divclust2023cvpr,
     select_key={true},
     code={https://github.com/ManiadisG/DivClust},
@@ -57,82 +73,66 @@
   url={https://openreview.net/forum?id=iUdSB2kK9GY}
 }
 
-@inproceedings{DBLP:conf/fgr/BounareliTAPT23,
-  preview={style-mask.png},
-  tags={generation-and-learning},
-  code={https://github.com/StelaBou/StyleMask},
-  pdf={https://arxiv.org/pdf/2209.13375},
-  author    = {Stella Bounareli and
-               Christos Tzelepis and
-               Vasileios Argyriou and
-               Ioannis Patras and
-               Georgios Tzimiropoulos},
-  title     = {StyleMask: Disentangling the Style Space of StyleGAN2 for Neural Face
-               Reenactment},
-  booktitle = {17th {IEEE} International Conference on Automatic Face and Gesture
-               Recognition, {FG} 2023, Waikoloa Beach, HI, USA, January 5-8, 2023},
-  pages     = {1--8},
-  publisher = {{IEEE}},
-  year      = {2023},
-  url       = {https://doi.org/10.1109/FG57933.2023.10042744},
-  doi       = {10.1109/FG57933.2023.10042744},
-  timestamp = {Thu, 23 Feb 2023 17:35:10 +0100},
-  biburl    = {https://dblp.org/rec/conf/fgr/BounareliTAPT23.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+% === FG'23::StyleMask ===
+@inproceedings{bounareli2023stylemask,
+    selected     = {false},
+    title        = {StyleMask: Disentangling the Style Space of StyleGAN2 for Neural Face Reenactment},
+    author       = {Stella Bounareli and Christos Tzelepis and Vasileios Argyriou and Ioannis Patras and Georgios Tzimiropoulos},
+    preview      = {style-mask.png},
+    bibtex_show  = {true},
+    pdf          = {https://arxiv.org/pdf/2209.13375.pdf},
+    code         = {https://github.com/StelaBou/StyleMask},
+    tags         = {generation-and-learning},
+    abstract     = {In this paper we address the problem of neural face reenactment, where, given a pair of a source and a target facial image, we need to transfer the target's pose (defined as the head pose and its facial expressions) to the source image, by preserving at the same time the source's identity characteristics (e.g., facial shape, hair style, etc), even in the challenging case where the source and the target faces belong to different identities. In doing so, we address some of the limitations of the state-of-the-art works, namely, a) that they depend on paired training data (i.e., source and target faces have the same identity), b) that they rely on labeled data during inference, and c) that they do not preserve identity in large head pose changes. More specifically, we propose a framework that, using unpaired randomly generated facial images, learns to disentangle the identity characteristics of the face from its pose by incorporating the recently introduced style space S of StyleGAN2, a latent representation space that exhibits remarkable disentanglement properties. By capitalizing on this, we learn to successfully mix a pair of source and target style codes using supervision from a 3D model. The resulting latent code, that is subsequently used for reenactment, consists of latent units corresponding to the facial pose of the target only and of units corresponding to the identity of the source only, leading to notable improvement in the reenactment performance compared to recent state-of-the-art methods. In comparison to state of the art, we quantitatively and qualitatively show that the proposed method produces higher quality results even on extreme pose variations. Finally, we report results on real images by first embedding them on the latent space of the pretrained generator. We make the code and pretrained models publicly available}, 
+    booktitle    = {17th {IEEE} International Conference on Automatic Face and Gesture Recognition, {FG} 2023, Waikoloa Beach, HI, USA, January 5-8, 2023},
+    pages        = {1--8},
+    publisher    = {{IEEE}},
+    year         = {2023},
+    doi          = {10.1109/FG57933.2023.10042744},
 }
 
-@inproceedings{DBLP:conf/wsdm/YangTNPF23,
-  preview={empty.png},
-  tags={generation-and-learning},
-  author    = {Qi Yang and
-               Christos Tzelepis and
-               Sergey Nikolenko and
-               Ioannis Patras and
-               Aleksandr Farseev},
-  editor    = {Tat{-}Seng Chua and
-               Hady W. Lauw and
-               Luo Si and
-               Evimaria Terzi and
-               Panayiotis Tsaparas},
-  title     = {"Just To See You Smile": SMILEY, a Voice-Guided {GUY} {GAN}},
-  booktitle = {Proceedings of the Sixteenth {ACM} International Conference on Web
-               Search and Data Mining, {WSDM} 2023, Singapore, 27 February 2023 -
-               3 March 2023},
-  pages     = {1196--1199},
-  publisher = {{ACM}},
-  year      = {2023},
-  url       = {https://doi.org/10.1145/3539597.3573031},
-  doi       = {10.1145/3539597.3573031},
-  timestamp = {Sat, 11 Mar 2023 00:00:00 +0100},
-  biburl    = {https://dblp.org/rec/conf/wsdm/YangTNPF23.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+
+% === WSDM'23::SMILEY ===
+@inproceedings{yang2023smiley,
+    selected     = {false},
+    title        = {"Just To See You Smile": {SMILEY}, a Voice-Guided {GUY} {GAN}},
+    author       = {Qi Yang and Christos Tzelepis and Sergey Nikolenko and Ioannis Patras and Aleksandr Farseev},
+    preview      = {smiley.png},
+    bibtex_show  = {true},
+    pdf          = {https://dl.acm.org/doi/abs/10.1145/3539597.3573031},
+    code         = {},
+    tags         = {generation-and-learning},
+    abstract     = {In this technical demonstration, we present SMILEY, a voice-guided virtual assistant. The system utilizes a deep neural architecture ContraCLIP to manipulate facial attributes using voice instructions, allowing for deeper speaker engagement and smoother customer experience when being used in the "virtual concierge" scenario. We validate the effectiveness of SMILEY and ContraCLIP via a successful real-world case study in Singapore and a large-scale quantitative evaluation.},
+    booktitle    = {Proceedings of the Sixteenth {ACM} International Conference on Web Search and Data Mining, {WSDM} 2023, Singapore, 27 February 2023 - 3 March 2023},
+    editor       = {Tat{-}Seng Chua and Hady W. Lauw and Luo Si and Evimaria Terzi and Panayiotis Tsaparas},
+    pages        = {1196--1199},
+    publisher    = {{ACM}},
+    year         = {2023},
+    doi          = {10.1145/3539597.3573031}
 }
 
-@article{DBLP:journals/ijcv/Kordopatis-Zilos22,
-  preview={empty.png},
-  tags={video-understanding},
-  select_key={true},
-  author    = {Giorgos Kordopatis{-}Zilos and
-               Christos Tzelepis and
-               Symeon Papadopoulos and
-               Ioannis Kompatsiaris and
-               Ioannis Patras},
-  title     = {DnS: Distill-and-Select for Efficient and Accurate Video Indexing
-               and Retrieval},
-  journal   = {Int. J. Comput. Vis.},
-  volume    = {130},
-  number    = {10},
-  pages     = {2385--2407},
-  year      = {2022},
-  url       = {https://doi.org/10.1007/s11263-022-01651-3},
-  doi       = {10.1007/s11263-022-01651-3},
-  timestamp = {Mon, 24 Oct 2022 01:00:00 +0200},
-  biburl    = {https://dblp.org/rec/journals/ijcv/Kordopatis-Zilos22.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+% === IJCV'22::DnS ===
+@article{kordopatis2022dns,
+    selected     = {true},
+    title        = {{DnS}: Distill-and-Select for Efficient and Accurate Video Indexing and Retrieval},
+    author       = {Giorgos Kordopatis{-}Zilos and Christos Tzelepis and Symeon Papadopoulos and Ioannis Kompatsiaris and Ioannis Patras},
+    preview      = {dns.png},
+    bibtex_show  = {true},
+    pdf          = {https://link.springer.com/article/10.1007/s11263-022-01651-3},
+    code         = {https://github.com/mever-team/distill-and-select},
+    tags         = {video-understanding},
+    abstract     = {In this paper, we address the problem of high performance and computationally efficient content-based video retrieval in large-scale datasets. Current methods typically propose either: (i) fine-grained approaches employing spatio-temporal representations and similarity calculations, achieving high performance at a high computational cost or (ii) coarse-grained approaches representing/indexing videos as global vectors, where the spatio-temporal structure is lost, providing low performance but also having low computational cost. In this work, we propose a Knowledge Distillation framework, called Distill-and-Select (DnS), that starting from a well-performing fine-grained Teacher Network learns: a) Student Networks at different retrieval performance and computational efficiency trade-offs and b) a Selector Network that at test time rapidly directs samples to the appropriate student to maintain both high retrieval performance and high computational efficiency. We train several students with different architectures and arrive at different trade-offs of performance and efficiency, i.e., speed and storage requirements, including fine-grained students that store/index videos using binary representations. Importantly, the proposed scheme allows Knowledge Distillation in large, unlabelled datasets -- this leads to good students. We evaluate DnS on five public datasets on three different video retrieval tasks and demonstrate a) that our students achieve state-of-the-art performance in several cases and b) that the DnS framework provides an excellent trade-off between retrieval performance, computational speed, and storage space. In specific configurations, the proposed method achieves similar mAP with the teacher but is 20 times faster and requires 240 times less storage space. The collected dataset and implementation are publicly available at https://github.com/mever-team/distill-and-select.},
+    journal      = {International Journal of Computer Vision (IJCV)},
+    volume       = {130},
+    number       = {10},
+    pages        = {2385--2407},
+    year         = {2022},
+    url          = {https://doi.org/10.1007/s11263-022-01651-3},
+    doi          = {10.1007/s11263-022-01651-3},
 }
 
 @inproceedings{DBLP:conf/bci3/ZoumpourlisP22,
-  preview={empty.png},
+  preview={covmix.png},
   tags={affective-computing},
   author    = {Georgios Zoumpourlis and
                Ioannis Patras},
@@ -248,27 +248,27 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{DBLP:journals/corr/abs-2206-02104,
-  preview={empty.png},
-  tags={generation-and-learning},
-  select_key={true},
-  author    = {Christos Tzelepis and
-               James Oldfield and
-               Georgios Tzimiropoulos and
-               Ioannis Patras},
-  title     = {ContraCLIP: Interpretable {GAN} generation driven by pairs of contrasting
-               sentences},
-  journal   = {CoRR},
-  volume    = {abs/2206.02104},
-  year      = {2022},
-  url       = {https://doi.org/10.48550/arXiv.2206.02104},
-  doi       = {10.48550/arXiv.2206.02104},
-  eprinttype = {arXiv},
-  eprint    = {2206.02104},
-  timestamp = {Mon, 13 Jun 2022 01:00:00 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2206-02104.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+% === ArXiV'22::ContraCLIP ===
+@article{tzelepis2022contraclip,
+    title        = {{ContraCLIP}: Interpretable {GAN} generation driven by pairs of contrasting sentences},
+    author       = {Christos Tzelepis and James Oldfield and Georgios Tzimiropoulos and Ioannis Patras},
+    preview      = {contra-clip.png},
+    bibtex_show  = {true},
+    pdf          = {https://arxiv.org/pdf/2206.02104.pdf},
+    code         = {https://github.com/chi0tzp/ContraCLIP},
+    tags={generation-and-learning},
+    abstract     = {This work addresses the problem of discovering non-linear interpretable paths in the latent space of pre-trained GANs in a model-agnostic manner. In the proposed method, the discovery is driven by a set of pairs of natural language sentences with contrasting semantics, named \textit{semantic dipoles}, that serve as the ``limits'' of the interpretation that we require by the trainable latent paths to encode. By using the pre-trained CLIP encoder, the sentences are projected into the vision-language space, where they serve as dipoles, and where RBF-based warping functions define a set of non-linear directional paths, one for each semantic dipole, allowing in this way traversals from one semantic pole to the other. By defining an objective that discovers paths in the latent space of GANs that generate changes along the desired paths in the vision-language embedding space, we provide an intuitive way of controlling the underlying generative factors and address some of the limitations of the state-of-the-art works, namely, that a) they are typically tailored to specific GAN architectures (i.e., StyleGAN), b) they disregard the relative position of the manipulated and the original image in the image embedding and the relative position of the image and the text embeddings, and c) they lead to abrupt image manipulations and quickly arrive at regions of low density and, thus, low image quality, providing limited control of the generative factors. We provide extensive qualitative and quantitative results that demonstrate our claims with two pre-trained GANs, and make the code and the pre-trained models publicly available at: https://github.com/chi0tzp/ContraCLIP.},
+    journal      = {CoRR},
+    volume       = {abs/2206.02104},
+    year         = {2022},
+    url          = {https://doi.org/10.48550/arXiv.2206.02104},
+    doi          = {10.48550/arXiv.2206.02104},
+    eprinttype   = {arXiv},
+    eprint       = {2206.02104},
 }
+
+
+
 
 @article{DBLP:journals/pieee/ApostolidisAMMP21,
   preview={empty.png},
@@ -548,17 +548,23 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{Tzelepis2021WarpedGANSpaceFN,
-preview={wgs.png},
-select_key={true},
-code={https://github.com/chi0tzp/WarpedGANSpace},
-tags={generation-and-learning},
-title={WarpedGANSpace: Finding non-linear RBF paths in GAN latent space},
-author={Christos Tzelepis and Georgios Tzimiropoulos and I. Patras},
-journal={2021 IEEE/CVF International Conference on Computer Vision (ICCV)},
-year={2021},
-pages={6373-6382}
+% === ICCV'21::WarpedGANSpace ===
+@article{tzelepis2021warpedganspace,
+    selected     = {true},
+    title        = {{WarpedGANSpace}: Finding non-linear {RBF} paths in {GAN} latent space},
+    author       = {Christos Tzelepis and Georgios Tzimiropoulos and I. Patras},
+    preview      = {wgs.png},
+    bibtex_show  = {true},
+    pdf          = {https://openaccess.thecvf.com/content/ICCV2021/papers/Tzelepis_WarpedGANSpace_Finding_Non-Linear_RBF_Paths_in_GAN_Latent_Space_ICCV_2021_paper.pdf},
+    code         = {https://github.com/chi0tzp/WarpedGANSpace},
+    tags={generation-and-learning},
+    abstract     = {This work addresses the problem of discovering, in an unsupervised manner, interpretable paths in the latent space of pretrained GANs, so as to provide an intuitive and easy way of controlling the underlying generative factors. In doing so, it addresses some of the limitations of the state-of-the-art works, namely, a) that they discover directions that are independent of the latent code, i.e., paths that are linear, and b) that their evaluation relies either on visual inspection or on laborious human labeling. More specifically, we propose to learn non-linear warpings on the latent space, each one parametrized by a set of RBF-based latent space warping functions, and where each warping gives rise to a family of non-linear paths via the gradient of the function. Building on the work of Voynov and Babenko, that discovers linear paths, we optimize the trainable parameters of the set of RBFs, so as that images that are generated by codes along different paths, are easily distinguishable by a discriminator network. This leads to easily distinguishable image transformations, such as pose and facial expressions in facial images. We show that linear paths can be derived as a special case of our method, and show experimentally that non-linear paths in the latent space lead to steeper, more disentangled and interpretable changes in the image space than in state-of-the art methods, both qualitatively and quantitatively. We make the code and the pretrained models publicly available at https://github.com/chi0tzp/WarpedGANSpace.},
+    journal      = {2021 IEEE/CVF International Conference on Computer Vision (ICCV)},
+    year         = {2021},
+    pages        = {6373-6382}
 }
+
+
 
 @article{DBLP:journals/corr/abs-2111-11288,
   preview={empty.png},
