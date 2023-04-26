@@ -198,7 +198,7 @@
 
 @inproceedings{DBLP:conf/ism/ApostolidisBMP22,
   code={https://github.com/e-apostolidis/XAI-SUM},
-  preview={empty.png},
+  preview={ism-2022.png},
   tags={video-understanding},
   abstract={In this paper we propose a method for explaining video summarization. We start by formulating the problem as the creation of an explanation mask which indicates the parts of the video that influenced the most the estimates of a video summarization network, about the frames’ importance. Then, we explain how the typical analysis pipeline of attention-based networks for video summarization can be used to define explanation signals, and we examine various attention-based signals that have been studied as explanations in the NLP domain. We evaluate the performance of these signals by investigating the video summarization network’s input-output relationship according to different replacement functions, and utilizing measures that quantify the capability of explanations to spot the most and least influential parts of a video. We run experiments using an attention-based network (CA-SUM) and two datasets (SumMe and TVSum) for video summarization. Our evaluations indicate the advanced performance of explanations formed using the inherent attention weights, and demonstrate the ability of our method to explain the video summarization results using clues about the focus of the attention mechanism.},
   author    = {Evlampios E. Apostolidis and
@@ -220,7 +220,7 @@
 
 @inproceedings{DBLP:conf/mir/ApostolidisBMP22,
   code={https://github.com/e-apostolidis/CA-SUM},
-  preview={empty.png},
+  preview={icmr-2022.png},
   tags={video-understanding},
   abstract={In this work, we describe a new method for unsupervised video summarization. To overcome limitations of existing unsupervised video summarization approaches, that relate to the unstable training of Generator-Discriminator architectures, the use of RNNs for modeling long-range frames' dependencies and the ability to parallelize the training process of RNN-based network architectures, the developed method relies solely on the use of a self-attention mechanism to estimate the importance of video frames. Instead of simply modeling the frames' dependencies based on global attention, our method integrates a concentrated attention mechanism that is able to focus on non-overlapping blocks in the main diagonal of the attention matrix, and to enrich the existing information by extracting and exploiting knowledge about the uniqueness and diversity of the associated frames of the video. In this way, our method makes better estimates about the significance of different parts of the video, and drastically reduces the number of learnable parameters. Experimental evaluations using two benchmarking datasets (SumMe and TVSum) show the competitiveness of the proposed method against other state-of-the-art unsupervised summarization approaches, and demonstrate its ability to produce video summaries that are very close to the human preferences. An ablation study that focuses on the introduced components, namely the use of concentrated attention in combination with attention-based estimates about the frames' uniqueness and diversity, shows their relative contributions to the overall summarization performance.},
   author    = {Evlampios E. Apostolidis and
@@ -271,7 +271,7 @@
 
 
 @article{DBLP:journals/pieee/ApostolidisAMMP21,
-  preview={empty.png},
+  preview={sum-survey.png},
   select_key={true},
   tags={video-understanding},
   pdf={https://arxiv.org/pdf/2101.06072},
@@ -295,7 +295,7 @@
 }
 
 @article{DBLP:journals/taffco/CorreaASP21,
-  preview={empty.png},
+  preview={amigos.png},
   tags={affective-computing},
   select_key={true},
   author    = {Juan Abdon Miranda Correa and
@@ -319,14 +319,14 @@
 }
 
 @article{DBLP:journals/taffco/BishayPPP21,
-  preview={empty.png},
+  preview={schinet.png},
   tags={affective-computing},
   select_key={true},
   author    = {Mina Bishay and
                Petar Palasek and
                Stefan Priebe and
                Ioannis Patras},
-  title     = {SchiNet: Automatic Estimation of Symptoms of Schizophrenia from Facial
+  title     = {{SchiNet}: Automatic Estimation of Symptoms of Schizophrenia from Facial
                Behaviour Analysis},
   journal   = {{IEEE} Trans. Affect. Comput.},
   volume    = {12},
@@ -344,7 +344,7 @@
 
 @article{DBLP:journals/tcsv/ApostolidisAMMP21,
   code={https://github.com/e-apostolidis/AC-SUM-GAN},
-  preview={empty.png},
+  preview={ac-sum-gan.png},
   select_key={true},
   tags={video-understanding},
   abstract={This paper presents a new method for unsupervised video summarization. The proposed architecture embeds an Actor-Critic model into a Generative Adversarial Network and formulates the selection of important video fragments (that will be used to form the summary) as a sequence generation task. The Actor and the Critic take part in a game that incrementally leads to the selection of the video key-fragments, and their choices at each step of the game result in a set of rewards from the Discriminator. The designed training workflow allows the Actor and Critic to discover a space of actions and automatically learn a policy for key-fragment selection. Moreover, the introduced criterion for choosing the best model after the training ends, enables the automatic selection of proper values for parameters of the training process that are not learned from the data (such as the regularization factor sigma). Experimental evaluation on two benchmark datasets (SumMe and TVSum) demonstrates that the proposed AC-SUM-GAN model performs consistently well and gives SoA results in comparison to unsupervised methods, that are also competitive with respect to supervised methods.},
@@ -368,7 +368,7 @@
 }
 
 @inproceedings{DBLP:conf/acii/ZoumpourlisP21,
-  preview={empty.png},
+  preview={pairwise-ranking.png},
   select_key={true},
   tags={affective-computing},
   author    = {Georgios Zoumpourlis and
@@ -411,8 +411,9 @@
 }
 
 @inproceedings{DBLP:conf/ism/ApostolidisBMP21,
+  tags={video-understanding},
   code={https://github.com/e-apostolidis/PGL-SUM},
-  preview={empty.png},
+  preview={ism-2021.png},
   abstract={This paper presents a new method for supervised video summarization. To overcome drawbacks of existing RNN-based summarization architectures, that relate to the modeling of long-range frames’ dependencies and the ability to parallelize the training process, the developed model re-lies on the use of self-attention mechanisms to estimate the importance of video frames. Contrary to previous attention-based summarization approaches that model the frames’ dependencies by observing the entire frame sequence, our method combines global and local multi-head attention mechanisms to discover different modelings of the frames’ dependencies at different levels of granularity. Moreover, the utilized attention mechanisms integrate a component that encodes the temporal position of video frames - this is of major importance when producing a video summary. Experiments on two datasets (SumMe and TVSum) demonstrate the effectiveness of the proposed model compared to existing attention-based methods, and its competitiveness against other state-of-the-art supervised summarization approaches. An ablation study that focuses on our main proposed components, namely the use of global and local multi-head attention mechanisms in collaboration with an absolute positional encoding component, shows their relative contributions to the overall summarization performance.},
   author    = {Evlampios E. Apostolidis and
                Georgios Balaouras and
@@ -433,8 +434,9 @@
 }
 
 @inproceedings{DBLP:conf/mir/ApostolidisAMP21,
+  tags={video-understanding},
   code={https://github.com/e-apostolidis/Video-Thumbnail-Selector},
-  preview={empty.png},
+  preview={thumbnail-sel.png},
   abstract={This paper presents a new method for unsupervised video thumbnail selection. The developed network architecture selects video thumbnails based on two criteria: the representativeness and the aesthetic quality of their visual content. Training relies on a combination of adversarial and reinforcement learning. The former is used to train a discriminator, whose goal is to distinguish the original from a reconstructed version of the video based on a small set of candidate thumbnails. The discriminator's feedback is a measure of the representativeness of the selected thumbnails. This measure is combined with estimates about the aesthetic quality of the thumbnails (made using a SoA Fully Convolutional Network) to form a reward and train the thumbnail selector via reinforcement learning. Experiments on two datasets (OVP and Youtube) show the competitiveness of the proposed method against other SoA approaches. An ablation study with respect to the adopted thumbnail selection criteria documents the importance of considering the aesthetics, and the contribution of this information when used in combination with measures about the representativeness of the visual content.},
   author    = {Evlampios E. Apostolidis and
                Eleni Adamantidou and
@@ -461,7 +463,7 @@
 }
 
 @inproceedings{DBLP:conf/mir/XieTFP21,
-  preview={empty.png},
+  preview={few-icmr-21.png},
   author    = {Ting{-}Ting Xie and
                Christos Tzelepis and
                Fan Fu and
@@ -531,22 +533,24 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{DBLP:journals/corr/abs-2102-06064,
-  preview={empty.png},
-  author    = {Christos Tzelepis and
-               Ioannis Patras},
-  title     = {Uncertainty Propagation in Convolutional Neural Networks: Technical
-               Report},
-  journal   = {CoRR},
-  volume    = {abs/2102.06064},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2102.06064},
-  eprinttype = {arXiv},
-  eprint    = {2102.06064},
-  timestamp = {Thu, 18 Feb 2021 00:00:00 +0100},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2102-06064.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+
+% === TechnicalReport::UncertaintyPropagation ===
+@article{tzelepis2021uncprop,
+    title        = {Uncertainty Propagation in Convolutional Neural Networks: Technical Report},
+    author       = {Christos Tzelepis and Ioannis Patras},
+    preview      = {uncertainty-prop.png},
+    bibtex_show  = {true},
+    pdf          = {https://arxiv.org/pdf/2102.06064.pdf},
+    code         = {https://github.com/chi0tzp/UncPropCNN},
+    abstract     = {In this technical report we study the problem of propagation of uncertainty (in terms of variances of given uni-variate normal random variables) through typical building blocks of a Convolutional Neural Network (CNN). These include layers that perform linear operations, such as 2D convolutions, fully-connected, and average pooling layers, as well as layers that act non-linearly on their input, such as the Rectified Linear Unit (ReLU). Finally, we discuss the sigmoid function, for which we give approximations of its first- and second-order moments, as well as the binary cross-entropy loss function, for which we approximate its expected value under normal random inputs. A PyTorch implementation of the presented ``uncertainty-aware'' layers is available under the MIT license here: https://github.com/chi0tzp/UncPropCNN.},
+    journal      = {CoRR},
+    volume       = {abs/2102.06064},
+    year         = {2021},
+    url          = {https://arxiv.org/abs/2102.06064},
+    eprinttype   = {arXiv},
+    eprint       = {2102.06064}
 }
+
 
 % === ICCV'21::WarpedGANSpace ===
 @article{tzelepis2021warpedganspace,
@@ -856,16 +860,13 @@
 }
 
 @inproceedings{DBLP:conf/iccv/Kordopatis-Zilos19,
-  preview={empty.png},
+  preview={visil.png},
   select_key={true},
   tags={video-understanding},
-  author    = {Giorgos Kordopatis{-}Zilos and
-               Symeon Papadopoulos and
-               Ioannis Patras and
-               Yiannis Kompatsiaris},
-  title     = {ViSiL: Fine-Grained Spatio-Temporal Video Similarity Learning},
-  booktitle = {2019 {IEEE/CVF} International Conference on Computer Vision, {ICCV}
-               2019, Seoul, Korea (South), October 27 - November 2, 2019},
+  author    = {Giorgos Kordopatis{-}Zilos and Symeon Papadopoulos and Ioannis Patras and Yiannis Kompatsiaris},
+  title     = {{ViSiL}: Fine-Grained Spatio-Temporal Video Similarity Learning},
+  code      = {https://github.com/MKLab-ITI/visil}, 
+  booktitle = {2019 {IEEE/CVF} International Conference on Computer Vision, {ICCV} 2019, Seoul, Korea (South), October 27 - November 2, 2019},
   pages     = {6350--6359},
   publisher = {{IEEE}},
   year      = {2019},
@@ -4245,29 +4246,24 @@
 	pages = {80--89}
 }
 
-@inproceedings{foteinopoulou_estimating_2021,
-  tags={affective-computing},
-  preview={empty.png},
-  select_key={true},
-  website={https://ieeexplore.ieee.org/document/9597425/},
-  pdf={https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/75041/Foteinopoulou%20Estimating%20continuous%20affect%202021%20Accepted.pdf?sequence=10},
-  address = {Nara, Japan},
-	title = {Estimating continuous affect with label uncertainty},
-	copyright = {All rights reserved},
-	isbn = {978-1-66540-019-0},
-	url = {https://ieeexplore.ieee.org/document/9597425/},
-	doi = {10.1109/ACII52823.2021.9597425},
-	urldate = {2022-08-15},
-	booktitle = {2021 9th {International} {Conference} on {Affective} {Computing} and {Intelligent} {Interaction} ({ACII})},
-	publisher = {IEEE},
-	author = {
-    Foteinopoulou, Niki Maria and 
-    Tzelepis, Christos and 
-    Patras, Ioannis
-    },
-	month = sep,
-	year = {2021},
-	pages = {1--8}
+% === ACII'22::
+@inproceedings{foteinopoulou2022acii,
+    title        = {Estimating continuous affect with label uncertainty},
+    author       = {Niki Maria Foteinopoulou and Christos Tzelepis and Ioannis Patras},
+    preview      = {affect-uncertainty.png},
+    bibtex_show  = {true},
+    pdf          = {https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/75041/Foteinopoulou%20Estimating%20continuous%20affect%202021%20Accepted.pdf?sequence=10},
+    code         = {},
+    tags={affective-computing},
+    abstract     = {Continuous affect estimation is a problem where there is an inherent uncertainty and subjectivity in the labels that accompany data samples -- typically, datasets use the average of multiple annotations or self-reporting to obtain ground truth labels. In this work, we propose a method for uncertainty-aware continuous affect estimation, that models explicitly the uncertainty of the ground truth label as a uni-variate Gaussian with mean equal to the ground truth label, and unknown variance. For each sample, the proposed neural network, estimates not only the value of the target label (valence and arousal in our case), but also the variance. The network is trained with a loss that is defined as the KL-divergence between the estimation (valence/arousal) and the Gaussian around the ground truth. We show, that in two affect recognition problems, with real data, the estimated variances are correlated with measures of uncertainty/error in the labels that are extracted either by considering multiple annotations of the data, or by manually cleaning the dataset.},
+    booktitle    = {9th International Conference on Affective Computing and Intelligent Interaction, {ACII} 2021, Nara, Japan, September 28 - Oct. 1, 2021},
+    pages        = {1--8},
+    publisher    = {{IEEE}},
+    year         = {2021},
+    url          = {https://doi.org/10.1109/ACII52823.2021.9597425},
+    doi          = {10.1109/ACII52823.2021.9597425},
 }
+
+
 
 
