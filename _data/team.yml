@@ -27,10 +27,10 @@ phd_students:
   members:
   - name: Zengqun Zhao
     years: [2022-present]
-    research: Visual-language models for human behaviour analysis
+    research: Human behaviour understanding, visual-language models
     prev_affiliation: Nanjing University of Information Science & Technology
-    homepage: https://zengqunzhao.github.io/
-    head_pic: https://zengqunzhao.github.io/img/profile.jpg
+    homepage: http://www.eecs.qmul.ac.uk/~zz012
+    head_pic: http://www.eecs.qmul.ac.uk/~zz012/img/profile.jpg
   - name: James Oldfield
     years: [2021-present]
     research: Controllable and interpretable generative models
