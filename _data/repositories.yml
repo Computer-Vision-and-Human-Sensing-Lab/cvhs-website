@@ -1,7 +1,8 @@
 github_repos:
+  - StelaBou/HyperReenact
   - chi0tzp/FALCO
-  - chi0tzp/ContraCLIP
   - james-oldfield/panda
+  - chi0tzp/ContraCLIP
   - MrChenFeng/SSR-An-Efficient-and-Robust-Framework-for-Learning-with-Unknown-Label-Noise_BMVC2022
   - MrChenFeng/Adaptive-Soft-Contrastive-Learning_ICPR2022
   - chi0tzp/WarpedGANSpace
