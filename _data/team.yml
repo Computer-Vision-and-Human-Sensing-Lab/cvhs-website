@@ -15,14 +15,23 @@ collaborators:
     affiliation: The Cyprus Institute
     homepage: http://mihalisan.cyi.ac.cy/
     head_pic: https://ibug.doc.ic.ac.uk/media/uploads/images/people/20110131-untitled-4-edit-3_portrait.jpg
-postdocs:
-  members:
   - name: Christos Tzelepis
-    years: [2018-present]
-    research: Generative models; Vision and Language; Learning with uncertainty
-    prev_affiliation: 
+    research: # Generative models; Vision and Language; Learning with uncertainty
+    affiliation: City, University of London
     homepage: https://chi0tzp.github.io/
     head_pic: https://chi0tzp.github.io/assets/img/prof_pic.png
+
+
+# *** Christos: I removed my entry from postdocs but I keep this here for future entries ***
+# postdocs:
+#   members:
+#   - name: Christos Tzelepis
+#     years: [2018-present]
+#     research: Generative models; Vision and Language; Learning with uncertainty
+#     prev_affiliation:
+#     homepage: https://chi0tzp.github.io/
+#     head_pic: https://chi0tzp.github.io/assets/img/prof_pic.png
+
 phd_students:
   members:
   - name: Zengqun Zhao
@@ -95,8 +104,8 @@ alumni:
     research: Deep Multitask learning for Concept detection in video
     years: 2014-2018
   - name: Christos Tzelepis
-    research: Video event detection
-    years: 2013-2018
+    research: Maximum Margin Learning Under Uncertainty
+    years: 2014-2018
   - name: Juan Abdon Miranda Correa
     research: EEG-based Affect Recognition
     years: 2013-2018
