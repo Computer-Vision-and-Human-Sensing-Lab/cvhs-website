@@ -49,6 +49,16 @@
     doi          = {},
 }
 
+@article{simdetr2023preprint,
+  select_key={true},
+  tags={learning-from-few-samples},
+  preview={simdetr.png},
+  pdf={https://arxiv.org/abs/2307.15697},
+  abstract={DETR-based object detectors have achieved remarkable performance but are sample-inefficient and exhibit slow convergence. Unsupervised pretraining has been found to be helpful to alleviate these impediments, allowing training with large amounts of unlabeled data to improve the detector's performance. However, existing methods have their own limitations, like keeping the detector's backbone frozen in order to avoid performance degradation and utilizing pretraining objectives misaligned with the downstream task. To overcome these limitations, we propose a simple pretraining framework for DETR-based detectors that consists of three simple yet key ingredients: (i) richer, semantics-based initial proposals derived from high-level feature maps, (ii) discriminative training using object pseudo-labels produced via clustering, (iii) self-training to take advantage of the improved object proposals learned by the detector. We report two main findings: (1) Our pretraining outperforms prior DETR pretraining works on both the full and low data regimes by significant margins. (2) We show we can pretrain DETR from scratch (including the backbone) directly on complex image datasets like COCO, paving the path for unsupervised representation learning directly using DETR.},
+  author={Metaxas, Ioannis Maniadis and Bulat, Adrian and Patras, Ioannis and Martinez, Brais and Tzimiropoulos, Georgios},
+  title={SimDETR: Simplifying self-supervised pretraining for DETR},
+  year={2023}
+}
 
 @InProceedings{maskcon2023cvpr,
     code={https://github.com/MrChenFeng/MaskCon_CVPR2023},
