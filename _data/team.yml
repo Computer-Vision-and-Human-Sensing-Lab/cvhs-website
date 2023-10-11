@@ -34,7 +34,7 @@ collaborators:
 
 phd_students:
   members:
-    - name: Zhaohan Zhang
+  - name: Zhaohan Zhang
     years: [2023-present]
     research: Visual-Language Models
     prev_affiliation: Xi'an Jiaotong University
