@@ -34,6 +34,12 @@ collaborators:
 
 phd_students:
   members:
+    - name: Zhaohan Zhang
+    years: [2023-present]
+    research: Visual-Language Models
+    prev_affiliation: Xi'an Jiaotong University
+    homepage: http://www.eecs.qmul.ac.uk/~zz617
+    head_pic: ../assets/img/zzh.JPG
   - name: Zengqun Zhao
     years: [2022-present]
     research: Human behaviour understanding, visual-language models
