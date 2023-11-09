@@ -35,7 +35,7 @@ nav_order: 1
   </div>
 </div>
 <div data-parent="#pubFilter" class="collapse" id="multimodalFilter">
-  <h2>Multimodal ML (Vision and Language)</h2>
+  <h2>Multimodal Machine Learning (Vision and Language)</h2>
   <div class="card card-body">
     {%- for y in page.years %}
       <h2 class="year">{{y}}</h2>
