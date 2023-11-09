@@ -1,8 +1,49 @@
+@InProceedings{xenos2023baseline,
+    title={A Simple Baseline for Knowledge-Based Visual Question Answering},
+    abstract={This paper is on the problem of Knowledge-Based Visual Question Answering (KB-VQA). Recent works have emphasized the significance of incorporating both explicit (through external databases) and implicit (through LLMs) knowledge to answer questions requiring external knowledge effectively. A common limitation of such approaches is that they consist of relatively complicated pipelines and often heavily rely on accessing GPT-3 API. Our main contribution in this paper is to propose a much simpler and readily reproducible pipeline which, in a nutshell, is based on efficient in-context learning by prompting LLaMA (1 and 2) using question-informative captions as contextual information. Contrary to recent approaches, our method is training-free, does not require access to external databases or APIs, and yet achieves state-of-the-art accuracy on the OK-VQA and A-OK-VQA datasets. Finally, we perform several ablation studies to understand important aspects of our method. Our code is publicly available at https://github.com/alexandrosXe/A-Simple-Baseline-For-Knowledge-Based-VQA.},
+    author = {Xenos, Alexandros and Stafylakis, Themos and Patras, Ioannis and Tzimiropoulos, Georgios},
+    booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+    code={https://github.com/alexandrosXe/A-Simple-Baseline-For-Knowledge-Based-VQA},
+    year = {2023},
+    tags={multimodal-ml},
+    preview={simple-vqa-baseline.png},
+    pdf={https://arxiv.org/pdf/2310.13570.pdf},
+    select_key={true},
+}
+
+@InProceedings{dinc2023improving,
+    title={Improving Fairness using Vision-Language Driven Image Augmentation},
+    code={https://github.com/Moreno98/Vision-Language-Bias-Control},
+    select_key={true},
+    tags={generation-and-learning,multimodal-ml},
+    preview={vl-bias.png},
+    abstract={Fairness is crucial when training a deep-learning discriminative model, especially in the facial domain. Models tend to correlate specific characteristics (such as age and skin color) with unrelated attributes (downstream tasks), resulting in biases which do not correspond to reality. It is common knowledge that these correlations are present in the data and are then transferred to the models during training. This paper proposes a method to mitigate these correlations to improve fairness. To do so, we learn interpretable and meaningful paths lying in the semantic space of a pre-trained diffusion model (DiffAE) -- such paths being supervised by contrastive text dipoles. That is, we learn to edit protected characteristics (age and skin color). These paths are then applied to augment images to improve the fairness of a given dataset. We test the proposed method on CelebA-HQ and UTKFace on several downstream tasks with age and skin color as protected characteristics. As a proxy for fairness, we compute the difference in accuracy with respect to the protected characteristics. Quantitative results show how the augmented images help the model improve the overall accuracy, the aforementioned metric, and the disparity of equal opportunity.},
+    author={Moreno D'Incà and Christos Tzelepis and Ioannis Patras and Nicu Sebe},
+    pdf={https://arxiv.org/pdf/2311.01573.pdf},
+    year={2024},
+    booktitle={IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+}
+
+
+@article{foteinopoulou_emoclip_2023,
+  select_key={true},
+  tags={multimodal-ml},
+  preview={emo-clip.png},
+  title = {{EmoCLIP}: {A} {Vision}-{Language} {Method} for {Zero}-{Shot} {Video} {Facial} {Expression} {Recognition}},
+  abstract={Facial Expression Recognition (FER) is a crucial task in affective computing, but its conventional focus on the seven basic emotions limits its applicability to the complex and expanding emotional spectrum. To address the issue of new and unseen emotions present in dynamic inthe-wild FER, we propose a novel vision-language model that utilises sample-level text descriptions (i.e. captions of the context, expressions or emotional cues) as natural language supervision, aiming to enhance the learning of rich latent representations, for zero-shot classification. To test this, we evaluate using zero-shot classification of the model trained on sample-level descriptions on four popular dynamic FER datasets. Our findings show that this approach yields significant improvements when compared to baseline methods. Specifically, for zero-shot video FER, we outperform CLIP by over 10% in terms of Weighted Average Recall and 5% in terms of Unweighted Average Recall on several datasets. Furthermore, we evaluate the representations obtained from the network trained using sample-level descriptions on the downstream task of mental health symptom estimation, achieving performance comparable or superior to state-of-the-art methods and strong agreement with human experts. Namely, we achieve a Pearson’s Correlation Coefficient of up to 0.85 on schizophrenia symptom severity estimation, which is comparable to human experts’ agreement. The code is publicly available on: https://github.com/NickyFot/EmoCLIP.},
+  doi = {10.48550/arXiv.2310.16640},
+  journal      = {ArXiv},
+  author = {Foteinopoulou, Niki Maria and Patras, Ioannis},
+  pdf={https://arxiv.org/pdf/2310.16640.pdf},
+  code = {https://github.com/NickyFot/EmoCLIP},
+  year = {2023},
+}
+
 % === NeurIPS'23: PoS ===
 @InProceedings{oldfield2023part,
   code={https://github.com/james-oldfield/PoS-subspaces},
   select_key={true},
-  tags={generation-and-learning},
+  tags={generation-and-learning,multimodal-ml},
   preview={pos.png},
   website={http://eecs.qmul.ac.uk/&#126;jo001/PoS-subspaces/},
   abstract={Latent image representations arising from vision-language models have proved immensely useful for a variety of downstream tasks. However, their utility is limited by their entanglement with respect to different visual attributes. For instance, recent work has shown that CLIP image representations are often biased toward specific visual properties (such as objects or actions) in an unpredictable manner. In this paper, we propose to separate representations of the different visual modalities in CLIP’s joint vision-language space by leveraging the association between parts of speech and specific visual modes of variation (e.g. nouns relate to objects, adjectives describe appearance). This is achieved by formulating an appropriate component analysis model that learns subspaces capturing variability corresponding to a specific part of speech, while jointly minimising variability to the rest. Such a subspace yields disentangled representations of the different visual properties of an image or text in closed form while respecting the underlying geometry of the manifold on which the representations lie. What’s more, we show the proposed model additionally facilitates learning subspaces corresponding to specific visual appearances (e.g. artists’ painting styles), which enables the selective removal of entire visual themes from CLIP-based text-to-image synthesis. We validate the model both qualitatively, by visualising the subspace projections with a text-to-image model and by preventing the imitation of artists’ styles, and quantitatively, through class invariance metrics and improvements to baseline zero-shot classification.},
@@ -32,7 +73,7 @@
 @InProceedings{zhao2023dferclip,
     code={https://github.com/zengqunzhao/DFER-CLIP},
     select_key={true},
-    tags={affective-computing},
+    tags={affective-computing,multimodal-ml},
     preview={dferclip.png},
     pdf={https://arxiv.org/abs/2308.13382},
     abstract={This paper presents a novel visual-language model called DFER-CLIP, which is based on the CLIP model and designed for in-the-wild Dynamic Facial Expression Recognition (DFER). Specifically, the proposed DFER-CLIP consists of a visual part and a textual part. For the visual part, based on the CLIP image encoder, a temporal model consisting of several Transformer encoders is introduced for extracting temporal facial expression features, and the final feature embedding is obtained as a learnable "class" token. For the textual part, we use as inputs textual descriptions of the facial behaviour that is related to the classes (facial expressions) that we are interested in recognising -- those descriptions are generated using large language models, like ChatGPT. This, in contrast to works that use only the class names and more accurately captures the relationship between them. Alongside the textual description, we introduce a learnable token which helps the model learn relevant context information for each expression during training. Extensive experiments demonstrate the effectiveness of the proposed method and show that our DFER-CLIP also achieves state-of-the-art results compared with the current supervised DFER methods on the DFEW, FERV39k, and MAFW benchmarks.},
@@ -46,7 +87,8 @@
 
 % === ICCV'23::HyperReenact ===
 @article{bounareli2023iccv,
-    selected     = {true},
+    select_key     = {true},
+    tags           = {generation-and-learning},
     title        = {{HyperReenact}: One-Shot Reenactment via Jointly Learning to Refine and Retarget Faces},
     author       = {Stella Bounareli and Christos Tzelepis and Vasileios Argyriou and Ioannis Patras and Georgios Tzimiropoulos},
     preview      = {hyperreenact.png},
@@ -329,11 +371,12 @@
     author       = {Christos Tzelepis and James Oldfield and Georgios Tzimiropoulos and Ioannis Patras},
     preview      = {contra-clip.png},
     bibtex_show  = {true},
+    select_key   = {true},
     pdf          = {https://arxiv.org/pdf/2206.02104.pdf},
     code         = {https://github.com/chi0tzp/ContraCLIP},
-    tags={generation-and-learning},
+    tags={generation-and-learning,multimodal-ml},
     abstract     = {This work addresses the problem of discovering non-linear interpretable paths in the latent space of pre-trained GANs in a model-agnostic manner. In the proposed method, the discovery is driven by a set of pairs of natural language sentences with contrasting semantics, named \textit{semantic dipoles}, that serve as the ``limits'' of the interpretation that we require by the trainable latent paths to encode. By using the pre-trained CLIP encoder, the sentences are projected into the vision-language space, where they serve as dipoles, and where RBF-based warping functions define a set of non-linear directional paths, one for each semantic dipole, allowing in this way traversals from one semantic pole to the other. By defining an objective that discovers paths in the latent space of GANs that generate changes along the desired paths in the vision-language embedding space, we provide an intuitive way of controlling the underlying generative factors and address some of the limitations of the state-of-the-art works, namely, that a) they are typically tailored to specific GAN architectures (i.e., StyleGAN), b) they disregard the relative position of the manipulated and the original image in the image embedding and the relative position of the image and the text embeddings, and c) they lead to abrupt image manipulations and quickly arrive at regions of low density and, thus, low image quality, providing limited control of the generative factors. We provide extensive qualitative and quantitative results that demonstrate our claims with two pre-trained GANs, and make the code and the pre-trained models publicly available at: https://github.com/chi0tzp/ContraCLIP.},
-    journal      = {CoRR},
+    journal      = {ArXiv},
     volume       = {abs/2206.02104},
     year         = {2022},
     url          = {https://doi.org/10.48550/arXiv.2206.02104},
@@ -4302,23 +4345,23 @@
   pdf={https://arxiv.org/pdf/2207.05577.pdf},
   website={https://dl.acm.org/doi/10.1145/3503161.3548373},
   select_key={true},
-	address = {Lisboa Portugal},
-	title = {Learning from {Label} {Relationships} in {Human} {Affect}},
-	copyright = {All rights reserved},
-	isbn = {978-1-4503-9203-7},
-	url = {https://dl.acm.org/doi/10.1145/3503161.3548373},
-	doi = {10.1145/3503161.3548373},
-	language = {en},
-	urldate = {2022-10-18},
-	booktitle = {Proceedings of the 30th {ACM} {International} {Conference} on {Multimedia}},
-	publisher = {ACM},
-	author = {
+  address = {Lisboa Portugal},
+  title = {Learning from {Label} {Relationships} in {Human} {Affect}},
+  copyright = {All rights reserved},
+  isbn = {978-1-4503-9203-7},
+  url = {https://dl.acm.org/doi/10.1145/3503161.3548373},
+  doi = {10.1145/3503161.3548373},
+  language = {en},
+  urldate = {2022-10-18},
+  booktitle = {Proceedings of the 30th {ACM} {International} {Conference} on {Multimedia}},
+  publisher = {ACM},
+  author = {
     Foteinopoulou, Niki Maria and 
     Patras, Ioannis
     },
-	month = oct,
-	year = {2022},
-	pages = {80--89}
+  month = oct,
+  year = {2022},
+  pages = {80--89}
 }
 
 % === ACII'22::

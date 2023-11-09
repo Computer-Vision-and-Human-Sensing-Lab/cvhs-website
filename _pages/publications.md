@@ -20,6 +20,7 @@ nav_order: 1
 <div id="pubFilter">
 <p>
   <button style="font-weight: bold; text-transform: lowercase; color: black;" class="px-3 btn" type="button" data-toggle="collapse" data-target="#allFilter" aria-expanded="false" aria-controls="allFilter">All</button>
+  <button style="font-weight: bold; text-transform: lowercase; background-color: blueviolet; color: white;" class="px-3 btn collapsed" type="button" data-toggle="collapse" data-target="#multimodalFilter" aria-expanded="false" aria-controls="multimodalFilter">multimodal ML</button>
   <button style="font-weight: bold; text-transform: lowercase; background-color: royalblue; color: white;" class="px-3 btn collapsed" type="button" data-toggle="collapse" data-target="#generationFilter" aria-expanded="false" aria-controls="generationFilter">generation and learning</button>
   <button style="font-weight: bold; text-transform: lowercase; background-color: crimson; color: white;" class="px-3 btn collapsed" type="button" data-toggle="collapse" data-target="#affectiveFilter" aria-expanded="false" aria-controls="affectiveFilter">affective computing</button>
   <button style="font-weight: bold; text-transform: lowercase; background-color: mediumseagreen; color: white;" class="px-3 btn collapsed" type="button" data-toggle="collapse" data-target="#fewsamplesFilter" aria-expanded="false" aria-controls="fewsamplesFilter">Learning from few samples</button>
@@ -33,12 +34,21 @@ nav_order: 1
     {% endfor %}
   </div>
 </div>
+<div data-parent="#pubFilter" class="collapse" id="multimodalFilter">
+  <h2>Multimodal ML (Vision and Language)</h2>
+  <div class="card card-body">
+    {%- for y in page.years %}
+      <h2 class="year">{{y}}</h2>
+      {% bibliography -f papers -q @*[year={{y}},tags ~= multimodal-ml]* %}
+    {% endfor %}
+  </div>
+</div>
 <div data-parent="#pubFilter" class="collapse" id="affectiveFilter">
   <h2>Affective Computing</h2>
   <div class="card card-body">
     {%- for y in page.years %}
       <h2 class="year">{{y}}</h2>
-      {% bibliography -f papers -q @*[year={{y}},tags=affective-computing]* %}
+      {% bibliography -f papers -q @*[year={{y}},tags ~= affective-computing]* %}
     {% endfor %}
   </div>
 </div>
@@ -47,7 +57,7 @@ nav_order: 1
   <div class="card card-body">
     {%- for y in page.years %}
       <h2 class="year">{{y}}</h2>
-      {% bibliography -f papers -q @*[year={{y}},tags=generation-and-learning]* %}
+      {% bibliography -f papers -q @*[year={{y}},tags ~= generation-and-learning]* %}
     {% endfor %}
   </div>
 </div>
@@ -56,7 +66,7 @@ nav_order: 1
   <div class="card card-body">
     {%- for y in page.years %}
       <h2 class="year">{{y}}</h2>
-      {% bibliography -f papers -q @*[year={{y}},tags=learning-from-few-samples]* %}
+      {% bibliography -f papers -q @*[year={{y}},tags ~= learning-from-few-samples]* %}
     {% endfor %}
   </div>
 </div>
@@ -65,7 +75,7 @@ nav_order: 1
   <div class="card card-body">
     {%- for y in page.years %}
       <h2 class="year">{{y}}</h2>
-      {% bibliography -f papers -q @*[year={{y}},tags=video-understanding]* %}
+      {% bibliography -f papers -q @*[year={{y}},tags ~= video-understanding]* %}
     {% endfor %}
   </div>
 </div>

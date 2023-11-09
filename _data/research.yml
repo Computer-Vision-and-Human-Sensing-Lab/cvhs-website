@@ -1,5 +1,9 @@
 overview: The research of my team and collaborators is in the development of Machine Learning methods for analysis and interpretation of images, videos and neurophysiological signals (e.g. EEG). The research is driven by applications in Multimedia Indexing and retrieval, Autonomous Systems and Human Computer Interaction.
 items:
+- title: Multimodal ML (Vision and Language)
+  tag: multimodal-ml
+  image: /assets/img/publication_preview/dferclip.png
+  desc: This line of work is concerned with learning across modalities, and in particular at the intersections of language and vision, utilising, fine-tuning and adapting large, pre-trained Language and Vision-Language models.
 - title: Affective Computing
   tag: affective-computing
   image: https://images.unsplash.com/photo-1634944902853-3e977c2de8b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80

@@ -17,7 +17,7 @@ Add new bibtex entries to `_bibliography/papers.bib`. Some new custom options in
 
 * `preview={image.png}`, to include a photo snippet
 * `select_key={true}`, to feature on the `./research` page.
-* `tags={generation-and-learning}`, or one of: `[generation-and-learning,affective-computing,learning-from-few-samples,video-understanding]`.
+* `tags={generation-and-learning}`, or one of: `[multumodal-ml,generation-and-learning,affective-computing,learning-from-few-samples,video-understanding]`.
 * see full options in `./DEVELOP.md`.
 
 ## adding new repos

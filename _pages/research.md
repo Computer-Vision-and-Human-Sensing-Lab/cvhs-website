@@ -32,7 +32,7 @@ My research is in the area of Human Centered Machine Learning, using Machine Lea
           <a href="#{{ item.tag }}"><h3 id="{{ item.tag }}" class="card-title">{{ item.title }}</h3></a>
           <p class="card-text">{{ item.desc }}</p>
           <strong>Key references:</strong>
-            {% bibliography -f papers -q @*[select_key=true,tags={{ item.tag }}]* %}
+            {% bibliography -f papers -q @*[select_key=true,tags ~= {{ item.tag }}]* %}
         </div>
       </div>
     </div>
