@@ -73,8 +73,8 @@ phd_students:
   - name: Chen Feng
     years: [2019-present]
     research: Weakly supervised learning with noisy / coarse / no labels
-    prev_affiliation: 
-    homepage: http://eecs.qmul.ac.uk/~fc312
+    prev_affiliation: Tsinghua University
+    homepage: https://mrchenfeng.github.io/
     head_pic: https://cis.eecs.qmul.ac.uk/images/students/ChenFeng.jpg
   - name: Elissavet Batziou
     years: [2019-present]
