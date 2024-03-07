@@ -1,3 +1,33 @@
+@InProceedings{sun2024lafs,
+    code={https://github.com/szlbiubiubiu/LAFS_CVPR2024},
+    select_key={true},
+    tags={affective-computing},
+    preview={},
+    pdf={},
+    abstract={},
+    author    = {Zhonglin Sun, Chen Feng, Ioannis Patras, and Georgios Tzimiropoulos},
+    title     = {LAFS: Landmark-based Facial Self-supervised Learning for Face Recognition},
+    booktitle = {IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {February},
+    year      = {2024},
+}
+
+
+@InProceedings{gao2024fra,
+    code={https://github.com/zaczgao/Facial_Region_Awareness},
+    select_key={true},
+    tags={affective-computing},
+    preview={facial_region_awareness.png},
+    pdf={https://arxiv.org/abs/2403.02138},
+    abstract={Self-supervised pre-training has been proved to be effective in learning transferable representations that benefit various visual tasks. This paper asks this question: can self-supervised pre-training learn general facial representations for various facial analysis tasks? Recent efforts toward this goal are limited to treating each face image as a whole, i.e., learning consistent facial representations at the image-level, which overlooks the consistency of local facial representations (i.e., facial regions like eyes, nose, etc). In this work, we make a first attempt to propose a novel self-supervised facial representation learning framework to learn consistent global and local facial representations, Facial Region Awareness (FRA). Specifically, we explicitly enforce the consistency of facial regions by matching the local facial representations across views, which are extracted with learned heatmaps highlighting the facial regions. Inspired by the mask prediction in supervised semantic segmentation, we obtain the heatmaps via cosine similarity between the per-pixel projection of feature maps and facial mask embeddings computed from learnable positional embeddings, which leverage the attention mechanism to globally look up the facial image for facial regions. To learn such heatmaps, we formulate the learning of facial mask embeddings as a deep clustering problem by assigning the pixel features from the feature maps to them. The transfer learning results on facial classification and regression tasks show that our FRA outperforms previous pre-trained models and more importantly, using ResNet as the unified backbone for various tasks, our FRA achieves comparable or even better performance compared with SOTA methods in facial analysis tasks.},
+    author    = {Zheng Gao and Ioannis Patras},
+    title     = {Self-Supervised Facial Representation Learning with Facial Region Awareness},
+    booktitle = {IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {February},
+    year      = {2024},
+}
+
+
 @InProceedings{xenos2023baseline,
     title={A Simple Baseline for Knowledge-Based Visual Question Answering},
     abstract={This paper is on the problem of Knowledge-Based Visual Question Answering (KB-VQA). Recent works have emphasized the significance of incorporating both explicit (through external databases) and implicit (through LLMs) knowledge to answer questions requiring external knowledge effectively. A common limitation of such approaches is that they consist of relatively complicated pipelines and often heavily rely on accessing GPT-3 API. Our main contribution in this paper is to propose a much simpler and readily reproducible pipeline which, in a nutshell, is based on efficient in-context learning by prompting LLaMA (1 and 2) using question-informative captions as contextual information. Contrary to recent approaches, our method is training-free, does not require access to external databases or APIs, and yet achieves state-of-the-art accuracy on the OK-VQA and A-OK-VQA datasets. Finally, we perform several ablation studies to understand important aspects of our method. Our code is publicly available at https://github.com/alexandrosXe/A-Simple-Baseline-For-Knowledge-Based-VQA.},
