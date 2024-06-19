@@ -64,27 +64,18 @@ phd_students:
     prev_affiliation: 
     homepage: https://maniadisg.github.io/
     head_pic: https://maniadisg.github.io/images/prof_pic.png
-  - name: Niki Foteinopoulou
-    years: [2019-present]
-    research: Deep Learning for affect estimation and mental illness severity estimation
-    prev_affiliation: 
-    homepage: https://nickyfot.github.io/
-    head_pic: ../assets/img/niki.jpg
-  - name: Chen Feng
-    years: [2019-present]
-    research: Weakly supervised learning with noisy / coarse / no labels
-    prev_affiliation: Tsinghua University
-    homepage: https://mrchenfeng.github.io/
-    head_pic: https://cis.eecs.qmul.ac.uk/images/students/ChenFeng.jpg
-  - name: Elissavet Batziou
-    years: [2019-present]
-    research: Deep Learning for Style Transfer
-    prev_affiliation: 
-    homepage: https://www.linkedin.com/in/elissavet-batziou-a2629384
-    head_pic: https://media.licdn.com/dms/image/C4E03AQH1qNz1MNGABQ/profile-displayphoto-shrink_200_200/0/1516928474385?e=1698883200&v=beta&t=LChUkOkhOOpZdDjLjlsQAAZcy6Cdyzaief6DopDa6Gc
 
 alumni:
   members:
+  - name: Niki Foteinopoulou
+    research: Deep Learning for affect estimation
+    years: 2019-2024
+  - name: Chen Feng
+    research: Weakly supervised learning with noisy / coarse / no labels
+    years: 2019-2024
+  - name: Elissavet Batziou
+    research: Deep Learning for Style Transfer
+    years: 2019-2024
   - name: Georgios Zoumpourlis
     research: Deep Learning for Brain Signal Analysis
     years: 2018-2022

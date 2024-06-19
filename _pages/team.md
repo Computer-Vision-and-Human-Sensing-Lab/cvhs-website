@@ -105,7 +105,7 @@ nav_order: 0
     <tr>
       <th scope="col">Name</th>
       <th scope="col">Years</th>
-      <th scope="col">Thesis title</th>
+      <th scope="col">Thesis topic</th>
     </tr>
   </thead>
   <tbody>
