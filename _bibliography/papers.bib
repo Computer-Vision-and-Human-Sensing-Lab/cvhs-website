@@ -1,4 +1,17 @@
-@InProceedings{maniadis2024excb,
+@inproceedings{chen2024_acmmm_clipcleaner,
+    author = {Feng, Chen and Tzimiropoulos, Georgios and Patras, Ioannis},
+    title = {CLIPCleaner: Cleaning Noisy Labels with CLIP},
+    year = {2024},
+    location = {Melbourne, Australia},
+    series = {MM '24},
+    doi={10.1145/3664647.3680664},
+    tags={learning-from-few-samples,multimodal-ml},
+    pdf={https://www.arxiv.org/abs/2408.10012},
+    code={https://github.com/MrChenFeng/CLIPCleaner_ACMMM2024},
+    preview={clipcleaner.png},
+    select_key={true}
+}
+@Inproceedings{maniadis2024excb,
     author={Maniadis Metaxas, Ioannis and Tzimiropoulos, Georgios and Patras, Ioannis},
     booktitle={European Conference on Computer Vision (ECCV)},
     title={Efficient Unsupervised Visual Representation Learning with Explicit Cluster Balancing},
@@ -7,7 +20,7 @@
     select_key={true},
     pdf={https://arxiv.org/pdf/2407.11168},
     code={https://github.com/ManiadisG/ExCB},
-    preview={excb.jpg},
+    preview={excb.png},
 }
 
 @article{chen2024_tcsvt_noisebox,
@@ -18,7 +31,8 @@
     doi={10.1109/TCSVT.2024.3426994},
     tags={learning-from-few-samples},
     select_key={true},
-    pdf={https://ieeexplore.ieee.org/document/10594806}
+    pdf={https://ieeexplore.ieee.org/document/10594806},
+    preview={noise_box.png},
 }
 
 @article{oldfield2024bilinear,
@@ -41,7 +55,7 @@
     preview={LAFS.png},
     pdf={https://arxiv.org/abs/2403.08161},
     abstract={In this work we focus on learning facial representations that can be adapted to train effective face recognition models, particularly in the absence of labels. Firstly, compared with existing labelled face datasets, a vastly larger magnitude of unlabeled faces exists in the real world. We explore the learning strategy of these unlabeled facial images through self-supervised pretraining to transfer generalized face recognition performance. Moreover, motivated by one recent finding, that is, the face saliency area is critical for face recognition, in contrast to utilizing random cropped blocks of images for constructing augmentations in pretraining, we utilize patches localized by extracted facial landmarks. This enables our method - namely LAndmark-based Facial Self-supervised learning LAFS), to learn key representation that is more critical for face recognition. We also incorporate two landmark-specific augmentations which introduce more diversity of landmark information to further regularize the learning. With learned landmark-based facial representations, we further adapt the representation for face recognition with regularization mitigating variations in landmark positions. Our method achieves significant improvement over the state-of-the-art on multiple face recognition benchmarks, especially on more challenging few-shot scenarios.},
-    author    = {Zhonglin Sun, Chen Feng, Ioannis Patras, and Georgios Tzimiropoulos},
+    author    = {Sun, Zhonglin and Feng, Chen and Patras, Ioannis and Tzimiropoulos, Georgios},
     title     = {LAFS: Landmark-based Facial Self-supervised Learning for Face Recognition},
     booktitle = {IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR)},
     month     = {February},
