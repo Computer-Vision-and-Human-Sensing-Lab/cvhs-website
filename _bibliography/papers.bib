@@ -1,14 +1,30 @@
-@inproceedings{sun2024cemifacecenterbasedsemihardsynthetic,
+% === WACV'25: ExpCLIP ===
+@InProceedings{zhao2024expclip,
+    code={https://github.com/zengqunzhao/Exp-CLIP},
+    select_key={true},
+    tags={affective-computing,multimodal-ml},
+    preview={expclip.png},
+    pdf={https://arxiv.org/abs/2405.19100},
+    abstract={Current facial expression recognition (FER) models are often designed in a supervised learning manner and thus are constrained by the lack of large-scale facial expression images with high-quality annotations. Consequently, these models often fail to generalize well, performing poorly on unseen images in inference. Vision-language-based zero-shot models demonstrate a promising potential for addressing such challenges. However, these models lack task-specific knowledge and therefore are not optimized for the nuances of recognizing facial expressions. To bridge this gap, this work proposes a novel method, Exp-CLIP, to enhance zero-shot FER by transferring the task knowledge from large language models (LLMs). Specifically, based on the pre-trained vision-language encoders, we incorporate a projection head designed to map the initial joint vision-language space into a space that captures representations of facial actions. To train this projection head for subsequent zero-shot predictions, we propose to align the projected visual representations with task-specific semantic meanings derived from the LLM encoder, and the text instruction-based strategy is employed to customize the LLM knowledge. Given unlabelled facial data and efficient training of the projection head, Exp-CLIP achieves superior zero-shot results to the CLIP models and several other large vision-language models (LVLMs) on seven in-the-wild FER datasets.},
+    author    = {Zengqun Zhao and Yu Cao and Shaogang Gong and Ioannis Patras},
+    title     = {Enhancing Zero-Shot Facial Expression Recognition by LLM Knowledge Transfer},
+    booktitle = {IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+}
+
+% === NeurIPS'24: ===
+@InProceedings{sun2024cemiface,
     title={CemiFace: Center-based Semi-hard Synthetic Face Generation for Face Recognition}, 
     author={Zhonglin Sun and Siyang Song and Ioannis Patras and Georgios Tzimiropoulos},
-    location = {Vancouver, Canada},
-    series = {NeuRIPS},
+    booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
     tags={multimodal-ml,generation-and-learning},
     pdf={https://arxiv.org/pdf/2409.18876},
     code={https://github.com/szlbiubiubiu/CemiFace},
     preview={Cemi-face.png},
     select_key={true}
 }
+
 % === NeurIPS'24: ===
 @InProceedings{oldfield2023part,
   code={https://github.com/james-oldfield/muMoE},
@@ -25,18 +41,16 @@
   select_key={true}
 }
 
->>>>>>> fa7eb497051f3d409c5dba7c27816c892f5b0065
+% ===  ACM Multimedia ===
 @inproceedings{chen2024_acmmm_clipcleaner,
     author = {Feng, Chen and Tzimiropoulos, Georgios and Patras, Ioannis},
     title = {CLIPCleaner: Cleaning Noisy Labels with CLIP},
-    year = {2024},
-    location = {Melbourne, Australia},
-    series = {ACM Multimedia},
-    doi={10.1145/3664647.3680664},
     tags={learning-from-few-samples,multimodal-ml},
     pdf={https://www.arxiv.org/abs/2408.10012},
     code={https://github.com/MrChenFeng/CLIPCleaner_ACMMM2024},
     preview={clipcleaner.png},
+    year = {2024},
+    booktitle = {ACM International Conference on Multimedia (ACM MM)},
     select_key={true}
 }
 @Inproceedings{maniadis2024excb,
