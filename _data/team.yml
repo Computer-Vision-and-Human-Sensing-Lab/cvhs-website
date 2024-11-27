@@ -52,26 +52,29 @@ phd_students:
     prev_affiliation: 
     homepage: https://james-oldfield.github.io/
     head_pic: https://images.gr-assets.com/users/1667074007p6/42737013.jpg
-  - name: Zheng Gao
-    years: [2020-present]
-    research: Self-supervised learning
-    prev_affiliation: 
-    homepage: https://zaczgao.github.io/
-    head_pic: https://zaczgao.github.io/images/profile.jpg
-  - name: Ioannis Maniadis Metaxas
-    years: [2020-present]
-    research: Unsupervised representation learning
-    prev_affiliation: 
-    homepage: https://maniadisg.github.io/
-    head_pic: https://maniadisg.github.io/images/prof_pic.png
+  # - name: Zheng Gao
+  #   years: [2020-present]
+  #   research: Self-supervised learning
+  #   prev_affiliation: 
+  #   homepage: https://zaczgao.github.io/
+  #   head_pic: https://zaczgao.github.io/images/profile.jpg
+  # - name: Ioannis Maniadis Metaxas
+  #   years: [2020-present]
+  #   research: Unsupervised representation learning
+  #   prev_affiliation: 
+  #   homepage: https://maniadisg.github.io/
+  #   head_pic: https://maniadisg.github.io/images/prof_pic.png
 
 alumni:
   members:
-  - name: Niki Foteinopoulou
-    research: Deep Learning for affect estimation
-    years: 2019-2024
+  - name: Zheng Gao
+    research: Self-Supervised Learning
+    years: 2020-2024
+  - name: Ioannis Maniadis Metaxas
+    research: Unsupervised Representation Learning
+    years: 2020-2024
   - name: Chen Feng
-    research: Weakly supervised learning with noisy / coarse / no labels
+    research: Representation learning with imperfect labels
     years: 2019-2024
   - name: Elissavet Batziou
     research: Deep Learning for Style Transfer
