@@ -67,18 +67,10 @@ phd_students:
 
 alumni:
   members:
-  - name: Zheng Gao
-    research: Self-Supervised Learning
-    years: 2020-2024
-  - name: Ioannis Maniadis Metaxas
-    research: Unsupervised Representation Learning
-    years: 2020-2024
-  - name: Chen Feng
-    research: Representation learning with imperfect labels
-    years: 2019-2024
+ lke
   - name: Elissavet Batziou
     research: Deep Learning for Style Transfer
-    years: 2019-2024
+    years: 2019-2023
   - name: Georgios Zoumpourlis
     research: Deep Learning for Brain Signal Analysis
     years: 2018-2022
