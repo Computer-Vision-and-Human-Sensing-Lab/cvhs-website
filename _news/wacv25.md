@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 1 paper accepted at WACV'25
-date: 2023-10-28 16:11:00-0400
+date: 2023-11-27 16:11:00-0400
 inline: ture
 ---
 
