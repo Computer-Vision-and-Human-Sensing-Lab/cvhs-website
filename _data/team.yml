@@ -70,36 +70,47 @@ alumni:
   - name: Zheng Gao
     research: Self-Supervised Learning
     years: 2020-2024
+    homepage: https://zaczgao.github.io/
   - name: Ioannis Maniadis Metaxas
     research: Unsupervised Representation Learning
     years: 2020-2024
+    homepage: https://maniadisg.github.io/
   - name: Chen Feng
     research: Representation learning with imperfect labels
     years: 2019-2024
+    homepage: https://mrchenfeng.github.io/
   - name: Niki Foteinopoulou
     research: Deep Learning for affect estimation
     years: 2019-2024
+    homepage: https://nickyfot.github.io/
   - name: Elissavet Batziou
     research: Deep Learning for Style Transfer
     years: 2019-2023
+    homepage: https://www.iti.gr/iti/en/people/elissavet-batziou/
   - name: Georgios Zoumpourlis
     research: Deep Learning for Brain Signal Analysis
     years: 2018-2022
+    homepage: https://gzoumpourlis.github.io/
   - name: Evlampios Apostolidis
     research: Video Summarisation using Unsupervised Deep Learning
     years: 2018-2022
+    homepage: https://www.iti.gr/iti/en/people/evlampios-apostolidis/
   - name: Tingting Xie
     research: Action Localisation
     years: 2017-2021
+    homepage: https://scholar.google.com/citations?hl=en&user=wL2ZcxsAAAAJ
   - name: Georgios Kordopatis-Zilos
     research: Video Retrieval with Deep Learning
     years: 2016-2020
+    homepage: https://gkordo.github.io/
   - name: Mina Bishay
     research: Non verbal behaviour analysis in mental health illnesses
     years: 2015-2019
+    homepage: https://www.linkedin.com/in/mina-bishay-a16210182/
   - name: Wenxuan Mou
     research: Affect Analysis in Group Settings
     years: 2014-2019
+    homepage: https://wenxuanmou.github.io/personalPage/
   - name: Aria Ahmadi
     research: Unsupervised Training of Deep Neural Networks for Motion Estimation
     years: 2014-2019

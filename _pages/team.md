@@ -111,7 +111,13 @@ nav_order: 0
   <tbody>
   {% for member in site.data.team.alumni.members %}
     <tr>
-      <th scope="row">{{ member.name }}</th>
+      <th scope="row">
+      {% if member.homepage %}
+        <a href="{{ member.homepage }}">{{ member.name }}</a>
+      {% else %}
+        {{ member.name }}
+      {% endif %}
+      </th>
       <td>{{ member.years }}</td>
       <td>{{ member.research }}</td>
     </tr>
