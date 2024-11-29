@@ -67,6 +67,18 @@ phd_students:
 
 alumni:
   members:
+  - name: Zheng Gao
+    research: Self-Supervised Learning
+    years: 2020-2024
+  - name: Ioannis Maniadis Metaxas
+    research: Unsupervised Representation Learning
+    years: 2020-2024
+  - name: Chen Feng
+    research: Representation learning with imperfect labels
+    years: 2019-2024
+  - name: Niki Foteinopoulou
+    research: Deep Learning for affect estimation
+    years: 2019-2024
   - name: Elissavet Batziou
     research: Deep Learning for Style Transfer
     years: 2019-2023
