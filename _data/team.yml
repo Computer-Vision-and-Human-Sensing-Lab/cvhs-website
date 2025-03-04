@@ -55,7 +55,7 @@ phd_students:
   - name: Mariano V. Ntrougkas
     years: [2025-present]
     research: Explainable and Reliable AI
-    prev_affiliation:
+    prev_affiliation: 
     homepage: https://marios1861.github.io/
     head_pic: ../assets/img/mariano.jpg  
   # - name: Zheng Gao
