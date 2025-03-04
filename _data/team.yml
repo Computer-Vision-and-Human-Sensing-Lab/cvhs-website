@@ -52,6 +52,12 @@ phd_students:
     prev_affiliation: 
     homepage: https://james-oldfield.github.io/
     head_pic: https://images.gr-assets.com/users/1667074007p6/42737013.jpg
+  - name: Mariano V. Ntrougkas
+    years: [2025-present]
+    research: Explainable and Reliable AI
+    prev_affiliation:
+    homepage: https://marios1861.github.io/
+    head_pic: ../assets/img/mariano.jpg  
   # - name: Zheng Gao
   #   years: [2020-present]
   #   research: Self-supervised learning
