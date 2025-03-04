@@ -8,7 +8,7 @@
     abstract={Large Language Models (LLMs) have been found to memorize and recite some of the textual sequences from their training set verbatim, raising broad concerns about privacy and copyright issues when using LLMs. This Textual Sequence Memorization (TSM) phenomenon leads to a high demand to regulate LLM output to prevent it from generating certain memorized text to meet user requirements. However, our empirical study reveals that existing methods for TSM erasure fail to forget massive memorized samples without substantially jeopardizing the model utility. To achieve a better trade-off between the effectiveness of TSM erasure and model utility in LLMs, our paper proposes a new framework based on Entropy Maximization with Selective Optimization (EMSO), where the updated weights are chosen with a novel contrastive gradient metric without any participation of additional model or data. Our analysis shows that training with the entropy maximization loss has a more stable optimization process and better keeps model utility than existing methods. The contrastive gradient metric localizes the most influential weight for TSM erasure by taking both the gradient magnitude and direction into consideration. Extensive experiments across three model scales demonstrate that our method excels in handling large-scale forgetting requests while preserving model ability in language generation and reasoning.},
     author    = {Zhaohan Zhang and Ziquan Liu and Ioannis Patras},
     title     = {Get Confused Cautiously: Textual Sequence Memorization Erasure with Selective Entropy Maximization},
-    booktitle = {The International Conference on Computational Linguistics (COLING)},
+    booktitle = {International Conference on Computational Linguistics (COLING)},
     month     = {January},
     year      = {2025},
 }
@@ -139,7 +139,7 @@
     title={A Simple Baseline for Knowledge-Based Visual Question Answering},
     abstract={This paper is on the problem of Knowledge-Based Visual Question Answering (KB-VQA). Recent works have emphasized the significance of incorporating both explicit (through external databases) and implicit (through LLMs) knowledge to answer questions requiring external knowledge effectively. A common limitation of such approaches is that they consist of relatively complicated pipelines and often heavily rely on accessing GPT-3 API. Our main contribution in this paper is to propose a much simpler and readily reproducible pipeline which, in a nutshell, is based on efficient in-context learning by prompting LLaMA (1 and 2) using question-informative captions as contextual information. Contrary to recent approaches, our method is training-free, does not require access to external databases or APIs, and yet achieves state-of-the-art accuracy on the OK-VQA and A-OK-VQA datasets. Finally, we perform several ablation studies to understand important aspects of our method. Our code is publicly available at https://github.com/alexandrosXe/A-Simple-Baseline-For-Knowledge-Based-VQA.},
     author = {Xenos, Alexandros and Stafylakis, Themos and Patras, Ioannis and Tzimiropoulos, Georgios},
-    booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+    booktitle={Conference on Empirical Methods in Natural Language Processing (EMNLP)},
     code={https://github.com/alexandrosXe/A-Simple-Baseline-For-Knowledge-Based-VQA},
     year = {2023},
     tags={multimodal-ml},
@@ -162,18 +162,17 @@
 }
 
 
-@article{foteinopoulou_emoclip_2023,
+@InProceedings{foteinopoulou_emoclip_2024,
   select_key={true},
-  tags={multimodal-ml},
+  tags={affective-computing,multimodal-ml},
   preview={emo-clip.png},
   title = {{EmoCLIP}: {A} {Vision}-{Language} {Method} for {Zero}-{Shot} {Video} {Facial} {Expression} {Recognition}},
   abstract={Facial Expression Recognition (FER) is a crucial task in affective computing, but its conventional focus on the seven basic emotions limits its applicability to the complex and expanding emotional spectrum. To address the issue of new and unseen emotions present in dynamic inthe-wild FER, we propose a novel vision-language model that utilises sample-level text descriptions (i.e. captions of the context, expressions or emotional cues) as natural language supervision, aiming to enhance the learning of rich latent representations, for zero-shot classification. To test this, we evaluate using zero-shot classification of the model trained on sample-level descriptions on four popular dynamic FER datasets. Our findings show that this approach yields significant improvements when compared to baseline methods. Specifically, for zero-shot video FER, we outperform CLIP by over 10% in terms of Weighted Average Recall and 5% in terms of Unweighted Average Recall on several datasets. Furthermore, we evaluate the representations obtained from the network trained using sample-level descriptions on the downstream task of mental health symptom estimation, achieving performance comparable or superior to state-of-the-art methods and strong agreement with human experts. Namely, we achieve a Pearson’s Correlation Coefficient of up to 0.85 on schizophrenia symptom severity estimation, which is comparable to human experts’ agreement. The code is publicly available on: https://github.com/NickyFot/EmoCLIP.},
-  doi = {10.48550/arXiv.2310.16640},
-  journal      = {ArXiv},
+  booktitle={IEEE International Conference on Automatic Face and Gesture Recognition (FG)},
   author = {Foteinopoulou, Niki Maria and Patras, Ioannis},
   pdf={https://arxiv.org/pdf/2310.16640.pdf},
   code = {https://github.com/NickyFot/EmoCLIP},
-  year = {2023},
+  year = {2024},
 }
 
 % === NeurIPS'23: PoS ===
@@ -234,7 +233,7 @@
     website      = {https://stelabou.github.io/hyperreenact.github.io/},
     code         = {https://github.com/StelaBou/HyperReenact},
     abstract     = {In this paper, we present our method for neural face reenactment, called HyperReenact, that aims to generate realistic talking head images of a source identity, driven by a target facial pose. Existing state-of-the-art face reenactment methods train controllable generative models that learn to synthesize realistic facial images, yet producing reenacted faces that are prone to significant visual artifacts, especially under the challenging condition of extreme head pose changes, or requiring expensive few-shot fine-tuning to better preserve the source identity characteristics. We propose to address these limitations by leveraging the photorealistic generation ability and the disentangled properties of a pretrained StyleGAN2 generator, by first inverting the real images into its latent space and then using a hypernetwork to perform: (i) refinement of the source identity characteristics and (ii) facial pose re-targeting, eliminating this way the dependence on external editing methods that typically produce artifacts. Our method operates under the one-shot setting (i.e., using a single source frame) and allows for cross-subject reenactment, without requiring any subject-specific fine-tuning. We compare our method both quantitatively and qualitatively against several state-of-the-art techniques on the standard benchmarks of VoxCeleb1 and VoxCeleb2, demonstrating the superiority of our approach in producing artifact-free images, exhibiting remarkable robustness even under extreme head pose changes.},
-    journal      = {2023 IEEE/CVF International Conference on Computer Vision (ICCV)},
+    journal      = {International Conference on Computer Vision (ICCV)},
     volume       = {},
     number       = {},
     pages        = {},
@@ -251,6 +250,7 @@
   abstract={DETR-based object detectors have achieved remarkable performance but are sample-inefficient and exhibit slow convergence. Unsupervised pretraining has been found to be helpful to alleviate these impediments, allowing training with large amounts of unlabeled data to improve the detector's performance. However, existing methods have their own limitations, like keeping the detector's backbone frozen in order to avoid performance degradation and utilizing pretraining objectives misaligned with the downstream task. To overcome these limitations, we propose a simple pretraining framework for DETR-based detectors that consists of three simple yet key ingredients: (i) richer, semantics-based initial proposals derived from high-level feature maps, (ii) discriminative training using object pseudo-labels produced via clustering, (iii) self-training to take advantage of the improved object proposals learned by the detector. We report two main findings: (1) Our pretraining outperforms prior DETR pretraining works on both the full and low data regimes by significant margins. (2) We show we can pretrain DETR from scratch (including the backbone) directly on complex image datasets like COCO, paving the path for unsupervised representation learning directly using DETR.},
   author={Metaxas, Ioannis Maniadis and Bulat, Adrian and Patras, Ioannis and Martinez, Brais and Tzimiropoulos, Georgios},
   title={SimDETR: Simplifying self-supervised pretraining for DETR},
+  journal = {arXiv},
   year={2023}
 }
 
@@ -263,7 +263,7 @@
     abstract={Deep learning has achieved great success in recent years with the aid of advanced neural network structures and large-scale human-annotated datasets. However, it is often costly and difficult to accurately and efficiently annotate large-scale datasets, especially for some specialized domains where fine-grained labels are required. In this setting, coarse labels are much easier to acquire as they do not require expert knowledge. In this work, we propose a contrastive learning method, called Masked Contrastive learning~(MaskCon) to address the under-explored problem setting, where we learn with a coarse-labelled dataset in order to address a finer labelling problem. More specifically, within the contrastive learning framework, for each sample our method generates soft-labels against other samples and another augmented view of the sample in question. By contrast to self-supervised contrastive learning where only the sample's augmentations are considered hard positives, and in supervised contrastive learning where only samples with the same coarse labels are considered hard positives, we propose soft labels based on sample distances, that are masked by the coarse labels. This allows us to utilize both inter-sample relations and coarse labels. We demonstrate that our method can obtain as special cases many existing state-of-the-art works and that it provides tighter bounds on the generalization error. Experimentally, our method achieves significant improvement over the current state-of-the-art in various datasets, including CIFAR10, CIFAR100, ImageNet-1K, Standford Online Products and Stanford Cars196 datasets.},
     author    = {Chen Feng and Ioannis Patras},
     title     = {MaskCon: Masked Contrastive Learning for Coarse-Labelled Dataset},
-    booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
     year      = {2023},
 }
@@ -277,7 +277,7 @@
     abstract={This work addresses the problem of anonymizing the identity of faces in a dataset of images, such that the privacy of those depicted is not violated, while at the same time the dataset is useful for downstream task such as for training machine learning models. To the best of our knowledge, we are the first to explicitly address this issue and deal with two major drawbacks of the existing state-of-the-art approaches, namely that they (i) require the costly training of additional, purpose-trained neural networks, and/or (ii) fail to retain the facial attributes of the original images in the anonymized counterparts, the preservation of which is of paramount importance for their use in downstream tasks. We accordingly present a task-agnostic anonymization procedure that directly optimizes the images' latent representation in the latent space of a pre-trained GAN. By optimizing the latent codes directly, we ensure both that the identity is of a desired distance away from the original (with an identity obfuscation loss), whilst preserving the facial attributes (using a novel feature-matching loss in FaRL's deep feature space). We demonstrate through a series of both qualitative and quantitative experiments that our method is capable of anonymizing the identity of the images whilst -- crucially -- better-preserving the facial attributes.},
     author    = {Barattin, Simone and Tzelepis, Christos and Patras, Ioannis and Sebe, Nicu},
     title     = {Attribute-preserving Face Dataset Anonymization via Latent Code Optimization},
-    booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
     year      = {2023},
 }
@@ -307,7 +307,7 @@
     abstract={Clustering has been a major research topic in the field of machine learning, one to which Deep Learning has recently been applied with significant success. However, an aspect of clustering that is not addressed by existing deep clustering methods, is that of efficiently producing multiple, diverse partitionings for a given dataset. This is particularly important, as a diverse set of base clusterings are necessary for consensus clustering, which has been found to produce better and more robust results than relying on a single clustering. To address this gap, we propose DivClust, a diversity controlling loss that can be incorporated into existing deep clustering frameworks to produce multiple clusterings with the desired degree of diversity. We conduct experiments with multiple datasets and deep clustering frameworks and show that: a) our method effectively controls diversity across frameworks and datasets with very small additional computational cost, b) the sets of clusterings learned by DivClust include solutions that significantly outperform single-clustering baselines, and c) using an off-the-shelf consensus clustering algorithm, DivClust produces consensus clustering solutions that consistently outperform single-clustering baselines, effectively improving the performance of the base deep clustering framework.},
     author    = {Metaxas, Ioannis Maniadis and Tzimiropoulos, Georgios and Patras, Ioannis},
     title     = {DivClust: Controlling Diversity in Deep Clustering},
-    booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
     year      = {2023},
 }
@@ -322,7 +322,7 @@
   abstract={Recent advances in the understanding of Generative Adversarial Networks (GANs) have led to remarkable progress in visual editing and synthesis tasks, capitalizing on the rich semantics that are embedded in the latent spaces of pre-trained GANs. However, existing methods are often tailored to specific GAN architectures and are limited to either discovering global semantic directions that do not facilitate localized control, or require some form of supervision through manually provided regions or segmentation masks. In this light, we present an architecture-agnostic approach that jointly discovers factors representing spatial parts and their appearances in an entirely unsupervised fashion. These factors are obtained by applying a semi-nonnegative tensor factorization on the feature maps, which in turn enables context-aware local image editing with pixel-level control. In addition, we show that the discovered appearance factors correspond to saliency maps that localize concepts of interest, without using any labels. Experiments on a wide range of GAN architectures and datasets show that, in comparison to the state of the art, our method is far more efficient in terms of training time and, most importantly, provides much more accurate localized control. Our code is available at: https://github.com/james-oldfield/PandA.},
   title={PandA: Unsupervised Learning of Parts and Appearances in the Feature Maps of {GAN}s},
   author={James Oldfield and Christos Tzelepis and Yannis Panagakis and Mihalis Nicolaou and Ioannis Patras},
-  booktitle={The Eleventh International Conference on Learning Representations (ICLR)},
+  booktitle={International Conference on Learning Representations (ICLR)},
   year={2023},
   url={https://openreview.net/forum?id=iUdSB2kK9GY}
 }
@@ -338,7 +338,7 @@
     code         = {https://github.com/StelaBou/StyleMask},
     tags         = {generation-and-learning},
     abstract     = {In this paper we address the problem of neural face reenactment, where, given a pair of a source and a target facial image, we need to transfer the target's pose (defined as the head pose and its facial expressions) to the source image, by preserving at the same time the source's identity characteristics (e.g., facial shape, hair style, etc), even in the challenging case where the source and the target faces belong to different identities. In doing so, we address some of the limitations of the state-of-the-art works, namely, a) that they depend on paired training data (i.e., source and target faces have the same identity), b) that they rely on labeled data during inference, and c) that they do not preserve identity in large head pose changes. More specifically, we propose a framework that, using unpaired randomly generated facial images, learns to disentangle the identity characteristics of the face from its pose by incorporating the recently introduced style space S of StyleGAN2, a latent representation space that exhibits remarkable disentanglement properties. By capitalizing on this, we learn to successfully mix a pair of source and target style codes using supervision from a 3D model. The resulting latent code, that is subsequently used for reenactment, consists of latent units corresponding to the facial pose of the target only and of units corresponding to the identity of the source only, leading to notable improvement in the reenactment performance compared to recent state-of-the-art methods. In comparison to state of the art, we quantitatively and qualitatively show that the proposed method produces higher quality results even on extreme pose variations. Finally, we report results on real images by first embedding them on the latent space of the pretrained generator. We make the code and pretrained models publicly available}, 
-    booktitle    = {17th {IEEE} International Conference on Automatic Face and Gesture Recognition, {FG} 2023, Waikoloa Beach, HI, USA, January 5-8, 2023},
+    booktitle    = {International Conference on Automatic Face and Gesture Recognition (FG)},
     pages        = {1--8},
     publisher    = {{IEEE}},
     year         = {2023},
@@ -357,7 +357,7 @@
     code         = {},
     tags         = {generation-and-learning},
     abstract     = {In this technical demonstration, we present SMILEY, a voice-guided virtual assistant. The system utilizes a deep neural architecture ContraCLIP to manipulate facial attributes using voice instructions, allowing for deeper speaker engagement and smoother customer experience when being used in the "virtual concierge" scenario. We validate the effectiveness of SMILEY and ContraCLIP via a successful real-world case study in Singapore and a large-scale quantitative evaluation.},
-    booktitle    = {Proceedings of the Sixteenth {ACM} International Conference on Web Search and Data Mining, {WSDM} 2023, Singapore, 27 February 2023 - 3 March 2023},
+    booktitle    = {International Conference on Web Search and Data Mining (WSDM)},
     editor       = {Tat{-}Seng Chua and Hady W. Lauw and Luo Si and Evimaria Terzi and Panayiotis Tsaparas},
     pages        = {1196--1199},
     publisher    = {{ACM}},
@@ -391,8 +391,7 @@
   author    = {Georgios Zoumpourlis and
                Ioannis Patras},
   title     = {CovMix: Covariance Mixing Regularization for Motor Imagery Decoding},
-  booktitle = {10th International Winter Conference on Brain-Computer Interface,
-               {BCI} 2022, Gangwon-do, Korea, Republic of, February 21-23, 2022},
+  booktitle = {International Winter Conference on Brain-Computer Interface (BCI)},
   pages     = {1--7},
   publisher = {{IEEE}},
   year      = {2022},
@@ -418,8 +417,7 @@
                Ioannis Patras},
   title     = {{SSR:} An Efficient and Robust Framework for Learning with Unknown
                Label Noise},
-  booktitle = {33rd British Machine Vision Conference 2022, {BMVC} 2022, London,
-               UK, November 21-24, 2022},
+  booktitle = {British Machine Vision Conference (BMVC)},
   pages     = {372},
   publisher = {{BMVA} Press},
   year      = {2022},
@@ -438,8 +436,7 @@
   author    = {Chen Feng and
                Ioannis Patras},
   title     = {Adaptive Soft Contrastive Learning},
-  booktitle = {26th International Conference on Pattern Recognition, {ICPR} 2022,
-               Montreal, QC, Canada, August 21-25, 2022},
+  booktitle = {International Conference on Pattern Recognition (ICPR)},
   pages     = {2721--2727},
   publisher = {{IEEE}},
   year      = {2022},
@@ -460,8 +457,7 @@
                Vasileios Mezaris and
                Ioannis Patras},
   title     = {Explaining video summarization based on the focus of attention},
-  booktitle = {{IEEE} International Symposium on Multimedia, {ISM} 2022, Naples,
-               Italy, December 5-7, 2022},
+  booktitle = {IEEE International Symposium on Multimedia (ISM)},
   pages     = {146--150},
   publisher = {{IEEE}},
   year      = {2022},
@@ -490,8 +486,7 @@
                Vivek K. Singh},
   title     = {Summarizing Videos using Concentrated Attention and Considering the
                Uniqueness and Diversity of the Video Frames},
-  booktitle = {{ICMR} '22: International Conference on Multimedia Retrieval, Newark,
-               NJ, USA, June 27 - 30, 2022},
+  booktitle = {International Conference on Multimedia Retrieval (ICMR)},
   pages     = {407--415},
   publisher = {{ACM}},
   year      = {2022},
@@ -523,8 +518,6 @@
 }
 
 
-
-
 @article{DBLP:journals/pieee/ApostolidisAMMP21,
   preview={sum-survey.png},
   select_key={true},
@@ -537,7 +530,7 @@
                Vasileios Mezaris and
                Ioannis Patras},
   title     = {Video Summarization Using Deep Neural Networks: {A} Survey},
-  journal   = {Proc. {IEEE}},
+  journal   = {Proceedings of the IEEE},
   volume    = {109},
   number    = {11},
   pages     = {1838--1863},
@@ -559,7 +552,7 @@
                Ioannis Patras},
   title     = {{AMIGOS:} {A} Dataset for Affect, Personality and Mood Research on
                Individuals and Groups},
-  journal   = {{IEEE} Trans. Affect. Comput.},
+  journal   = {IEEE Transactions on Affective Computing},
   volume    = {12},
   number    = {2},
   pages     = {479--493},
@@ -583,7 +576,7 @@
                Ioannis Patras},
   title     = {{SchiNet}: Automatic Estimation of Symptoms of Schizophrenia from Facial
                Behaviour Analysis},
-  journal   = {{IEEE} Trans. Affect. Comput.},
+  journal   = {IEEE Transactions on Affective Computing},
   volume    = {12},
   number    = {4},
   pages     = {949--961},
@@ -610,7 +603,7 @@
                Ioannis Patras},
   title     = {{AC-SUM-GAN:} Connecting Actor-Critic and Generative Adversarial Networks
                for Unsupervised Video Summarization},
-  journal   = {{IEEE} Trans. Circuits Syst. Video Technol.},
+  journal   = {IEEE Transactions on Circuits and Systems for Video Technology},
   volume    = {31},
   number    = {8},
   pages     = {3278--3292},
@@ -629,8 +622,7 @@
   author    = {Georgios Zoumpourlis and
                Ioannis Patras},
   title     = {Pairwise Ranking Network for Affect Recognition},
-  booktitle = {9th International Conference on Affective Computing and Intelligent
-               Interaction, {ACII} 2021, Nara, Japan, September 28 - Oct. 1, 2021},
+  booktitle = {International Conference on Affective Computing and Intelligent Interaction (ACII)},
   pages     = {1--8},
   publisher = {{IEEE}},
   year      = {2021},
@@ -654,8 +646,7 @@
                Mihalis A. Nicolaou and
                Ioannis Patras},
   title     = {Tensor Component Analysis for Interpreting the Latent Space of GANs},
-  booktitle = {32nd British Machine Vision Conference 2021, {BMVC} 2021, Online,
-               November 22-25, 2021},
+  booktitle = {British Machine Vision Conference (BMVC)},
   pages     = {222},
   publisher = {{BMVA} Press},
   year      = {2021},
@@ -676,8 +667,7 @@
                Ioannis Patras},
   title     = {Combining Global and Local Attention with Positional Encoding for
                Video Summarization},
-  booktitle = {{IEEE} International Symposium on Multimedia, {ISM} 2021, Naple, Italy,
-               November 29 - Dec. 1, 2021},
+  booktitle = {IEEE International Symposium on Multimedia (ISM)},
   pages     = {226--234},
   publisher = {{IEEE}},
   year      = {2021},
@@ -705,8 +695,7 @@
                Marcel Worring},
   title     = {Combining Adversarial and Reinforcement Learning for Video Thumbnail
                Selection},
-  booktitle = {{ICMR} '21: International Conference on Multimedia Retrieval, Taipei,
-               Taiwan, August 21-24, 2021},
+  booktitle = {International Conference on Multimedia Retrieval (ICMR)},
   pages     = {1--9},
   publisher = {{ACM}},
   year      = {2021},
@@ -730,8 +719,7 @@
                Jiaying Liu and
                Marcel Worring},
   title     = {Few-Shot Action Localization without Knowing Boundaries},
-  booktitle = {{ICMR} '21: International Conference on Multimedia Retrieval, Taipei,
-               Taiwan, August 21-24, 2021},
+  booktitle = {International Conference on Multimedia Retrieval (ICMR)},
   pages     = {339--348},
   publisher = {{ACM}},
   year      = {2021},
@@ -739,52 +727,6 @@
   doi       = {10.1145/3460426.3463643},
   timestamp = {Fri, 03 Sep 2021 01:00:00 +0200},
   biburl    = {https://dblp.org/rec/conf/mir/XieTFP21.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-
-@proceedings{DBLP:conf/mmm/2021-1,
-  preview={empty.png},
-  editor    = {Jakub Lokoc and
-               Tom{\'{a}}s Skopal and
-               Klaus Schoeffmann and
-               Vasileios Mezaris and
-               Xirong Li and
-               Stefanos Vrochidis and
-               Ioannis Patras},
-  title     = {MultiMedia Modeling - 27th International Conference, {MMM} 2021, Prague,
-               Czech Republic, June 22-24, 2021, Proceedings, Part {I}},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {12572},
-  publisher = {Springer},
-  year      = {2021},
-  url       = {https://doi.org/10.1007/978-3-030-67832-6},
-  doi       = {10.1007/978-3-030-67832-6},
-  isbn      = {978-3-030-67831-9},
-  timestamp = {Mon, 13 Sep 2021 01:00:00 +0200},
-  biburl    = {https://dblp.org/rec/conf/mmm/2021-1.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
-}
-
-@proceedings{DBLP:conf/mmm/2021-2,
-  preview={empty.png},
-  editor    = {Jakub Lokoc and
-               Tom{\'{a}}s Skopal and
-               Klaus Schoeffmann and
-               Vasileios Mezaris and
-               Xirong Li and
-               Stefanos Vrochidis and
-               Ioannis Patras},
-  title     = {MultiMedia Modeling - 27th International Conference, {MMM} 2021, Prague,
-               Czech Republic, June 22-24, 2021, Proceedings, Part {II}},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {12573},
-  publisher = {Springer},
-  year      = {2021},
-  url       = {https://doi.org/10.1007/978-3-030-67835-7},
-  doi       = {10.1007/978-3-030-67835-7},
-  isbn      = {978-3-030-67834-0},
-  timestamp = {Mon, 13 Sep 2021 01:00:00 +0200},
-  biburl    = {https://dblp.org/rec/conf/mmm/2021-2.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
@@ -818,7 +760,7 @@
     code         = {https://github.com/chi0tzp/WarpedGANSpace},
     tags={generation-and-learning},
     abstract     = {This work addresses the problem of discovering, in an unsupervised manner, interpretable paths in the latent space of pretrained GANs, so as to provide an intuitive and easy way of controlling the underlying generative factors. In doing so, it addresses some of the limitations of the state-of-the-art works, namely, a) that they discover directions that are independent of the latent code, i.e., paths that are linear, and b) that their evaluation relies either on visual inspection or on laborious human labeling. More specifically, we propose to learn non-linear warpings on the latent space, each one parametrized by a set of RBF-based latent space warping functions, and where each warping gives rise to a family of non-linear paths via the gradient of the function. Building on the work of Voynov and Babenko, that discovers linear paths, we optimize the trainable parameters of the set of RBFs, so as that images that are generated by codes along different paths, are easily distinguishable by a discriminator network. This leads to easily distinguishable image transformations, such as pose and facial expressions in facial images. We show that linear paths can be derived as a special case of our method, and show experimentally that non-linear paths in the latent space lead to steeper, more disentangled and interpretable changes in the image space than in state-of-the art methods, both qualitatively and quantitatively. We make the code and the pretrained models publicly available at https://github.com/chi0tzp/WarpedGANSpace.},
-    journal      = {2021 IEEE/CVF International Conference on Computer Vision (ICCV)},
+    journal      = {International Conference on Computer Vision (ICCV)},
     year         = {2021},
     pages        = {6373-6382}
 }
@@ -853,8 +795,7 @@
                Ioannis Kompatsiaris},
   title     = {Cycle-Consistent Adversarial Networks and Fast Adaptive Bi-dimensional
                Empirical Mode Decomposition for Style Transfer},
-  booktitle = {25th International Conference on Pattern Recognition, {ICPR} 2020,
-               Virtual Event / Milan, Italy, January 10-15, 2021},
+  booktitle = {International Conference on Pattern Recognition (ICPR)},
   pages     = {2360--2367},
   publisher = {{IEEE}},
   year      = {2020},
@@ -883,8 +824,7 @@
                Roger Zimmermann},
   title     = {Performance over Random: {A} Robust Evaluation Protocol for Video
                Summarization Methods},
-  booktitle = {{MM} '20: The 28th {ACM} International Conference on Multimedia, Virtual
-               Event / Seattle, WA, USA, October 12-16, 2020},
+  booktitle = {International Conference on Multimedia (ACM MM)},
   pages     = {1056--1064},
   publisher = {{ACM}},
   year      = {2020},
@@ -916,8 +856,7 @@
                Wesley De Neve},
   title     = {Unsupervised Video Summarization via Attention-Driven Adversarial
                Learning},
-  booktitle = {MultiMedia Modeling - 26th International Conference, {MMM} 2020, Daejeon,
-               South Korea, January 5-8, 2020, Proceedings, Part {I}},
+  booktitle = {International Conference on MultiMedia Modeling (MMM)},
   series    = {Lecture Notes in Computer Science},
   volume    = {11961},
   pages     = {492--504},
@@ -937,7 +876,7 @@
                Ioannis Patras},
   title     = {Universal Foreground Segmentation Based on Deep Feature Fusion Network
                for Multi-Scene Videos},
-  journal   = {{IEEE} Access},
+  journal   = {IEEE Access},
   volume    = {7},
   pages     = {158326--158337},
   year      = {2019},
@@ -4483,14 +4422,14 @@
   website={https://dl.acm.org/doi/10.1145/3503161.3548373},
   select_key={true},
   address = {Lisboa Portugal},
-  title = {Learning from {Label} {Relationships} in {Human} {Affect}},
+  title = {Learning from Label Relationships in Human Affect},
   copyright = {All rights reserved},
   isbn = {978-1-4503-9203-7},
   url = {https://dl.acm.org/doi/10.1145/3503161.3548373},
   doi = {10.1145/3503161.3548373},
   language = {en},
   urldate = {2022-10-18},
-  booktitle = {Proceedings of the 30th {ACM} {International} {Conference} on {Multimedia}},
+  booktitle = {ACM International Conference on Multimedia (ACM MM)},
   publisher = {ACM},
   author = {
     Foteinopoulou, Niki Maria and 

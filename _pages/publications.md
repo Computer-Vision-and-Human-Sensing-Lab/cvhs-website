@@ -10,7 +10,7 @@ _styles:
 nav: true
 nav_order: 1
 ---
-<h1>Recent publications</h1>
+<h1>Recent Publications</h1>
 
 (Also see my [Google Scholar](https://scholar.google.com/citations?user=OBYLxRkAAAAJ) and my [Queen Mary University publications webpage](https://researchpublications.qmul.ac.uk//publications/staff/20259.html))
 
@@ -82,7 +82,7 @@ nav_order: 1
 
 </div>
 
-<h1>Older publications</h1>
+<h1>Earlier Publications</h1>
 
 <div class="container">
   {%- for y in page.past_years %}

@@ -16,11 +16,13 @@ collaborators:
     homepage: http://mihalisan.cyi.ac.cy/
     head_pic: https://ibug.doc.ic.ac.uk/media/uploads/images/people/20110131-untitled-4-edit-3_portrait.jpg
   - name: Christos Tzelepis
-    research: # Generative models; Vision and Language; Learning with uncertainty
-    affiliation: City, University of London
+    affiliation: Samsung SAIC
     homepage: https://chi0tzp.github.io/
     head_pic: https://chi0tzp.github.io/assets/img/prof_pic.png
-
+  - name: Ziquan Liu
+    affiliation: QMUL
+    homepage: https://sites.google.com/view/ziquanliu
+    head_pic: ../assets/img/ziquanliu.png
 
 # *** Christos: I removed my entry from postdocs but I keep this here for future entries ***
 # postdocs:
@@ -58,18 +60,6 @@ phd_students:
     prev_affiliation: 
     homepage: https://marios1861.github.io/
     head_pic: ../assets/img/mariano.jpg  
-  # - name: Zheng Gao
-  #   years: [2020-present]
-  #   research: Self-supervised learning
-  #   prev_affiliation: 
-  #   homepage: https://zaczgao.github.io/
-  #   head_pic: https://zaczgao.github.io/images/profile.jpg
-  # - name: Ioannis Maniadis Metaxas
-  #   years: [2020-present]
-  #   research: Unsupervised representation learning
-  #   prev_affiliation: 
-  #   homepage: https://maniadisg.github.io/
-  #   head_pic: https://maniadisg.github.io/images/prof_pic.png
 
 alumni:
   members:
