@@ -34,8 +34,19 @@ collaborators:
 #     homepage: https://chi0tzp.github.io/
 #     head_pic: https://chi0tzp.github.io/assets/img/prof_pic.png
 
+
 phd_students:
   members:
+   ################################
+   # Always add the new students from here, dont add at the end
+   ################################
+
+  - name: Mariano V. Ntrougkas
+    years: [2025-present]
+    research: Explainable and Reliable AI
+    prev_affiliation: 
+    homepage: https://marios1861.github.io/
+    head_pic: ../assets/img/mariano.jpg  
   - name: Zhaohan Zhang
     years: [2023-present]
     research: Visual-Language Models
@@ -45,7 +56,7 @@ phd_students:
   - name: Zengqun Zhao
     years: [2022-present]
     research: Human behaviour understanding, visual-language models
-    prev_affiliation: Nanjing University of Information Science & Technology
+    prev_affiliation:
     homepage: http://www.eecs.qmul.ac.uk/~zz012
     head_pic: http://www.eecs.qmul.ac.uk/~zz012/img/profile.jpg
   - name: James Oldfield
@@ -54,12 +65,6 @@ phd_students:
     prev_affiliation: 
     homepage: https://james-oldfield.github.io/
     head_pic: https://images.gr-assets.com/users/1667074007p6/42737013.jpg
-  - name: Mariano V. Ntrougkas
-    years: [2025-present]
-    research: Explainable and Reliable AI
-    prev_affiliation: 
-    homepage: https://marios1861.github.io/
-    head_pic: ../assets/img/mariano.jpg  
 
 alumni:
   members:
