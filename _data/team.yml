@@ -38,7 +38,7 @@ collaborators:
 phd_students:
   members:
    ################################
-   # Please add yours fllowing the starting year (new first)
+   # Please add yours following the starting year in descending order (newest first) 
    ################################
   - name: Mariano V. Ntrougkas
     years: [2025-Present]
