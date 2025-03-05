@@ -38,35 +38,35 @@ collaborators:
 phd_students:
   members:
    ################################
-   # Always add the new students from here, dont add at the end
+   # Please add yours fllowing the starting year (new first)
    ################################
-  - name: Marios Krestenitis
-    years: [2024-present]
-    research: Generative AI, Visual-Language Models 
-    prev_affiliation: 
-    homepage: https://github.com/wave-transmitter
-    head_pic: ../assets/img/marios_cv_photo.jpg  
   - name: Mariano V. Ntrougkas
-    years: [2025-present]
+    years: [2025-Present]
     research: Explainable and Reliable AI
     prev_affiliation: 
     homepage: https://marios1861.github.io/
     head_pic: ../assets/img/mariano.jpg  
+  - name: Marios Krestenitis
+    years: [2024-Present]
+    research: Generative AI, Vision-Language Models 
+    prev_affiliation: 
+    homepage: https://github.com/wave-transmitter
+    head_pic: ../assets/img/marios_cv_photo.jpg  
   - name: Zhaohan Zhang
-    years: [2023-present]
-    research: Visual-Language Models
+    years: [2023-Present]
+    research: Vision-Language Models
     prev_affiliation: Xi'an Jiaotong University
     homepage: http://www.eecs.qmul.ac.uk/~zz617
     head_pic: ../assets/img/zzh.JPG
   - name: Zengqun Zhao
-    years: [2022-present]
-    research: Human behaviour understanding, visual-language models
+    years: [2022-Present]
+    research: Human Behaviour Understanding, Vision-Language Models
     prev_affiliation:
     homepage: http://www.eecs.qmul.ac.uk/~zz012
     head_pic: http://www.eecs.qmul.ac.uk/~zz012/img/profile.jpg
   - name: James Oldfield
-    years: [2021-present]
-    research: Controllable and interpretable generative models
+    years: [2021-Present]
+    research: Controllable and Interpretable Generative Models
     prev_affiliation: 
     homepage: https://james-oldfield.github.io/
     head_pic: https://images.gr-assets.com/users/1667074007p6/42737013.jpg
