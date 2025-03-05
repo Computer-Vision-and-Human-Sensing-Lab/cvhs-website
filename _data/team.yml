@@ -40,7 +40,12 @@ phd_students:
    ################################
    # Always add the new students from here, dont add at the end
    ################################
-
+  - name: Marios Krestenitis
+    years: [2024-present]
+    research: Generative AI, Visual-Language Models 
+    prev_affiliation: 
+    homepage: https://github.com/wave-transmitter
+    head_pic: ../assets/img/marios_cv_photo.jpg  
   - name: Mariano V. Ntrougkas
     years: [2025-present]
     research: Explainable and Reliable AI
