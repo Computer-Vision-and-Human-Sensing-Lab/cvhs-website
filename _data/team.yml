@@ -58,6 +58,12 @@ phd_students:
     prev_affiliation: Xi'an Jiaotong University
     homepage: http://www.eecs.qmul.ac.uk/~zz617
     head_pic: ../assets/img/zzh.JPG
+  - name: Zahraa Al Sahili
+    years: [2022-Present]
+    research: Vision-Language Models, Fairness, Trustworthy AI
+    prev_affiliation:
+    homepage: https://zahraaalsahili.github.io/
+    head_pic: ../assets/img/zahraa.png
   - name: Zengqun Zhao
     years: [2022-Present]
     research: Human Behaviour Understanding, Vision-Language Models
