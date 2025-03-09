@@ -52,6 +52,11 @@ phd_students:
     prev_affiliation: 
     homepage: https://github.com/wave-transmitter
     head_pic: ../assets/img/marios_cv_photo.jpg  
+  - name: Andreas Goulas
+    years: [2024-Present]
+    reserach: Vision-Language Models, LLM Agents
+    head_pic: https://andreasgoulas.com/images/AndreasGoulas.jpg
+    homepage: https://andreasgoulas.com/
   - name: Zhaohan Zhang
     years: [2023-Present]
     research: Vision-Language Models
