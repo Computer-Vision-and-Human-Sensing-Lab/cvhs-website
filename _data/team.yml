@@ -54,7 +54,7 @@ phd_students:
     head_pic: ../assets/img/marios_cv_photo.jpg  
   - name: Andreas Goulas
     years: [2024-Present]
-    reserach: Vision-Language Models, LLM Agents
+    research: Multimodal Large Language Models
     head_pic: https://andreasgoulas.com/images/AndreasGoulas.jpg
     homepage: https://andreasgoulas.com/
   - name: Zhaohan Zhang
