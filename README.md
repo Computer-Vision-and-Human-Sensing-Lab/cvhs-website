@@ -2,7 +2,7 @@
 
 ## making changes
 
-Note that, to edit just the website's text, you can also edit the text files via the GUI, and thus for basic changes it's not strictly necessary to use git manually at all.
+ Note that, to edit just the website's text, you can also edit the text files via the GUI, and thus for basic changes it's not strictly necessary to use git manually at all.
 
 E.g. use this link to update the information in "team" directly in the browser: [https://github.com/Computer-Vision-and-Human-Sensing-Lab/cvhs-website/edit/dev/_data/team.yml](https://github.com/Computer-Vision-and-Human-Sensing-Lab/cvhs-website/edit/dev/_data/team.yml)
 
