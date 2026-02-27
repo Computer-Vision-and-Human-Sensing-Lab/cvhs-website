@@ -1,38 +1,37 @@
-- title: 2 PhD positions in Multimodal (Audio and Vision) Conversational Foundation Models
-  deadline: ongoing until filled
+- title: "2 PhD positions in Multimodal (Audio and Vision) Conversational Foundation Models"
+  deadline: "ongoing until filled"
   content: |
-  # 2 PhD positions in Multimodal (Audio and Vision) Conversational Foundation Models
+    # 2 PhD positions in Multimodal (Audio and Vision) Conversational Foundation Models
 
-  2 PhD positions funded and in collaboration with [Tavus inc](https://www.tavus.io/) in designing the next generation of conversation models. Multimodal Large Models that can see, hear, understand and generate audio and video with the responses of the Digital Human.
+    2 PhD positions funded and in collaboration with [Tavus inc](https://www.tavus.io/) in designing the next generation of conversation models. Multimodal Large Models that can see, hear, understand and generate audio and video with the responses of the Digital Human.
 
-  ## Context
-  While there has been an explosion in text-based conversational agents and dialogue systems, those lack the naturalness and richness of a human-to-human interaction. Beyond language, humans communicate with facial expressions, voice intonation, head and body gestures that convey emotions, social signals and semantic information. Recent advances in multimodal generation, including audio and video generation systems and digital avatars are promising directions, however there is a distinct lack of foundation models that model and generate human behaviour in the context of conversations.
+    ## Context
+    While there has been an explosion in text-based conversational agents and dialogue systems, those lack the naturalness and richness of a human-to-human interaction. Beyond language, humans communicate with facial expressions, voice intonation, head and body gestures that convey emotions, social signals and semantic information. Recent advances in multimodal generation, including audio and video generation systems and digital avatars are promising directions, however there is a distinct lack of foundation models that model and generate human behaviour in the context of conversations.
 
-  ## Objectives
-  The positions will focus on designing and training components of a Multimodal (Audio and Vision) Conversational Foundation Model that is able to perceive and generate verbal and non-verbal responses in the context of a conversation. Research directions include but are not limited to:
+    ## Objectives
+    The positions will focus on designing and training components of a Multimodal (Audio and Vision) Conversational Foundation Model that is able to perceive and generate verbal and non-verbal responses in the context of a conversation. Research directions include but are not limited to:
 
-  - Multimodal perception of human behaviour, including emotions, personality, intentions, backchanneling signals and stages of the conversation, using supervised and unsupervised methodologies and Reinforcement Learning.
-  - Post-training methodologies for multimodal generation aligned with control signals such as conversational goals and personality. This line of research will expand methodologies in mechanistic interpretability and steering in the domain of Large Multimodal Models.
-  - Controllable generation of infinitely long audio-visual output with identity and quality preservation. The work will focus on recent diffusion-based methods for video generation and editing.
+    - Multimodal perception of human behaviour, including emotions, personality, intentions, backchanneling signals and stages of the conversation, using supervised and unsupervised methodologies and Reinforcement Learning.
+    - Post-training methodologies for multimodal generation aligned with control signals such as conversational goals and personality. This line of research will expand methodologies in mechanistic interpretability and steering in the domain of Large Multimodal Models.
+    - Controllable generation of infinitely long audio-visual output with identity and quality preservation. The work will focus on recent diffusion-based methods for video generation and editing.
 
-  ## Team
-  You will be part of the Multimedia and Vision Research group and member of the centre for Multimodal AI. The team you will be involved with is regularly publishing in top conferences and journals, including CVPR, ICCV, ECCV, NeurIPS, TPAMI, IJCV, etc, and has access to computational resources, including a computational server with 64 A100s and exclusive access to 3 A100s and other servers.
+    ## Team
+    You will be part of the Multimedia and Vision Research group and member of the centre for Multimodal AI. The team you will be involved with is regularly publishing in top conferences and journals, including CVPR, ICCV, ECCV, NeurIPS, TPAMI, IJCV, etc, and has access to computational resources, including a computational server with 64 A100s and exclusive access to 3 A100s and other servers.
 
-  The projects are defined in collaboration with Tavus inc, a USA based series B startup designing the next generation of Digital Humans. You will be in close collaboration with a dynamic team of 20 researchers and will interact regularly in the London office of Tavus with both the London-based and international team.
+    The projects are defined in collaboration with Tavus inc, a USA based series B startup designing the next generation of Digital Humans. You will be in close collaboration with a dynamic team of 20 researchers and will interact regularly in the London office of Tavus with both the London-based and international team.
 
-  For more information please see [https://www.eecs.qmul.ac.uk/~ioannisp/](https://www.eecs.qmul.ac.uk/~ioannisp/)
+    For more information please see [https://www.eecs.qmul.ac.uk/~ioannisp/](https://www.eecs.qmul.ac.uk/~ioannisp/)
 
-  ## Funding
-  For successful applicants, QMUL will provide a full tuition fee waiver (including international candidates) and the scholarship will cover living expenses for 3 years.
+    ## Funding
+    For successful applicants, QMUL will provide a full tuition fee waiver (including international candidates) and the scholarship will cover living expenses for 3 years.
 
-  ## Application Process
-  Applications are invited until the positions are filled. Decision will not be made before the 10th of March 2026 (the expected start date of the PhD is as soon as possible afterwards).
+    ## Application Process
+    Applications are invited until the positions are filled. Decision will not be made before the 10th of March 2026 (the expected start date of the PhD is as soon as possible afterwards).
 
-  ## Who can apply
-  - Should hold, or is expected to obtain an MSc in Electronic Engineering, Computer Science, or a closely related discipline.
-  - Having obtained distinction or first-class level degree is highly desirable.
+    ## Who can apply
+    - Should hold, or is expected to obtain an MSc in Electronic Engineering, Computer Science, or a closely related discipline.
+    - Having obtained distinction or first-class level degree is highly desirable.
 
-  ## How to apply
-  Please contact me at i.patras@qmul.ac.uk with your CV. Please include in the subject the string **[2026 Conversational Foundation Models PhD Application]**
-    Apply to QMUL for the scholarship (as instructed in the ‘How to Apply’ section below) by the deadline of 29th January 2025.  [https://www.qmul.ac.uk/postgraduate/research/applying-for-a-phd/](https://www.qmul.ac.uk/postgraduate/research/applying-for-a-phd/)
-
+    ## How to apply
+    Please contact me at [i.patras@qmul.ac.uk](mailto:i.patras@qmul.ac.uk) with your CV. Please include in the subject the string **[2026 Conversational Foundation Models PhD Application]**
+    Apply to QMUL for the scholarship (as instructed in the ‘How to Apply’ section below) by the deadline of 29th January 2025. [https://www.qmul.ac.uk/postgraduate/research/applying-for-a-phd/](https://www.qmul.ac.uk/postgraduate/research/applying-for-a-phd/)
