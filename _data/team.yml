@@ -71,10 +71,10 @@ phd_students:
     head_pic: ../assets/img/zahraa.png
   - name: Zengqun Zhao
     years: [2022-Present]
-    research: Human Behaviour Understanding, Vision-Language Models
+    research: Facial Behaviour Understanding, Diffusion Models
     prev_affiliation:
-    homepage: http://www.eecs.qmul.ac.uk/~zz012
-    head_pic: http://www.eecs.qmul.ac.uk/~zz012/img/profile.jpg
+    homepage: https://zengqunzhao.github.io/
+    head_pic: https://zengqunzhao.github.io/img/profile.png
   - name: James Oldfield
     years: [2021-Present]
     research: Controllable and Interpretable Generative Models
