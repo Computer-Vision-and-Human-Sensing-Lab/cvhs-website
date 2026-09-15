@@ -1,3 +1,56 @@
+% === BMVC'26 ===
+@InProceedings{zhao2026relaxforcing,
+    code       = {https://github.com/zengqunzhao/LatSearch},
+    select_key = {true},
+    tags       = {generation-and-learning,multimodal-ml},
+    preview    = {relax_forcing.png},
+    pdf        = {https://arxiv.org/abs/2603.21366},
+    website    = {https://zengqunzhao.github.io/Relax-Forcing},
+    abstract   = {Autoregressive video diffusion has emerged as a promising paradigm for long video generation, enabling causal synthesis beyond the limits of bidirectional models. Although self-forcing strategies reduce training-inference mismatch, minute-scale generation remains challenging because of progressive temporal degradation. We show that this limitation is not primarily caused by insufficient memory, but by how temporal memory is utilised during inference. Increasing memory does not consistently improve long-horizon generation, while the temporal placement of historical context significantly affects motion dynamics. Motivated by these findings, we introduce Relax Forcing, a structured temporal memory mechanism for autoregressive diffusion. Rather than attending to dense generated history, Relax Forcing decomposes temporal context into three functional roles: Sink for global stability, Tail for short-term continuity, and dynamically selected History for structural motion guidance. By selectively incorporating relevant historical information, the method mitigates error accumulation while preserving motion evolution. Experiments on VBench-Long demonstrate improved motion dynamics and temporal consistency together with reduced attention overhead.},
+    author     = {Zengqun Zhao and Yanzuo Lu and Ziquan Liu and Jifei Song and Jiankang Deng and Ioannis Patras},
+    title      = {Relax Forcing: Relaxed KV-Memory for Consistent Long Video Generation},
+    booktitle  = {British Machine Vision Conference (BMVC)},
+    month      = {November},
+    year       = {2026},
+
+}
+% === ECCV'26 ===
+@InProceedings{zhao2026latsearch,
+    code       = {https://github.com/zengqunzhao/LatSearch},
+    select_key = {true},
+    tags       = {generation-and-learning,multimodal-ml},
+    preview    = {latsearch.png},
+    pdf        = {https://arxiv.org/pdf/2603.14526},
+    website    = {https://zengqunzhao.github.io/LatSearch},
+    abstract   = {The recent success of inference-time scaling in large language models has inspired similar explorations in video diffusion. Prior approaches attempt to improve generation by optimising or searching for better initial noise, but often rely on priors imposed at the beginning of sampling or rewards evaluated only after videos have been fully denoised and decoded. This results in delayed and sparse reward signals and substantial computational cost. We introduce LatSearch, an efficient inference-time scaling framework for video diffusion based on latent reward guidance. A latent reward model evaluates partially denoised latents at arbitrary timesteps according to visual quality, motion quality, and text alignment, providing informative intermediate feedback throughout denoising. Building on this model, LatSearch performs Reward-Guided Resampling and Pruning (RGRP), sampling candidates according to reward-normalised probabilities and retaining the candidate with the highest cumulative reward at the final scheduled step. Experiments on VBench-2.0 demonstrate consistent improvements across multiple dimensions compared with the Wan2.1 baseline while substantially reducing the computational cost of search-based inference-time scaling.},
+    author     = {Zengqun Zhao and Ziquan Liu and Yu Cao and Shaogang Gong and Zhensong Zhang and Jifei Song and Jiankang Deng and Ioannis Patras},
+    title      = {LatSearch: Latent Reward-Guided Search for Faster Inference-Time Scaling in Video Diffusion},
+    booktitle  = {European Conference on Computer Vision (ECCV)},
+    month      = {September},
+    year       = {2026},
+}
+
+% === ACL'26 ===
+% TODO
+
+% === ICLR'26 ===
+% TODO
+
+% === ACM MM'26 ===
+% TODO
+
+% === CVPR'26 ===
+% TODO
+
+% === NeurIPS 2025 ===
+% TODO
+
+% === ACM MM'25 ===
+% TODO
+
+% === ICCV 2025  ===
+% TODO
+
 % === CVPR'25 ===
 @InProceedings{zhao2025aimfair,
     code      = {https://github.com/zengqunzhao/AIM-Fair},
@@ -5,7 +58,7 @@
     tags      = {generation-and-learning,multimodal-ml},
     preview   = {aimfair.png},
     pdf       = {https://arxiv.org/abs/2503.05665},
-    website  =  {https://zengqunzhao.github.io/AIMFair},
+    website   =  {https://zengqunzhao.github.io/AIMFair},
     abstract  = {Recent advances in generative models have sparked research on improving model fairness with AI-generated data. However, existing methods often face limitations in the diversity and quality of synthetic data, leading to compromised fairness and overall model accuracy. Moreover, many approaches rely on the availability of demographic group labels, which are often costly to annotate. This paper proposes AIM-Fair, aiming to overcome these limitations and harness the potential of cutting-edge generative models in promoting algorithmic fairness. We investigate a fine-tuning paradigm starting from a biased model initially trained on real-world data without demographic annotations. This model is then fine-tuned using unbiased synthetic data generated by a state-of-the-art diffusion model to improve its fairness. Two key challenges are identified in this fine-tuning paradigm, 1) the low quality of synthetic data, which can still happen even with advanced generative models, and 2) the domain and bias gap between real and synthetic data. To address the limitation of synthetic data quality, we propose Contextual Synthetic Data Generation (CSDG) to generate data using a text-to-image diffusion model (T2I) with prompts generated by a context-aware LLM, ensuring both data diversity and control of bias in synthetic data. To resolve domain and bias shifts, we introduce a novel selective fine-tuning scheme in which only model parameters more sensitive to bias and less sensitive to domain shift are updated. Experiments on CelebA and UTKFace datasets show that our AIM-Fair improves model fairness while maintaining utility, outperforming both fully and partially fine-tuned approaches to model fairness.},
     author    = {Zengqun Zhao and Ziquan Liu and Yu Cao and Shaogang Gong and Ioannis Patras},
     title     = {AIM-Fair: Advancing Algorithmic Fairness via Selectively Fine-Tuning Biased Models with Contextual Synthetic Data},
