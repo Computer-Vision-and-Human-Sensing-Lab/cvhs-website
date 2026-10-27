@@ -1,35 +1,31 @@
-- title: "Upcoming PhD positions in Multimodal (Audio and Vision) Conversational Foundation Models"
-  deadline: "ongoing until filled"
+- title: "Upcoming PhD positions in Multimodal Generative Foundation Models"
+  deadline: "27th January 2027"
   content: |
-    # PhD positions in Multimodal (Audio and Vision) Conversational Foundation Models
+    # PhD positions in Multimodal Generative Foundation models
 
-    Upcoming PhD positions funded and in collaboration with [Tavus inc](https://www.tavus.io/) in designing the next generation of conversation models. Multimodal Large Models that can see, hear, understand and generate audio and video with the responses of the Digital Human.
+    1 PhD position available for Chinese students supported by the China Scholarship Council (CSC) in Multimodal Generative AI. The research will evolve around Generative AI and AudioVisual Language models, and will focus on long horizon generation, planning and alignment.
+
 
     ## Context
-    While there has been an explosion in text-based conversational agents and dialogue systems, those lack the naturalness and richness of a human-to-human interaction. Beyond language, humans communicate with facial expressions, voice intonation, head and body gestures that convey emotions, social signals and semantic information. Recent advances in multimodal generation, including audio and video generation systems and digital avatars are promising directions, however there is a distinct lack of foundation models that model and generate human behaviour in the context of conversations.
+    Current generative models excel at short term generations but struggle with long-horizon planning and robust value alignment. This work will investigate structured planning algorithms with advanced alignment techniques, ensuring agents execute complex, multi-step actions that remain highly faithful to human intent. This will be investigated in the context of audio-visual generative models, possibly in the context of conversational foundation models.
 
     ## Objectives
-    The positions will focus on designing and training components of a Multimodal (Audio and Vision) Conversational Foundation Model that is able to perceive and generate verbal and non-verbal responses in the context of a conversation. Research directions include but are not limited to:
-
-    - Multimodal perception of human behaviour, including emotions, personality, intentions, backchanneling signals and stages of the conversation, using supervised and unsupervised methodologies and Reinforcement Learning.
-    - Post-training methodologies for multimodal generation aligned with control signals such as conversational goals and personality. This line of research will expand methodologies in mechanistic interpretability and steering in the domain of Large Multimodal Models.
-    - Controllable generation of infinitely long audio-visual output with identity and quality preservation. The work will focus on recent diffusion-based methods for video generation and editing.
+    We will design planning modules that will enable models to construct, evaluate, and iteratively refine hierarchical plans prior to execution. By separating reasoning from generation, this approach mitigates hallucination and logical drift during sequential decision-making. In addition, we will investigate trajectory-level alignment. Existing RLHF models optimize for short-term proxies, ignoring long-term strategic coherence. We will explore reward shaping mechanisms that evaluate complete action sequences, ensuring all intermediate steps adhere to safety constraints.
 
     ## Team
     You will be part of the Multimedia and Vision Research group and member of the centre for Multimodal AI. The team you will be involved with is regularly publishing in top conferences and journals, including CVPR, ICCV, ECCV, NeurIPS, TPAMI, IJCV, etc, and has access to computational resources, including a computational server with 64 A100s and exclusive access to 3 A100s and other servers.
 
-    The projects are defined in collaboration with Tavus inc, a USA based series B startup designing the next generation of Digital Humans. You will be in close collaboration with a dynamic team of 20 researchers and will interact regularly in the London office of Tavus with both the London-based and international team.
-
     For more information please see [https://ipatras.github.io](https://ipatras.github.io)
 
     ## Funding
-    For successful applicants, QMUL will provide a full tuition fee waiver (including international candidates) and the scholarship will cover living expenses for 3 years.
+    The applicants should apply separately to the CSC for stipend. For successful applicants, QMUL will provide a full tuition fee waiver.
     
     ## Who can apply
     - Should hold, or is expected to obtain an MSc in Electronic Engineering, Computer Science, or a closely related discipline.
     - Having obtained distinction or first-class level degree is highly desirable.
+    - Applicants should satisfy all eligibility criteria set out by the CSC. Please to refer to CSC website for full details: http://www.csc.edu.cn
 
     ## Application Process
-    - The position(s) will be formally advertised at the [PhD studentships page of the school of EECS](https://www.qmul.ac.uk/eecs/phd/phd-studentships/), AFTER WHICH applications can be submitted at [https://www.qmul.ac.uk/postgraduate/research/applying-for-a-phd/](https://www.qmul.ac.uk/postgraduate/research/applying-for-a-phd/).  
-    - At this stage, please, express your interest and address your inquiries by directly emailing me at [i.patras@qmul.ac.uk](mailto:i.patras@qmul.ac.uk) with your CV. Please include in the subject the string **[2026 Conversational Foundation Models PhD Application]**
+    - At this stage, please, express your interest and address your inquiries by directly emailing me at [i.patras@qmul.ac.uk](mailto:i.patras@qmul.ac.uk) with your CV. Please include in the subject the string **[2026 CSC PhD Application]**
+    - At a second stage, **and upon agreement with me**, candidates should be advised to apply online using the standard QMUL research student application form (https://www.qmul.ac.uk/postgraduate/research/applying-for-a-phd/ ), on which they must specify in the funding section that they are making a CSC studentship application.  
     
