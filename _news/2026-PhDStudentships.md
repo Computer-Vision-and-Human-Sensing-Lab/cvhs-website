@@ -1,7 +1,10 @@
 ---
 layout: post
-title: 2 PhD position available Multimodal (Audio and Vision) Conversational Foundation Models
+title: (Closed) 2 PhD position available Multimodal (Audio and Vision) Conversational Foundation Models (closed)
 date: 2026-01-25 16:11:00-0400
 inline: false
 ---
+
+Deadline: August 2026. The positions are now closed!
+
 2 PhD positions funded and in collaboration with [Tavus inc](https://www.tavus.io/)  in designing the next generation of conversation models -- Multimodal Foundation Models that can see, hear, understand and generate audio and video with the responses of the Digital Human. The research will evolve around Generative AI and AudioVisual Language models, for analysis and understanding (e.g, VQA) and Generative AI (e.g., diffusion models) for image/video generation and editing. Please see [here](https://ipatras.github.io/vacancies/) for more details.
